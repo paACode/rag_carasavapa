@@ -1,0 +1,105 @@
+{
+  "ontology_id": "cv_ontology_basic",
+  "version": "1.0.0",
+  "description": "Ontology for CV extraction (knowledge recall)",
+  "entities": {
+    "education": {
+      "description": "Formal degree or training",
+      "attributes": {
+        "degree_level": { "type": "enum", 
+        "values": ["bachelor", "master", "phd", "diploma", "certificate", "other"] },
+        "degree_title": { "type": "string" },
+        "field": { "type": "string" },
+        "year": { "type": "integer", "optional": true }
+      },
+      "evidence_required": true
+    },
+    "work_experience": {
+      "description": "work experience",
+      "attributes": {
+        "job_title": { "type": "string" },
+        "company": { "type": "string", "optional": true },
+        "start_date": { "type": "string", "format": "date", "optional": true },
+        "end_date": { "type": "string", "format": "date", "optional": true },
+        "responsibilities": { "type": "string", "optional": true }
+      },
+      "evidence_required": true
+    },
+    "skills": {
+      "description": "technical and soft skills",
+      "attributes": {
+        "name": { "type": "string", "normalize": "lower" },
+        "years_experience": { "type": "number", "min": 0 }
+      },
+      "evidence_required": true
+    },
+    "language": {
+      "description": "languages known and proficiency levels",
+      "attributes": {
+        "name": { "type": "string" },
+        "level": { "type": "enum", 
+        "values": ["A1", "A2", "B1", "B2", "C1","C2"]}
+      },
+      "evidence_required": false
+    },
+    "certifications": {
+      "description": "Professional certifications",
+      "attributes": {
+        "name": { "type": "string" },
+        "issuing_organization": { "type": "string", "optional": true },
+        "date_obtained": { "type": "string", "format": "date", "optional": true },
+        "valid_until": { "type": "string", "format": "date", "optional": true }
+      },
+      "evidence_required": false
+    },
+    "projects": {
+      "description": "Significant projects undertaken",
+      "attributes": {
+        "name": { "type": "string" },
+        "description": { "type": "string", "optional": true },
+        "technologies_used": { "type": "string", "optional": true },
+        "role": { "type": "string", "optional": true },
+        "duration": { "type": "string", "optional": true }
+      },
+      "evidence_required": false
+    },
+    "awards": {
+      "description": "Awards and recognitions received",
+      "attributes": {
+        "name": { "type": "string" },
+        "issuing_organization": { "type": "string", "optional": true },
+        "date_received": { "type": "string", "format": "date", "optional": true },
+        "description": { "type": "string", "optional": true }
+      },
+      "evidence_required": false
+    },
+    "voluntary experience": {
+      "description": "Voluntary or extracurricular activities",
+      "attributes": {
+        "role": { "type": "string" },
+        "organization": { "type": "string", "optional": true },
+        "start_date": { "type": "string", "format": "date", "optional": true },
+        "end_date": { "type": "string", "format": "date", "optional": true },
+        "description": { "type": "string", "optional": true }
+      },
+      "evidence_required": false
+    },
+    "publications": {
+      "description": "Published works",
+      "attributes": {
+        "title": { "type": "string" },
+        "publication_venue": { "type": "string", "optional": true },
+        "date_published": { "type": "string", "format": "date", "optional": true },
+        "url": { "type": "string", "format": "uri", "optional": true }
+      },
+      "evidence_required": false
+  },  "hobbies": {
+      "description": "Hobbies and interests",
+      "attributes": {
+        "name": { "type": "string" },
+        "description": { "type": "string", "optional": true }
+      },
+      "evidence_required": false
+    }
+  }
+}
