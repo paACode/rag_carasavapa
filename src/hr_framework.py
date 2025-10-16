@@ -2,6 +2,8 @@ from pathlib import Path
 from litellm import completion
 from dotenv import load_dotenv
 import os
+import json
+
 
 #Available Local Models(via Llama)
 llama_model="ollama/llama3.2"
@@ -66,18 +68,28 @@ def build_decision_prompt_with_reason(resume_txt, job_description):
     }
     return[system_message, user_message]
 
+# Basic Settings
+models_under_test = [llama_model]
+resume_path = Path("../data_2/")
+all_files = get_txt_filenames(folder_path=resume_path)
 
+#Start of Test
+all_answers = []
+for selected_model in models_under_test:
+    for resume in all_files:
+        file_path = resume_path / resume
+        extracted_txt = file_path.read_text(encoding="utf-8")
+        built_prompt = build_decision_prompt_with_reason(
+            resume_txt=extracted_txt,
+            job_description="HR Recruiter")
+        answer = ask_llm(prompt=built_prompt, model=selected_model)
+        all_answers.append({
+            "model": selected_model,
+            "resume": resume,
+            "raw_answer": answer
+        })
 
+print(all_answers)
 
-print(get_txt_filenames(folder_path="../data"))
-
-
-file_path = Path("../data/resume_15041689.txt")
-resume = file_path.read_text(encoding="utf-8")
-
-prompt1 = build_decision_prompt_with_reason(resume_txt=resume, job_description="HR Recruiter")
-print(prompt1)
-
-print(ask_llm(prompt=prompt1, model=llama_model))
 
 
