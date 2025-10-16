@@ -108,3 +108,6 @@ htmlcov/
 # PyCharm project settings
 .idea/
 *.iml
+
+#Env
+*.env
