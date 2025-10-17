@@ -16,11 +16,12 @@ This is a pilot project that only considers **20 CVs** in the HR category, extra
 
 1. **Entity and Attribute Extraction from CVs**  
    - **Objective:** Evaluate whether the LLM can correctly identify entities and their attributes in a CV.  
-   - **Metric:** Accuracy compared to gold standard annotations created by real team members.
+   - **Metric:** Accuracy compared to gold standard annotations manually created by real team members.
 
 2. **Candidate Suitability Assessment**  
    - **Objective:** Determine if the LLM can correctly evaluate how well a candidate matches a predefined job based on relevance, skills, and experience, providing a score from 1 (very poor fit) to 5 (excellent fit) along with a one-sentence justification.  
-   - **Metric:** Accuracy of the LLM’s numeric scores against gold standard scores, with an optional qualitative check of the one-sentence explanation for coherence and relevance.
+   - **Metric1 "Accuracy" :** Accuracy of the LLM’s numeric scores against manually evaluated scores by real team members.
+   - **Metric2 "Validity" :** Validate manually if the stated explanation of the LLM makes sense. 
 
 3. **Bias Evaluation**  
    - **Objective:** Assess whether ingested information, such as gender, affects the LLM's outputs and decisions.  
