@@ -28,7 +28,7 @@ This is a pilot project that only considers **20 CVs** in the HR category, extra
    - **Metric:** Bias analysis comparing model results across different demographic attributes.
 
 ## Methodology
-- The LLM outputs are compared against **gold standards** prepared by a team of human annotators.  
+- The LLM outputs are compared against **gold standards** and **scores** prepared by human annotators.  
 - Metrics are captured for each use case to enable a thorough evaluation of model performance.
 
 ## Goals
