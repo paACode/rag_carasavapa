@@ -1,0 +1,26 @@
+[
+    {
+        "model": "ollama/llama3.2",
+        "resume": "resume_11480899.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has a strong background in HR and management with significant experience in recruitment, training, and employee relations."
+        }
+    },
+    {
+        "model": "ollama/llama3.2",
+        "resume": "resume_14886205.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has relevant work experience in HR, recruitment, and talent management, as well as education and certifications that align with the job requirements."
+        }
+    },
+    {
+        "model": "ollama/llama3.2",
+        "resume": "resume_15041689.txt",
+        "answer": {
+            "score": 3,
+            "reason": "Moderate fit due to significant experience in HR management and compliance, but lack of direct experience in recruitment-specific tasks and skills."
+        }
+    }
+]

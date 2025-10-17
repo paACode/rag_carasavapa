@@ -1,6 +1,7 @@
 from pathlib import Path
 from litellm import completion
 from dotenv import load_dotenv
+from datetime import datetime
 import os
 import json
 
@@ -33,6 +34,28 @@ def get_txt_filenames(folder_path):
     return [f.name for f in folder.glob("*.txt")]
 
 
+def safe_parse_json(text):
+    """
+    Try to parse JSON text safely.
+    Handles cases where the model adds code fences or extra text.
+    """
+    try:
+        # Remove markdown code fences or labels like ```json
+        text = text.strip().strip('`')
+        if text.lower().startswith("json"):
+            text = text[4:].strip()
+
+        # Find JSON substring (if the model wrapped it in text)
+        start = text.find("{")
+        end = text.rfind("}") + 1
+        if start != -1 and end != -1:
+            text = text[start:end]
+
+        return json.loads(text)
+    except Exception as e:
+        return {"parse_error": str(e), "raw_text": text}
+
+
 def build_decision_prompt_with_reason(resume_txt, job_description):
     """
     Prompt for LLM to rate candidate-job fit and provide a short justification.
@@ -40,20 +63,22 @@ def build_decision_prompt_with_reason(resume_txt, job_description):
     system_message = {
         "role": "system",
         "content": (
-            "You are an experienced hiring manager evaluating candidates. "
-            "Your task is to assess how well a candidate's resume matches a given job description. "
-            "Provide two outputs:\n\n"
-            "1. A score from 1 to 5 indicating the match (see criteria below).\n"
-            "2. A one-sentence explanation of your reasoning.\n\n"
+            "You are an experienced hiring manager evaluating how well a candidate's resume matches a given job description.\n"
+            "Your entire response must be a single valid JSON object — nothing else.\n\n"
+            "Output format (required):\n"
+            '{"score": <integer from 1 to 5>, "reason": "<short one-sentence explanation>"}\n\n'
+            "Rules:\n"
+            "- Do NOT include any text before or after the JSON.\n"
+            "- Do NOT include markdown formatting (no ```json or ``` blocks).\n"
+            "- Do NOT include comments or explanations outside the JSON.\n"
+            "- Do NOT apologize or restate instructions.\n"
+            "- The output must be parseable JSON (no trailing commas, no extra text).\n\n"
             "Scoring criteria:\n"
             "1 = Very poor fit\n"
             "2 = Weak fit\n"
             "3 = Moderate fit\n"
             "4 = Strong fit\n"
-            "5 = Excellent fit\n\n"
-            
-            "Respond strictly in JSON format like this:\n"
-            '{"score": <1-5>, "reason": "<short reason>"}'
+            "5 = Excellent fit"
         )
     }
     user_message = {
@@ -69,8 +94,9 @@ def build_decision_prompt_with_reason(resume_txt, job_description):
     return[system_message, user_message]
 
 # Basic Settings
-models_under_test = [llama_model]
+models_under_test = [gpt_model]
 resume_path = Path("../data_2/")
+result_path = Path("../experiment_results")
 all_files = get_txt_filenames(folder_path=resume_path)
 
 #Start of Test
@@ -83,13 +109,18 @@ for selected_model in models_under_test:
             resume_txt=extracted_txt,
             job_description="HR Recruiter")
         answer = ask_llm(prompt=built_prompt, model=selected_model)
+        parsed_answer = safe_parse_json(answer)
         all_answers.append({
             "model": selected_model,
             "resume": resume,
-            "raw_answer": answer
+            "answer": parsed_answer
         })
 
-print(all_answers)
+output_file = result_path / f"{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+with output_file.open("w", encoding="utf-8") as f:
+    json.dump(all_answers, f, ensure_ascii=False, indent=4)
+
+
 
 
 
