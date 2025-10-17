@@ -1,0 +1,642 @@
+[
+    {
+        "model": "ollama/llama3.2",
+        "resume": "resume_11480899.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has extensive experience in HR roles with a strong background in recruitment, training, and employee relations, aligning well with the job description of an HR Recruiter."
+        }
+    },
+    {
+        "model": "ollama/llama3.2",
+        "resume": "resume_14886205.txt",
+        "answer": {
+            "score": 5,
+            "reason": "The candidate has a strong background in HR and recruitment experience that aligns perfectly with the job description."
+        }
+    },
+    {
+        "model": "ollama/llama3.2",
+        "resume": "resume_15041689.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has a strong background in HR with over 15 years of experience, including managing multi-unit businesses and developing HR plans and procedures."
+        }
+    },
+    {
+        "model": "ollama/llama3.2",
+        "resume": "resume_15575117.txt",
+        "answer": {
+            "score": 3,
+            "reason": "The candidate has a strong background in customer service and administrative support, but lacks direct experience as an HR recruiter, which is a key requirement for this role."
+        }
+    },
+    {
+        "model": "ollama/llama3.2",
+        "resume": "resume_16852973.txt",
+        "answer": {
+            "score": 2,
+            "reason": "Lack of direct experience in HR recruitment and HR administrator/marketing associate roles, but relevant skills and certifications exist"
+        }
+    },
+    {
+        "model": "ollama/llama3.2",
+        "resume": "resume_16877897.txt",
+        "answer": {
+            "score": 5,
+            "reason": "Matches the job description perfectly with relevant skills and experience in HR recruitment, personnel management, and employee engagement."
+        }
+    },
+    {
+        "model": "ollama/llama3.2",
+        "resume": "resume_17812897.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has a strong background in HR with experience in various roles and industries, including employment law and recruitment, but lacks direct experience as an HR Recruiter."
+        }
+    },
+    {
+        "model": "ollama/llama3.2",
+        "resume": "resume_20993320.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has relevant experience in Human Resources and demonstrates a strong understanding of HR policies and procedures, but lacks direct experience as an HR Recruiter."
+        }
+    },
+    {
+        "model": "ollama/llama3.2",
+        "resume": "resume_24508725.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has strong HR experience and skills matching the job requirements, with specific examples of recruitment strategies, employee relations issues resolution, and compliance with employment laws."
+        }
+    },
+    {
+        "model": "ollama/llama3.2",
+        "resume": "resume_25724495.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has relevant experience in HR, recruitment, and performance management, aligning with the job description of an HR Recruiter."
+        }
+    },
+    {
+        "model": "ollama/llama3.2",
+        "resume": "resume_26289308.txt",
+        "answer": {
+            "score": 3,
+            "reason": "The resume shows a mix of HR experience and relevant skills, but lacks specificity and quantifiable achievements that align with the job description of an HR Recruiter."
+        }
+    },
+    {
+        "model": "ollama/llama3.2",
+        "resume": "resume_26780935.txt",
+        "answer": {
+            "score": 2,
+            "reason": "The candidate has relevant work experience in HR, but the job description requires specific skills in recruitment, which are not highlighted in their resume."
+        }
+    },
+    {
+        "model": "ollama/llama3.2",
+        "resume": "resume_27847081.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has a strong background in HR, with relevant experience in recruitment, employee relations, and human resource systems."
+        }
+    },
+    {
+        "model": "ollama/llama3.2",
+        "resume": "resume_29091445.txt",
+        "answer": {
+            "score": 3,
+            "reason": "The candidate has relevant experience as an HR Associate Mobilization Coordinator and Administrative Specialist, but the resume lacks specificity and detail in the HR Recruiter role."
+        }
+    },
+    {
+        "model": "ollama/llama3.2",
+        "resume": "resume_29149998.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has a strong background in HR and recruitment, with relevant experience in sourcing, onboarding, and managing employee data."
+        }
+    },
+    {
+        "model": "ollama/llama3.2",
+        "resume": "resume_47470864.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has a strong background in HR and office administration, with relevant experience in staffing, training, and customer service. Their skills align well with the job description, but some details may require clarification."
+        }
+    },
+    {
+        "model": "ollama/llama3.2",
+        "resume": "resume_49937469.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has relevant HR experience and a degree in Organizational Leadership Management and Human Resource Management, making them a strong fit for the role of an HR Recruiter."
+        }
+    },
+    {
+        "model": "ollama/llama3.2",
+        "resume": "resume_52979663.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has relevant HR experience in various roles and industries, including manufacturing and sales environments, with a strong focus on safety management, employee engagement, and training development."
+        }
+    },
+    {
+        "model": "ollama/llama3.2",
+        "resume": "resume_73077810.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has a strong background in human resources and recruitment, with experience in HRIS applications, payroll expertise, and benefits administration. Their skills match the job description closely, but lack specific keywords and phrases that would indicate expertise in talent management or succession planning."
+        }
+    },
+    {
+        "model": "ollama/llama3.2",
+        "resume": "resume_86184722.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has relevant experience in HR and administrative roles, but the skills listed do not directly match the job description's requirements for an HR Recruiter."
+        }
+    },
+    {
+        "model": "ollama/mistral:7b",
+        "resume": "resume_11480899.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has extensive experience in HR Management, including recruiting and staff development, and has worked as an HR Manager for over 6 years. They also have skills relevant to the role of an HR Recruiter such as hiring, interviewing expertise, and recruitment processes."
+        }
+    },
+    {
+        "model": "ollama/mistral:7b",
+        "resume": "resume_14886205.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has relevant skills and experience in HR management, including recruiting, performance management, employee relations, and QuickBooks. They also have a certification in Talent Management Specialist."
+        }
+    },
+    {
+        "model": "ollama/mistral:7b",
+        "resume": "resume_15041689.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has extensive experience in HR roles with multiple companies, including a director-level position. They also have skills relevant to recruitment and HRIS applications."
+        }
+    },
+    {
+        "model": "ollama/mistral:7b",
+        "resume": "resume_15575117.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has extensive experience in HR and customer service roles, which aligns with the job description for an HR Recruiter. They have skills in Excel, Data entry systems, Outlook, Microsoft systems, and customer service. They also demonstrate a strong ability to learn new concepts quickly."
+        }
+    },
+    {
+        "model": "ollama/mistral:7b",
+        "resume": "resume_16852973.txt",
+        "answer": {
+            "score": 3,
+            "reason": "The candidate has experience in human resources and some marketing, and possesses relevant skills such as recruitment, benefits administration, and employee relations."
+        }
+    },
+    {
+        "model": "ollama/mistral:7b",
+        "resume": "resume_16877897.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has over 4 years of experience in HR with a focus on recruitment, training & development, and performance management. They have also demonstrated strong skills in SAP, MS Office, SQL, HTML, CSS, and JavaScript."
+        }
+    },
+    {
+        "model": "ollama/mistral:7b",
+        "resume": "resume_17812897.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has extensive experience in HR management, including recruitment and policy development. They have a strong background in benefits administration, training & development, performance management, and organizational development."
+        }
+    },
+    {
+        "model": "ollama/mistral:7b",
+        "resume": "resume_20993320.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has extensive experience in HR, including recruitment processes, employee onboarding, and policy development. They also have a Master's degree in Organizational Leadership."
+        }
+    },
+    {
+        "model": "ollama/mistral:7b",
+        "resume": "resume_24508725.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has over 6 years of experience in HR and possesses skills relevant to the job description such as verbal and written communication, time management, organization, PowerPoint presentations, recruiting, investigation training, employee engagement, and data analysis. The candidate also demonstrates a history of executing effective recruitment strategies and increasing employee motivation."
+        }
+    },
+    {
+        "model": "ollama/mistral:7b",
+        "resume": "resume_25724495.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has extensive experience in recruitment and staffing with a focus on HRIS applications, performance management, and employee relations. They have also managed entire HR functions for regions and worked closely with business leaders. The candidate's work permit status indicates they are eligible to work without visa sponsorship in the San Francisco Bay Area."
+        }
+    },
+    {
+        "model": "ollama/mistral:7b",
+        "resume": "resume_26289308.txt",
+        "answer": {
+            "score": 2,
+            "reason": "The candidate has experience in HR, but the role is specifically for an HR Recruiter. The candidate's experience leans more towards HR Business Partner and Management roles."
+        }
+    },
+    {
+        "model": "ollama/mistral:7b",
+        "resume": "resume_26780935.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has extensive experience in HR coordination, including policy creation, personnel record management, payroll processing, and employee training. They also demonstrate strong skills in problem solving, communication, and leadership which are valuable in a recruiting role."
+        }
+    },
+    {
+        "model": "ollama/mistral:7b",
+        "resume": "resume_27847081.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has extensive experience in recruitment processes and a relevant education background. They also possess the necessary skills for an HR recruiter role."
+        }
+    },
+    {
+        "model": "ollama/mistral:7b",
+        "resume": "resume_29091445.txt",
+        "answer": {
+            "score": 3,
+            "reason": "The candidate has experience in HR with strong skills in employee relations and recruitment. However, the job description is for an HR Recruiter which primarily focuses on recruiting new employees, while the candidate's experience seems to be more in HR Generalist role including benefits administration, policy development, and training."
+        }
+    },
+    {
+        "model": "ollama/mistral:7b",
+        "resume": "resume_29149998.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has experience in recruitment and HR management, with a focus on finding the right candidates for temporary or permanent job placements. They also have experience in employee compensation, benefits, timecards, promotion opportunities, and managing background checks."
+        }
+    },
+    {
+        "model": "ollama/mistral:7b",
+        "resume": "resume_47470864.txt",
+        "answer": {
+            "score": 3,
+            "reason": "The candidate has experience in HR-related roles and skills like recruiting, staff training, and personnel records maintenance. However, the role is specifically for an HR Recruiter and the candidate's experience seems more generalist in nature."
+        }
+    },
+    {
+        "model": "ollama/mistral:7b",
+        "resume": "resume_49937469.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has extensive experience in HR and recruiting, including conducting new employee orientations, creating job descriptions, and implementing exit interview programs. They also have experience working with senior-level management to create fair and consistent HR policies and procedures."
+        }
+    },
+    {
+        "model": "ollama/mistral:7b",
+        "resume": "resume_52979663.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has extensive experience in various HR functions including recruiting & succession planning. They have a proven track record of implementing successful strategies and achieving significant results in their past roles."
+        }
+    },
+    {
+        "model": "ollama/mistral:7b",
+        "resume": "resume_73077810.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has extensive experience in recruitment and retention, strong skills in HRIS applications, performance management strategies, benefits administration, employee relations, and interviewing expertise. They also have a Masters degree in Administrative Science."
+        }
+    },
+    {
+        "model": "ollama/mistral:7b",
+        "resume": "resume_86184722.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has extensive experience in HR, including recruiting & staffing, and has demonstrated a strong ability to manage HR processes. They also have familiarity with various HR systems (ADP, SAP, Kronos, Oracle) and skills relevant to an HR Recruiter role."
+        }
+    },
+    {
+        "model": "gpt-4o",
+        "resume": "resume_11480899.txt",
+        "answer": {
+            "score": 2,
+            "reason": "The candidate has extensive HR management experience but lacks specific focus on recruitment, which is the primary requirement of the HR Recruiter role."
+        }
+    },
+    {
+        "model": "gpt-4o",
+        "resume": "resume_14886205.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has strong HR experience including recruiting, onboarding, and managing HR activities, which are relevant to the HR Recruiter role."
+        }
+    },
+    {
+        "model": "gpt-4o",
+        "resume": "resume_15041689.txt",
+        "answer": {
+            "score": 2,
+            "reason": "The candidate has extensive HR experience, but predominantly in director and management roles rather than specifically in recruiting, making them a weak fit for a position focused solely on recruitment."
+        }
+    },
+    {
+        "model": "gpt-4o",
+        "resume": "resume_15575117.txt",
+        "answer": {
+            "score": 3,
+            "reason": "The candidate has extensive experience in HR-related roles and customer service but lacks direct recruitment experience, which is a key requirement for an HR Recruiter position."
+        }
+    },
+    {
+        "model": "gpt-4o",
+        "resume": "resume_16852973.txt",
+        "answer": {
+            "score": 2,
+            "reason": "The resume shows extensive experience in HR administration but lacks specific recruitment-focused experience or skills required for the HR Recruiter position."
+        }
+    },
+    {
+        "model": "gpt-4o",
+        "resume": "resume_16877897.txt",
+        "answer": {
+            "score": 3,
+            "reason": "The candidate has ample HR experience including recruitment, but the role is specifically for an HR Recruiter which may require more focused experience on recruitment alone."
+        }
+    },
+    {
+        "model": "gpt-4o",
+        "resume": "resume_17812897.txt",
+        "answer": {
+            "score": 3,
+            "reason": "The candidate has extensive experience in HR management, including recruitment and staffing, but may be overqualified for a position specifically focused on HR recruiting."
+        }
+    },
+    {
+        "model": "gpt-4o",
+        "resume": "resume_20993320.txt",
+        "answer": {
+            "score": 3,
+            "reason": "The candidate has extensive HR experience but lacks specific recruiting experience highlighted in the resume."
+        }
+    },
+    {
+        "model": "gpt-4o",
+        "resume": "resume_24508725.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has over 6 years of HR experience, strong recruitment skills, and relevant certifications, making them a strong fit for an HR Recruiter role."
+        }
+    },
+    {
+        "model": "gpt-4o",
+        "resume": "resume_25724495.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has extensive recruitment experience, including handling end-to-end recruitment cycles and managing recruitment teams, which aligns well with the HR Recruiter role."
+        }
+    },
+    {
+        "model": "gpt-4o",
+        "resume": "resume_26289308.txt",
+        "answer": {
+            "score": 2,
+            "reason": "The candidate has extensive HR experience, but the role focuses primarily on recruiting, which is only a part of their broader HR management skills."
+        }
+    },
+    {
+        "model": "gpt-4o",
+        "resume": "resume_26780935.txt",
+        "answer": {
+            "score": 3,
+            "reason": "The candidate has relevant HR experience and skills but shows a stronger focus on HR coordination rather than recruitment specifically."
+        }
+    },
+    {
+        "model": "gpt-4o",
+        "resume": "resume_27847081.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has extensive experience in HR functions, recruitment processes, and a proven track record in maintaining HR systems, which aligns well with the requirements of an HR Recruiter role."
+        }
+    },
+    {
+        "model": "gpt-4o",
+        "resume": "resume_29091445.txt",
+        "answer": {
+            "score": 3,
+            "reason": "The candidate has extensive HR experience and skills relevant to an HR Recruiter role, but their background is heavily focused on mobilization and administrative tasks rather than recruitment."
+        }
+    },
+    {
+        "model": "gpt-4o",
+        "resume": "resume_29149998.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate possesses relevant HR experience, particularly in recruitment and onboarding, making them a strong fit for an HR Recruiter role."
+        }
+    },
+    {
+        "model": "gpt-4o",
+        "resume": "resume_47470864.txt",
+        "answer": {
+            "score": 3,
+            "reason": "The candidate has extensive experience in HR roles and demonstrates strong administrative and organizational skills, but lacks specific experience in HR recruiting."
+        }
+    },
+    {
+        "model": "gpt-4o",
+        "resume": "resume_49937469.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has strong HR experience, including staffing and recruiting, which align well with the HR Recruiter role, but some experience is less directly related to recruiting."
+        }
+    },
+    {
+        "model": "gpt-4o",
+        "resume": "resume_52979663.txt",
+        "answer": {
+            "score": 3,
+            "reason": "The candidate has a broad HR background including recruiting experience, but the resume is more weighted towards senior HR roles and safety management rather than focused on recruiting."
+        }
+    },
+    {
+        "model": "gpt-4o",
+        "resume": "resume_73077810.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has extensive experience in HR and recruiting, demonstrated skills in key areas such as recruitment, HRIS, and employee relations, making them a strong fit for the HR Recruiter position."
+        }
+    },
+    {
+        "model": "gpt-4o",
+        "resume": "resume_86184722.txt",
+        "answer": {
+            "score": 3,
+            "reason": "The candidate has extensive HR experience and skills relevant to HR roles, but lacks specific focus on recruitment, which is the primary function of the HR Recruiter position."
+        }
+    },
+    {
+        "model": "gemini/gemini-2.5-flash",
+        "resume": "resume_11480899.txt",
+        "answer": {
+            "score": 2,
+            "reason": "The candidate has extensive HR management experience with some recruiting duties mentioned, but the resume does not focus specifically on a dedicated HR Recruiter role, indicating a weak fit for this specialized position."
+        }
+    },
+    {
+        "model": "gemini/gemini-2.5-flash",
+        "resume": "resume_14886205.txt",
+        "answer": {
+            "score": 5,
+            "reason": "The candidate's most recent role as a Recruiting Coordinator directly aligns with the job description, demonstrating extensive experience in sourcing, interviewing, onboarding, and managing job postings relevant to an HR Recruiter position."
+        }
+    },
+    {
+        "model": "gemini/gemini-2.5-flash",
+        "resume": "resume_15041689.txt",
+        "answer": {
+            "score": 2,
+            "reason": "The resume highlights extensive HR experience, including recruiting, but the candidate's focus has been on HR generalist and director roles with broader responsibilities, rather than specialized recruiting."
+        }
+    },
+    {
+        "model": "gemini/gemini-2.5-flash",
+        "resume": "resume_15575117.txt",
+        "answer": {
+            "score": 3,
+            "reason": "The candidate has some relevant HR experience, including conducting interviews and phone interviews, but the majority of their current and past roles focus on benefits administration and general administrative support rather than full-cycle recruiting."
+        }
+    },
+    {
+        "model": "gemini/gemini-2.5-flash",
+        "resume": "resume_16852973.txt",
+        "answer": {
+            "score": 3,
+            "reason": "The candidate has a strong general HR background with experience in HR administration, employee relations, and general employment activities, but lacks detailed and dedicated experience in core recruiting functions like sourcing, interviewing, and candidate management."
+        }
+    },
+    {
+        "model": "gemini/gemini-2.5-flash",
+        "resume": "resume_16877897.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate possesses extensive experience in full-lifecycle recruitment, including sourcing, interviewing, and coordination, making them a strong fit for an HR Recruiter role, although their resume also highlights broader HR generalist and management experience."
+        }
+    },
+    {
+        "model": "gemini/gemini-2.5-flash",
+        "resume": "resume_17812897.txt",
+        "answer": {
+            "score": 2,
+            "reason": "The candidate has extensive HR experience, including recruitment, but their background is primarily in HR management and director roles, which are significantly more senior than a dedicated HR Recruiter position, suggesting an overqualified or misaligned fit."
+        }
+    },
+    {
+        "model": "gemini/gemini-2.5-flash",
+        "resume": "resume_20993320.txt",
+        "answer": {
+            "score": 2,
+            "reason": "The resume highlights general HR coordination, benefits, payroll, and on-boarding, with limited experience explicitly focused on core recruiting functions like sourcing, interviewing, or candidate management, which are central to an HR Recruiter role."
+        }
+    },
+    {
+        "model": "gemini/gemini-2.5-flash",
+        "resume": "resume_24508725.txt",
+        "answer": {
+            "score": 5,
+            "reason": "The candidate presents extensive, quantifiable recruiting experience, a relevant Master's degree, and PHR certification, which directly aligns with the core aspects of an HR Recruiter role and significantly matches the detailed Field HR Generalist job description provided."
+        }
+    },
+    {
+        "model": "gemini/gemini-2.5-flash",
+        "resume": "resume_25724495.txt",
+        "answer": {
+            "score": 5,
+            "reason": "The candidate possesses extensive and comprehensive experience in full-cycle recruitment, managing large-scale hiring, and related HR functions, making them an excellent fit for an HR Recruiter role."
+        }
+    },
+    {
+        "model": "gemini/gemini-2.5-flash",
+        "resume": "resume_26289308.txt",
+        "answer": {
+            "score": 2,
+            "reason": "The candidate is a senior HR generalist with broad experience in many HR functions, but their detailed experience does not highlight the specific, hands-on recruitment expertise typically required for a dedicated HR Recruiter role."
+        }
+    },
+    {
+        "model": "gemini/gemini-2.5-flash",
+        "resume": "resume_26780935.txt",
+        "answer": {
+            "score": 1,
+            "reason": "The resume explicitly states the candidate is seeking a career in outside sales and lacks specific experience or interest in an HR Recruiter role, despite having general HR coordinator experience."
+        }
+    },
+    {
+        "model": "gemini/gemini-2.5-flash",
+        "resume": "resume_27847081.txt",
+        "answer": {
+            "score": 5,
+            "reason": "The candidate's resume shows over 10 years of extensive experience as an HR Specialist, with a strong focus on recruitment processes, staffing, and employee relations, which directly aligns with the HR Recruiter job description."
+        }
+    },
+    {
+        "model": "gemini/gemini-2.5-flash",
+        "resume": "resume_29091445.txt",
+        "answer": {
+            "score": 2,
+            "reason": "The candidate has extensive HR experience, but their resume focuses heavily on HR Generalist and Mobilization Coordination roles, with limited direct experience or stated skills in full-cycle recruitment, which is the primary focus of an HR Recruiter position."
+        }
+    },
+    {
+        "model": "gemini/gemini-2.5-flash",
+        "resume": "resume_29149998.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has significant experience in HR and recruitment, including sourcing, interviewing, and onboarding, which are directly relevant to an HR Recruiter role, although the resume isn't exclusively focused on recruitment."
+        }
+    },
+    {
+        "model": "gemini/gemini-2.5-flash",
+        "resume": "resume_47470864.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The candidate has specific experience in an HR Assistant role that includes evaluating applicants, scheduling interviews, performing background checks, drafting offer letters, and new hire orientation, which are strong matches for an HR Recruiter role."
+        }
+    },
+    {
+        "model": "gemini/gemini-2.5-flash",
+        "resume": "resume_49937469.txt",
+        "answer": {
+            "score": 5,
+            "reason": "The candidate demonstrates extensive and direct experience in recruiting, interviewing, staffing, and establishing hiring practices, which are core requirements for an HR Recruiter role."
+        }
+    },
+    {
+        "model": "gemini/gemini-2.5-flash",
+        "resume": "resume_52979663.txt",
+        "answer": {
+            "score": 3,
+            "reason": "The candidate has experience in recruiting and staffing as part of broader HR management roles, but their overall profile is very senior and diversified across many HR and operational functions, not solely focused on a dedicated HR Recruiter position."
+        }
+    },
+    {
+        "model": "gemini/gemini-2.5-flash",
+        "resume": "resume_73077810.txt",
+        "answer": {
+            "score": 5,
+            "reason": "The candidate's resume shows extensive and direct experience in full-cycle recruitment, staffing, applicant tracking, and working with hiring managers, perfectly aligning with the HR Recruiter job description."
+        }
+    },
+    {
+        "model": "gemini/gemini-2.5-flash",
+        "resume": "resume_86184722.txt",
+        "answer": {
+            "score": 4,
+            "reason": "The resume explicitly demonstrates experience in recruiting and staffing across multiple HR roles, directly aligning with the HR Recruiter job description."
+        }
+    }
+]

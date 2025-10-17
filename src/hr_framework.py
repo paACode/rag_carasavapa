@@ -5,6 +5,11 @@ from datetime import datetime
 import os
 import json
 
+#Define Paths
+resume_path = Path("../data/")
+result_path = Path("../experiment_results")
+use_cases_path = Path("../system_prompts")
+
 
 #Available Local Models(via Llama)
 llama_model="ollama/llama3.2"
@@ -56,35 +61,22 @@ def safe_parse_json(text):
         return {"parse_error": str(e), "raw_text": text}
 
 
-def build_decision_prompt_with_reason(resume_txt, job_description):
-    """
-    Prompt for LLM to rate candidate-job fit and provide a short justification.
-    """
-    system_message = {
-        "role": "system",
-        "content": (
-            "You are an experienced hiring manager evaluating how well a candidate's resume matches a given job description.\n"
-            "Your entire response must be a single valid JSON object — nothing else.\n\n"
-            "Output format (required):\n"
-            '{"score": <integer from 1 to 5>, "reason": "<short one-sentence explanation>"}\n\n'
-            "Rules:\n"
-            "- Do NOT include any text before or after the JSON.\n"
-            "- Do NOT include markdown formatting (no ```json or ``` blocks).\n"
-            "- Do NOT include comments or explanations outside the JSON.\n"
-            "- Do NOT apologize or restate instructions.\n"
-            "- The output must be parseable JSON (no trailing commas, no extra text).\n\n"
-            "Scoring criteria:\n"
-            "1 = Very poor fit\n"
-            "2 = Weak fit\n"
-            "3 = Moderate fit\n"
-            "4 = Strong fit\n"
-            "5 = Excellent fit"
-        )
-    }
+def load_use_case(filepath):
+    with open(filepath, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    # Join list of strings into a single text block
+    if isinstance(data["content"], list):
+        data["content"] = "\n".join(data["content"])
+
+    return data
+
+
+def build_prompt(use_case_json, resume_txt, job_description):
+    system_message = use_case_json
     user_message = {
         "role": "user",
         "content": (
-            "Please evaluate the following candidate resume against the job description.\n\n"
             "Resume:\n"
             f"{resume_txt}\n\n"
             "Job Description:\n"
@@ -93,10 +85,12 @@ def build_decision_prompt_with_reason(resume_txt, job_description):
     }
     return[system_message, user_message]
 
-# Basic Settings
-models_under_test = [gpt_model]
-resume_path = Path("../data_2/")
-result_path = Path("../experiment_results")
+
+# Setup Experiment
+models_under_test = [llama_model,mistral_model, gpt_model, gemini_model]
+use_case_path = use_cases_path /"use_case2.json"
+
+
 all_files = get_txt_filenames(folder_path=resume_path)
 
 #Start of Test
@@ -105,7 +99,8 @@ for selected_model in models_under_test:
     for resume in all_files:
         file_path = resume_path / resume
         extracted_txt = file_path.read_text(encoding="utf-8")
-        built_prompt = build_decision_prompt_with_reason(
+        built_prompt = build_prompt(
+            use_case_json= load_use_case(filepath=use_case_path),
             resume_txt=extracted_txt,
             job_description="HR Recruiter")
         answer = ask_llm(prompt=built_prompt, model=selected_model)
@@ -116,6 +111,7 @@ for selected_model in models_under_test:
             "answer": parsed_answer
         })
 
+#Save the results
 output_file = result_path / f"{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
 with output_file.open("w", encoding="utf-8") as f:
     json.dump(all_answers, f, ensure_ascii=False, indent=4)
