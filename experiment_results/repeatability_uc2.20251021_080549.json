@@ -1,0 +1,202 @@
+[
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 2,
+                "reason": "The candidate has extensive HR management experience, but the role of HR Recruiter typically requires more focused experience in recruitment and selection, which is only one aspect of the candidate's broad HR background."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has comprehensive HR experience, including recruitment, but may be overqualified for a recruiter role given the extensive managerial experience and broader HR responsibilities outlined in the resume."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has extensive HR management experience, including recruiting and hiring expertise, but may lack focused experience in direct HR recruiting roles specific to an HR Recruiter position."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has extensive HR experience, including recruiting and selection, but the focus is more on management and strategic HR rather than specific recruiting tasks as required for an HR Recruiter role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has a strong HR background with recruitment and selection experience, but their focus on HR management and general administrative roles may not align perfectly with the specialization required for a recruiter role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has extensive experience in HR management and recruiting, but their focus is more on HR management and administration rather than specifically HR recruiting, which could be a moderate fit for an HR Recruiter role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has significant HR experience, including recruiting and staffing, but the focus of their experience is broader and at a higher level than typical HR recruiter positions."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 2,
+                "reason": "The candidate has extensive HR management experience but lacks specific focus on recruitment duties required for an HR Recruiter role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has extensive HR experience, including staffing and recruiting, but the focus of their experience leans more towards HR management and strategic functions rather than purely on recruiting, which is the specific requirement of the HR Recruiter role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 2,
+                "reason": "The candidate has extensive HR management experience and relevant HR skills but lacks specific emphasis on recruiting functions critical for an HR Recruiter role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has strong HR management experience and skills relevant to recruitment, but the seniority and breadth of their past roles may not align perfectly with a focus on the specific tasks of an HR Recruiter."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 2,
+                "reason": "The candidate has extensive experience in HR management and policy development but lacks specific focus on recruitment as the primary responsibility, which is crucial for a HR Recruiter role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has extensive HR management experience, including recruiting and staffing, but their focus is more on HR generalist and managerial roles rather than specializing as an HR recruiter."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The resume reflects strong HR experience and skills which are relevant, but it focuses more on strategic management and HR generalist roles rather than direct recruitment experience."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 2,
+                "reason": "The candidate has extensive HR management experience but lacks specific focus on dedicated recruiting roles, making them a weak fit for the HR Recruiter position."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has strong HR experience, particularly in HR management and various HR functions, but lacks specific focus and detailed experience as an HR Recruiter."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has extensive HR management experience, which includes recruitment, but their focus is more on strategic HR functions than on being a dedicated HR recruiter."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 2,
+                "reason": "The candidate's experience and skills are focused more on HR management and administration rather than specifically on recruiting, which is the core focus of an HR Recruiter role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has extensive experience in HR management, which includes strategic planning, team leadership, and recruitment, but may be overqualified for the tactical and focused nature of an HR Recruiter role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has extensive HR experience, including recruiting, but their primary focus is on strategic HR management rather than recruitment-specific roles."
+            }
+        }
+    ]
+]

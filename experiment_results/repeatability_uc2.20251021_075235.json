@@ -1,0 +1,362 @@
+[
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has strong HR and recruiting experience, including coordinating interviews, onboarding, and managing job openings, which aligns well with the HR Recruiter role."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 5,
+                "reason": "The resume demonstrates direct and extensive experience as a Recruiting Coordinator, performing all core functions of an HR Recruiter role, complemented by relevant skills and certification in talent acquisition."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has strong HR recruiting experience and relevant skills in recruiting and employee relations, matching the HR recruiter role closely."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 5,
+                "reason": "The resume features extensive, direct experience as a Recruiting Coordinator, demonstrating a strong match for an HR Recruiter role with relevant skills, quantifiable achievements, and applicable certifications."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has significant HR management and recruiting experience, relevant skills in recruiting systems, and demonstrated success in increasing hiring percentages, aligning well with the HR Recruiter role."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 5,
+                "reason": "The candidate's extensive experience as a Recruiting Coordinator, including direct sourcing, managing job boards, coordinating interviews, and achieving a 7% increase in hiring, is an excellent match for an HR Recruiter role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has strong relevant experience in HR coordination and recruiting, with proven skills in hiring and onboarding, which aligns well with the HR Recruiter role."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 5,
+                "reason": "The resume features extensive, direct experience as a Recruiting Coordinator, detailing core recruiter tasks such as candidate sourcing, interview scheduling, ATS management, and job board administration, making it an excellent fit for an HR Recruiter position."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has strong HR experience including recruiting coordination, new employee orientations, and performance management, which align well with the HR Recruiter position."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has direct and recent experience as a Recruiting Coordinator, including sourcing, managing job postings, coordinating interviews, and participating in career fairs, which strongly aligns with an HR Recruiter role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has strong and relevant experience in HR, including recruiting and onboarding, making them a strong fit for the HR Recruiter position."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 5,
+                "reason": "The resume demonstrates extensive and highly relevant experience as a Recruiting Coordinator, directly matching the responsibilities of an HR Recruiter, including sourcing, candidate management, onboarding, and utilizing HR systems."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has relevant HR experience, particularly in recruiting and coordination, making them a strong fit for the HR Recruiter role despite some mismatches in specific recruiter responsibilities."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 5,
+                "reason": "The candidate's recent and extensive experience as a Recruiting Coordinator, coupled with relevant skills and certifications, is an excellent match for an HR Recruiter role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has strong HR experience with relevant skills in recruiting, onboarding, and HR management, making them a strong fit for an HR Recruiter position."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 5,
+                "reason": "The candidate's most recent experience as a Recruiting Coordinator, along with specific achievements and skills like sourcing, managing job boards, and using ATS platforms, directly aligns with the requirements of an HR Recruiter role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has relevant HR experience, skills in recruitment and onboarding, and familiarity with HR tools, making them a strong fit for the HR Recruiter role."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 5,
+                "reason": "The candidate's current role as a Recruiting Coordinator, extensive experience in sourcing, interviewing, managing job boards, and onboarding aligns perfectly with the requirements of an HR Recruiter position."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has relevant experience in HR, specifically recruiting and coordination, aligning well with the HR Recruiter role, although some skills and experiences are broader than the specific requirements."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 5,
+                "reason": "The candidate's recent and extensive experience as a Recruiting Coordinator, coupled with a Certified Talent Management Specialist certification covering talent acquisition and employee selection, is an excellent match for an HR Recruiter role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has strong experience in HR recruitment and coordination, with demonstrated skills in new employee orientations, recruiting, and HR activities, which aligns well with the requirements of an HR Recruiter role."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 5,
+                "reason": "The candidate's current role as a Recruiting Coordinator aligns perfectly with the HR Recruiter job description, demonstrating direct experience in sourcing, interview coordination, managing job boards, and increasing hiring percentages."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has relevant HR experience, especially in recruiting and onboarding, but lacks direct HR recruiter job title experience."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 5,
+                "reason": "The candidate has direct and recent experience as a Recruiting Coordinator, demonstrating core HR recruiting skills such as sourcing, scheduling, candidate communication, and managing job postings."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has strong experience as an HR Manager and Recruiting Coordinator, demonstrating relevant skills in recruiting, onboarding, and HR activities, which align well with the HR Recruiter position."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 5,
+                "reason": "The candidate has extensive and highly relevant experience as a Recruiting Coordinator, directly performing core HR Recruiter duties like scheduling, sourcing, managing job boards, and increasing hiring percentages, which is an excellent match for the job description."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has strong experience in HR coordination and recruiting, with relevant skills in onboarding, hiring, and HR software, making them a strong fit for an HR Recruiter role."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 5,
+                "reason": "The candidate's current role as a Recruiting Coordinator and extensive experience in sourcing, scheduling, onboarding, and managing job postings directly align with the requirements for an HR Recruiter position."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has strong experience in HR, recruiting, and employee relations, aligning well with the HR Recruiter role, but lacks specific long-term experience as a dedicated recruiter."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 5,
+                "reason": "The candidate's recent experience as a Recruiting Coordinator, including sourcing, scheduling, managing job boards, and participating in career fairs, is an excellent match for an HR Recruiter role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has relevant HR and recruiting experience, including coordinating interviews, onboarding, sourcing candidates, and managing recruitment processes, which aligns well with the HR Recruiter role."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 5,
+                "reason": "The candidate's current role as a Recruiting Coordinator directly aligns with the HR Recruiter job description, showcasing extensive experience in sourcing, scheduling, job board management, and candidate relations, supported by a relevant talent management certification."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has relevant HR experience in recruiting, onboarding, and using HR software, making them a strong fit for the HR Recruiter position."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 5,
+                "reason": "The candidate's resume shows extensive and direct experience as a Recruiting Coordinator, performing nearly all functions of an HR Recruiter, including sourcing, interviewing, onboarding, and managing job postings and applications using relevant systems."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has relevant HR and recruiting experience, demonstrated skills in recruiting coordination, and related HR roles, making them a strong fit for an HR Recruiter position."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 5,
+                "reason": "The candidate's current role as a Recruiting Coordinator and their listed responsibilities directly align with the requirements of an HR Recruiter position, demonstrating strong and relevant experience in sourcing, interviewing, and onboarding."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has relevant HR experience, skills in recruiting, onboarding, and managing interviews, aligning well with the HR Recruiter role."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 5,
+                "reason": "The candidate's current role as 'Recruiting Coordinator' directly aligns with the HR Recruiter job description, showcasing extensive experience in sourcing, interview coordination, onboarding, and managing job postings with quantifiable achievements."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has substantial HR experience, including recruiting coordination and HR management, making them a strong fit for an HR Recruiter role."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_14886205.txt",
+            "answer": {
+                "score": 5,
+                "reason": "The candidate's recent and extensive experience as a Recruiting Coordinator, including sourcing, managing job boards, and increasing hiring percentages, is an excellent match for an HR Recruiter role."
+            }
+        }
+    ]
+]

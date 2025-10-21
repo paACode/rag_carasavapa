@@ -85,36 +85,67 @@ def build_prompt(use_case_json, resume_txt, job_description):
     }
     return[system_message, user_message]
 
+def run_use_case(models_under_test, use_case_path , evaluate_job, files_under_test):
+    all_answers = []
+    for selected_model in models_under_test:
+        for resume in files_under_test:
+            file_path = resume_path / resume
+            extracted_txt = file_path.read_text(encoding="utf-8")
+            built_prompt = build_prompt(
+                use_case_json=load_use_case(filepath=use_case_path),
+                resume_txt=extracted_txt,
+                job_description=evaluate_job)
+            answer = ask_llm(prompt=built_prompt, model=selected_model)
+            parsed_answer = safe_parse_json(answer)
+            all_answers.append({
+                "model": selected_model,
+                "resume": resume,
+                "answer": parsed_answer
+            })
+    return all_answers
 
-# Setup Experiment
-models_under_test = [llama_model,mistral_model, gpt_model, gemini_model]
-use_case_path = use_cases_path /"use_case2.json"
+def save_result_as_json(result, name):
+    # Save the results
+    output_file = result_path / f"{name}.{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+    with output_file.open("w", encoding="utf-8") as f:
+        json.dump(result, f, ensure_ascii=False, indent=4)
+
+def test_repeatability(model_under_test,use_case_path, evaluate_job, files_under_test , repetitions):
+    all_answers = []
+    for i in range(0, repetitions):
+        result = run_use_case(model_under_test,use_case_path, evaluate_job, files_under_test)
+        all_answers.append(result)
+
+    return all_answers
 
 
-all_files = get_txt_filenames(folder_path=resume_path)
+def main():
+    result_rp = test_repeatability(model_under_test=[gpt_model],
+                                   use_case_path=use_cases_path / "use_case2.json",
+                                   evaluate_job="HR Recruiter",
+                                   repetitions=20,
+                                   files_under_test=["resume_11480899.txt"])
+    save_result_as_json(result=result_rp, name="repeatability_uc2")
 
-#Start of Test
-all_answers = []
-for selected_model in models_under_test:
-    for resume in all_files:
-        file_path = resume_path / resume
-        extracted_txt = file_path.read_text(encoding="utf-8")
-        built_prompt = build_prompt(
-            use_case_json= load_use_case(filepath=use_case_path),
-            resume_txt=extracted_txt,
-            job_description="HR Recruiter")
-        answer = ask_llm(prompt=built_prompt, model=selected_model)
-        parsed_answer = safe_parse_json(answer)
-        all_answers.append({
-            "model": selected_model,
-            "resume": resume,
-            "answer": parsed_answer
-        })
 
-#Save the results
-output_file = result_path / f"{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
-with output_file.open("w", encoding="utf-8") as f:
-    json.dump(all_answers, f, ensure_ascii=False, indent=4)
+if __name__ == "__main__":
+    main()
+
+
+
+
+
+# result_uc2= run_use_case(models_under_test=[gpt_model, gemini_model],
+#                          use_case_path=use_cases_path / "use_case2.json",
+#                          evaluate_job="HR Recruiter",
+#                          files_under_test= get_txt_filenames(folder_path=resume_path)
+#                          )
+# save_result_as_json(result_uc2, name = "uc2")
+
+
+
+
+
 
 
 
