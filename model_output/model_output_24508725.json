@@ -1,0 +1,344 @@
+{
+  "id": "24508725",
+  "category": "HR",
+  "ontology_id": "cv_ontology_basic",
+  "ontology_version": "1.0.0",
+  "education": [
+    {
+      "degree_level": "master",
+      "degree_title": "Master of Science",
+      "field": "Human Resource Management",
+      "year": 2014
+    },
+    {
+      "degree_level": "bachelor",
+      "degree_title": "Bachelor of Arts",
+      "field": "Human Resource Management",
+      "year": 2011
+    },
+    {
+      "degree_level": "bachelor",
+      "degree_title": "B.B.A",
+      "field": "Human Resource Management",
+      "year": 2005
+    }
+  ],
+  "work_experience": [
+    {
+      "job_title": "Field HR Associate",
+      "company": "Company Name",
+      "start_date": "2015-01",
+      "end_date": null,
+      "responsibilities": "Ensures compliance with all employment laws, regulations, and FedEx Ground policies, procedures, and processes. Identifies employee relations issues and resolves as appropriate. Provides Human Resource (HR) advice to management and responds to employee inquiries. Conducts investigations in a timely and appropriate manner. Identifies the issues and parties involved and provides a thorough and accurate investigative report with appropriate recommendation(s). Maintains an HR presence in assigned facilities by engaging all levels of employees through activities to include, but not limited to, dock walks, engagement meetings, and/or special events. Leads the development and execution of the recruitment strategies while managing costs to budget. This includes, but is not limited to, recruitment activities, peak planning, and participating in outreach events. Builds and maintains effective relationships with schools and community-based organizations. Analyzes data and provides recommendations to management for improvement initiatives. Prepares, audits, and monitors Affirmative Action Plans. Screens resumes of internal and external candidates for non package handler positions, participates in the panel interview process, and makes recommendations to the hiring manager regarding final selection decisions. Properly and timely dispositions applicants and jobs by effectively utilizing applicant tracking system. Assists management with development of job offers, which includes gaining appropriate approvals. Ensures all new employees are on-boarded effectively. Manages participation in all government-sponsored tax credit programs. Facilitates and conducts training. Participates in hub and station assessments and assists with strategic planning solutions. Participates in Operations' staff meetings."
+    },
+    {
+      "job_title": "Financial Aid Counselor",
+      "company": "Company Name",
+      "start_date": "2013-05",
+      "end_date": "2013-11",
+      "responsibilities": "Analyze applicants' financial status, credit, and property evaluations to determine feasibility of granting loans. Interview applicants and request specified information for loan applications. Establish payment priorities according to credit terms and interest rates to reduce clients' overall costs. Contact applicants or creditors to resolve questions about applications or to assist with completion of paperwork. Inform individuals and groups about the financial assistance available to college or university students. Maintain current knowledge of credit regulations. Match students' needs and eligibility with available financial aid programs to provide informed recommendations. Review billing for accuracy. Assist in selection of financial award candidates using electronic databases to certify loan eligibility. Compare data on student aid applications with eligibility requirements of assistance programs. Counsel clients on personal and family financial problems, such as excessive spending or borrowing of funds."
+    },
+    {
+      "job_title": "Financial Aid Advisor",
+      "company": "Company Name",
+      "start_date": "2010-06",
+      "end_date": "2012-05",
+      "responsibilities": "Check loan agreements to ensure that they are complete and accurate, according to policies. Analyze applicants' financial status, credit, and property evaluations to determine feasibility of granting loans. Interview applicants and request specified information for loan applications. Contact applicants or creditors to resolve questions about applications or to assist with completion of paperwork. Inform individuals and groups about the financial assistance available to college or university students. Maintain current knowledge of credit regulations. Match students' needs and eligibility with available financial aid programs to provide informed recommendations. Assist in selection of financial award candidates using electronic databases to certify loan eligibility. Maintain and review account records, updating and categorizing them according to status changes. Compare data on student aid applications with eligibility requirements of assistance programs. Counsel clients on personal and family financial problems, such as excessive spending or borrowing of funds. Review accounts to determine write-offs for collection agencies."
+    },
+    {
+      "job_title": "Human Resource Coordinator",
+      "company": "Company Name",
+      "start_date": "2007-11",
+      "end_date": "2010-03",
+      "responsibilities": "Administered employee benefit plans including new hire orientation program, open enrollment process and wellness program. Prepared, presented and distributed employee communications, publications and announcements. General Human Resources Functions: Administered policies and programs relating to all phases of human resources activity including HR planning, recruitment, training and development, employee performance evaluation and appraisals, firing processes, etc. Along with these, maintained knowledge of legal requirements and government reporting regulations affecting human resources. Administration of Employee Relocation: Worked independently with candidates to manage the relocation process and coordinated all arrangements to include: house hunting trip, travel, temporary housing arrangements and movers. Key Accomplishments Developed and maintained various HRIS systems to improve management of tracking of employee relations issues, leaves, corrective actions and unemployment."
+    }
+  ],
+  "skills": [
+    {
+      "name": "verbal communication"
+    },
+    {
+      "name": "written communication"
+    },
+    {
+      "name": "time management"
+    },
+    {
+      "name": "organization"
+    },
+    {
+      "name": "powerpoint presentations"
+    },
+    {
+      "name": "flexible"
+    },
+    {
+      "name": "recruiting"
+    },
+    {
+      "name": "investigation training"
+    },
+    {
+      "name": "employee engagement"
+    },
+    {
+      "name": "recruitment strategies development"
+    },
+    {
+      "name": "data analysis"
+    },
+    {
+      "name": "audits preparation"
+    },
+    {
+      "name": "hiring process management"
+    },
+    {
+      "name": "resume screening"
+    },
+    {
+      "name": "interview process management"
+    },
+    {
+      "name": "employee interaction"
+    },
+    {
+      "name": "problem anticipation"
+    },
+    {
+      "name": "problem identification"
+    },
+    {
+      "name": "sound judgment"
+    },
+    {
+      "name": "fact-based analysis"
+    },
+    {
+      "name": "solution development"
+    },
+    {
+      "name": "software"
+    },
+    {
+      "name": "microsoft office"
+    },
+    {
+      "name": "web-based applications"
+    },
+    {
+      "name": "hr policies and procedures drafting"
+    },
+    {
+      "name": "employee motivation"
+    },
+    {
+      "name": "retention percentages increase"
+    },
+    {
+      "name": "employee performance evaluations"
+    },
+    {
+      "name": "performance based appraisals"
+    },
+    {
+      "name": "presentation skills"
+    },
+    {
+      "name": "job analysis"
+    },
+    {
+      "name": "market pricing"
+    },
+    {
+      "name": "salary administration"
+    },
+    {
+      "name": "performance review"
+    },
+    {
+      "name": "employee orientation"
+    },
+    {
+      "name": "hr policies development"
+    },
+    {
+      "name": "benefits administration"
+    },
+    {
+      "name": "recruitment coordination"
+    },
+    {
+      "name": "adp peoplesoft hris systems"
+    },
+    {
+      "name": "adp"
+    },
+    {
+      "name": "avid"
+    },
+    {
+      "name": "billing"
+    },
+    {
+      "name": "budget"
+    },
+    {
+      "name": "interpersonal skills"
+    },
+    {
+      "name": "counseling"
+    },
+    {
+      "name": "credit"
+    },
+    {
+      "name": "client management"
+    },
+    {
+      "name": "databases"
+    },
+    {
+      "name": "documentation"
+    },
+    {
+      "name": "employee communications"
+    },
+    {
+      "name": "employee relations"
+    },
+    {
+      "name": "special events"
+    },
+    {
+      "name": "filing"
+    },
+    {
+      "name": "financial"
+    },
+    {
+      "name": "firing"
+    },
+    {
+      "name": "funds management"
+    },
+    {
+      "name": "government regulations"
+    },
+    {
+      "name": "hiring"
+    },
+    {
+      "name": "hris"
+    },
+    {
+      "name": "human resources management"
+    },
+    {
+      "name": "human resource"
+    },
+    {
+      "name": "information systems"
+    },
+    {
+      "name": "leadership"
+    },
+    {
+      "name": "legal"
+    },
+    {
+      "name": "managing"
+    },
+    {
+      "name": "market"
+    },
+    {
+      "name": "meetings"
+    },
+    {
+      "name": "excel"
+    },
+    {
+      "name": "ms office"
+    },
+    {
+      "name": "word"
+    },
+    {
+      "name": "monitors"
+    },
+    {
+      "name": "organizational"
+    },
+    {
+      "name": "payroll"
+    },
+    {
+      "name": "peak planning"
+    },
+    {
+      "name": "performance appraisals"
+    },
+    {
+      "name": "personnel"
+    },
+    {
+      "name": "policies"
+    },
+    {
+      "name": "presenting"
+    },
+    {
+      "name": "pricing"
+    },
+    {
+      "name": "processes"
+    },
+    {
+      "name": "publications"
+    },
+    {
+      "name": "reporting"
+    },
+    {
+      "name": "strategic planning"
+    },
+    {
+      "name": "tax"
+    },
+    {
+      "name": "phone communication"
+    },
+    {
+      "name": "training programs"
+    },
+    {
+      "name": "visio"
+    }
+  ],
+  "language": [],
+  "certifications": [
+    {
+      "name": "PHR certification",
+      "issuing_organization": "HR Certification Institute",
+      "date_obtained": "2006"
+    },
+    {
+      "name": "HRCI certification",
+      "issuing_organization": "HR Certification Institute",
+      "date_obtained": "2006"
+    }
+  ],
+  "projects": [],
+  "awards": [
+    {
+      "name": "Member of Alpha Chi National Honor Society"
+    },
+    {
+      "name": "Member of National Society for Collegiate Scholars"
+    }
+  ],
+  "voluntary experience": [],
+  "publications": [],
+  "hobbies": []
+}

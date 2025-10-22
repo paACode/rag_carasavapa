@@ -1,0 +1,190 @@
+{
+  "id": "49937469",
+  "category": "HR",
+  "ontology_id": "cv_ontology_basic",
+  "ontology_version": "1.0.0",
+  "education": [
+    {
+      "degree_level": "bachelor",
+      "degree_title": "BACHELOR OF ARTS",
+      "field": "ORGANIZATIONAL LEADERSHIP MANAGEMENT AND HUMAN RESOURCE MANAGEMENT",
+      "year": 2011
+    },
+    {
+      "degree_level": "other",
+      "degree_title": "ASSOCIATE OF ARTS",
+      "field": "ORGANIZATIONAL LEADERSHIP MANAGEMENT AND HUMAN RESOURCE MANAGEMENT",
+      "year": 2006
+    }
+  ],
+  "work_experience": [
+    {
+      "job_title": "HR Assistant",
+      "company": "Company Name",
+      "start_date": "2015-09",
+      "end_date": "Current",
+      "responsibilities": "Advise managers on organizational policy matters andrecommend needed changes. Conduct new employee orientatio to foster positive attitudes toward organizational objectives. Identify staff vacancies and recruite,interview and select aplicants. Serve as a link between management and employees by handling questions, interpreting and administering contracts and help resolve work-related problems. Address inquires from employees and management regarding new-hire activity and ongoing employee relation issues. Created and implimented the exit interview program process. Advise top management on apropriate employee corrective actions. Create and modify job discriptions within all departments. Work with senior-level management to create fair and consistent HR policies and procedures. Work with HR advisors and HR representatives on establishing consistent hiring practices. Create and manage more than 100 confidential personnel records. Facilitate monthly meetings to develpo strategies that will positively influence workplace relationships. Suport 77 employees at all levels, including executive leadership."
+    },
+    {
+      "job_title": "Specialist",
+      "company": "Company Name",
+      "start_date": "2011-11",
+      "end_date": "2015-09",
+      "responsibilities": "Prevented store losses using awareness, attention to detail and integrity. Cross-trained and provided back-up for other customer services representatives when needed. Generated sales inventory reports in Excel with data from a variety of sources, maintaining a 100% accuracy rate. Prepared and sold a broad range of customized merchandise to individuals and commercial accounts. Resolved product issues and shared benefits of new technology. Successfully interacted with customers and retail buyers to expedite orders. Compilied weekly monetary reports and records for store managers. Maintained adequate cash supply in cash drawers in multiple checkout stations. Managed cash stock and inventory balances accurately."
+    },
+    {
+      "job_title": "Clerk/Store Manager",
+      "company": "Company Name",
+      "start_date": "2002-06",
+      "end_date": "2012-01",
+      "responsibilities": "Was promoted to store manager after 3 weeks as a clerk. Managed a team of 7 professionals. Reduced and controlled expenses by developing an inventory controll process that was later used in all local stores. Delivered excellent customer service by greeting and assisting each customer. Addressed customer inquires and resolved complaints. Designed and implimented customer satisfaction metrics. Stocked and restocked inventory when shipments were received. Reorganized the sales floor to meet company demands. Directed and supervised employees engaged in sales, inventory-taking and reconciling cash receipts. Determined staff promotions and demotions, and terminated employees when necessary. Completed weekly schedules according to payroll policies. Maintained daily records of all transactions. Wrote order suply requests to replenish merchandise. Trained staff to deliver outstanding customer service. Addressed and corrected sales staff communication issues in a tactful and effective manner."
+    },
+    {
+      "job_title": "Student worker/Multiple departments",
+      "company": "Company Name",
+      "start_date": "2004-05",
+      "end_date": "2011-05",
+      "responsibilities": "Inspired students to translate their academic interests into the real world by taking positive actions. Initiated throught-provoking classroom discussions to help students develop their critical thinking abilities. Emphasized the importance of academic honesty with students and instructed them on proper citation of research sources. Maintained athletics yearly budget with 100% accuracy. Conseled undergraduates in regard to educational and professional goals. Proctored yearly final exams at the end of each semester. Maintained strong ties with alumni to foster long-term suport with the school."
+    },
+    {
+      "job_title": "HR Generalist",
+      "company": "Company Name",
+      "start_date": "2004-01",
+      "end_date": "2007-05",
+      "responsibilities": "Conducted benefits administration for 30 benefit-eligible employees. Designed the emoployee performance evaluation process and merit program. Addressed inquires from employees and management regarding new-hire activity and ongoing employee relation issues. Created and implimented the exit interview programprocess. Advise top management on apropriate employee corrective actions. Created and modified job discriptions within all departments. Worked with senior-level management to create fair and consistent HR policies and procedures. Developed 2 employee handbooks, including design and layout. Guided the startup and management of all HR operations, systems and programs for a new location within the company. Supported 30 employees at al levels, including executive leadership."
+    }
+  ],
+  "skills": [
+    {
+      "name": "academic"
+    },
+    {
+      "name": "a.i."
+    },
+    {
+      "name": "attention to detail"
+    },
+    {
+      "name": "back-up"
+    },
+    {
+      "name": "benefits"
+    },
+    {
+      "name": "benefits administration"
+    },
+    {
+      "name": "budget"
+    },
+    {
+      "name": "cash receipts"
+    },
+    {
+      "name": "coaching"
+    },
+    {
+      "name": "contracts"
+    },
+    {
+      "name": "critical thinking"
+    },
+    {
+      "name": "customer satisfaction"
+    },
+    {
+      "name": "customer services"
+    },
+    {
+      "name": "excellent customer service"
+    },
+    {
+      "name": "customer service"
+    },
+    {
+      "name": "employee relations"
+    },
+    {
+      "name": "event management"
+    },
+    {
+      "name": "hiring"
+    },
+    {
+      "name": "hr"
+    },
+    {
+      "name": "inventory"
+    },
+    {
+      "name": "layout"
+    },
+    {
+      "name": "leadership"
+    },
+    {
+      "name": "meetings"
+    },
+    {
+      "name": "excel"
+    },
+    {
+      "name": "organizational"
+    },
+    {
+      "name": "payroll"
+    },
+    {
+      "name": "personnel"
+    },
+    {
+      "name": "policies"
+    },
+    {
+      "name": "problem-solving"
+    },
+    {
+      "name": "reconciling"
+    },
+    {
+      "name": "recruiting"
+    },
+    {
+      "name": "research"
+    },
+    {
+      "name": "retail"
+    },
+    {
+      "name": "sales"
+    },
+    {
+      "name": "staffing"
+    },
+    {
+      "name": "store manager"
+    },
+    {
+      "name": "employee handbooks"
+    }
+  ],
+  "hobbies": [
+    {
+      "name": "Swimming"
+    },
+    {
+      "name": "bike riding"
+    },
+    {
+      "name": "camping"
+    },
+    {
+      "name": "crocheting"
+    },
+    {
+      "name": "crafts"
+    },
+    {
+      "name": "family activities"
+    }
+  ]
+}

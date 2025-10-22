@@ -1,0 +1,248 @@
+{
+  "id": "29149998",
+  "category": "HR",
+  "ontology_id": "cv_ontology_basic",
+  "ontology_version": "1.0.0",
+  "education": [
+    {
+      "degree_level": "other",
+      "degree_title": "Associates of Science",
+      "field": "Human resources and Organizational Leadership",
+      "year": 2016
+    }
+  ],
+  "work_experience": [
+    {
+      "job_title": "HR Assistant",
+      "company": "Company Name",
+      "start_date": "2016-03-01",
+      "end_date": null,
+      "responsibilities": "Sourced, recruited for call center to all departments throughout the company. Responsible for finding the right candidates and matching them to temporary or permanent job placement for the company. Maintaining computer system by updating and entering data in BrassRing an responsible for complete on boarding and exit interview paperwork. Compiling reports and spreadsheets in order to keep track of drug test and background checks that are completed for on-boarding process. Complete initial phone interviews to evaluate applicants' qualifications. Scheduling job interviews for field managers after seeing that applicant meet the job requirements. Administer and manage scores tests given to applicants before making the job offer. Help organize job fair and manage files for applicants that are not qualified."
+    },
+    {
+      "job_title": "HR Assistant",
+      "company": "Circle K -Naples, FL",
+      "start_date": "2011-02-01",
+      "end_date": "2014-10-01",
+      "responsibilities": "Maintained employee compensation, benefits, PTO, timecards and promotion opportunities. Explained and held trainings for new and existing employees on benefit programs and company rules and regulations. Managed Background Checks from ordering paperwork to documenting results in the system. Requested and completed spreadsheet for drug tests results. Managed internal Human Resources records for two stores and oversaw all investigations and disciplinary actions. Completed exit interview paperwork. Managed and processed time card for payroll processing by manager in a timely manner. Processed new hire paperwork, completed on-boarding process and managed their records. Involved in hiring process by coordinating job posting on the website, reviewing resumes, and performing telephone interviews and reference checks. Further developed strong communication and customer service SKILLS as result of working with clients."
+    },
+    {
+      "job_title": "AR/AP Representative",
+      "company": "Company Name",
+      "start_date": "2007-01-01",
+      "end_date": "2010-01-01",
+      "responsibilities": "Processed invoices and credit memos in accurate in timely manner. Review documents for product returns and loaner fees. Solveed incorrect billing, back up cash applications. Made collection calls to clients periodically Lien, Waiver and NTO. Processed invoice through payment cycle. Insured that all venders are paid in a timely manner. Reconciliation of vendors. Managed vendor/supplier relations; and oversaw the timely, accurate processing of invoices, purchase orders, expense reports, credit memos and payment transactions."
+    },
+    {
+      "job_title": "Office Assistant",
+      "company": "Company Name",
+      "start_date": "2004-01-01",
+      "end_date": "2007-01-01",
+      "responsibilities": "Updated the database with customer calls. Worked with NTO vender helped with reconciliation and ledger Balanced and transmitted daily revenue. AR/AP Filling lien, waiver and managed collection. Coordinated complex travel schedules, accommodations and trip logistics for candidates. Entered personnel and subcontractor data into a central database. Evaluated timecards for accuracy on the regular and overtime hours."
+    }
+  ],
+  "skills": [
+    {
+      "name": "compensation knowledge",
+      "years_experience": null
+    },
+    {
+      "name": "ms office suite",
+      "years_experience": null
+    },
+    {
+      "name": "ar/ap proficiency",
+      "years_experience": null
+    },
+    {
+      "name": "oracle knowledge",
+      "years_experience": null
+    },
+    {
+      "name": "communication",
+      "years_experience": null
+    },
+    {
+      "name": "analytical",
+      "years_experience": null
+    },
+    {
+      "name": "new hire training",
+      "years_experience": null
+    },
+    {
+      "name": "filing & records management",
+      "years_experience": null
+    },
+    {
+      "name": "spreadsheets/reports",
+      "years_experience": null
+    },
+    {
+      "name": "office management",
+      "years_experience": null
+    },
+    {
+      "name": "customer service",
+      "years_experience": null
+    },
+    {
+      "name": "quickbooks",
+      "years_experience": null
+    },
+    {
+      "name": "peachtree",
+      "years_experience": null
+    },
+    {
+      "name": "new hire paperwork",
+      "years_experience": null
+    },
+    {
+      "name": "accounting",
+      "years_experience": null
+    },
+    {
+      "name": "adp",
+      "years_experience": null
+    },
+    {
+      "name": "ap",
+      "years_experience": null
+    },
+    {
+      "name": "ar",
+      "years_experience": null
+    },
+    {
+      "name": "benefits",
+      "years_experience": null
+    },
+    {
+      "name": "billing",
+      "years_experience": null
+    },
+    {
+      "name": "call center",
+      "years_experience": null
+    },
+    {
+      "name": "interpersonal",
+      "years_experience": null
+    },
+    {
+      "name": "credit",
+      "years_experience": null
+    },
+    {
+      "name": "clients",
+      "years_experience": null
+    },
+    {
+      "name": "database",
+      "years_experience": null
+    },
+    {
+      "name": "detail-oriented",
+      "years_experience": null
+    },
+    {
+      "name": "employee relations",
+      "years_experience": null
+    },
+    {
+      "name": "expense reports",
+      "years_experience": null
+    },
+    {
+      "name": "filing",
+      "years_experience": null
+    },
+    {
+      "name": "hiring",
+      "years_experience": null
+    },
+    {
+      "name": "human resource management",
+      "years_experience": null
+    },
+    {
+      "name": "human resources",
+      "years_experience": null
+    },
+    {
+      "name": "processing of invoices",
+      "years_experience": null
+    },
+    {
+      "name": "leadership",
+      "years_experience": null
+    },
+    {
+      "name": "ledger",
+      "years_experience": null
+    },
+    {
+      "name": "logistics",
+      "years_experience": null
+    },
+    {
+      "name": "mentor",
+      "years_experience": null
+    },
+    {
+      "name": "organizational development",
+      "years_experience": null
+    },
+    {
+      "name": "payroll processing",
+      "years_experience": null
+    },
+    {
+      "name": "personnel",
+      "years_experience": null
+    },
+    {
+      "name": "promotion",
+      "years_experience": null
+    },
+    {
+      "name": "recruitment",
+      "years_experience": null
+    },
+    {
+      "name": "scheduling",
+      "years_experience": null
+    },
+    {
+      "name": "phone",
+      "years_experience": null
+    },
+    {
+      "name": "website",
+      "years_experience": null
+    }
+  ],
+  "language": [],
+  "certifications": [
+    {
+      "name": "PHR certificate",
+      "issuing_organization": null,
+      "date_obtained": null,
+      "valid_until": null
+    }
+  ],
+  "projects": [],
+  "awards": [],
+  "voluntary experience": [
+    {
+      "role": "mentor",
+      "organization": null,
+      "start_date": null,
+      "end_date": null,
+      "description": "to mentor kids and young adults to succeed in their school or career path"
+    }
+  ],
+  "publications": [],
+  "hobbies": []
+}

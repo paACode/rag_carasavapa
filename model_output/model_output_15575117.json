@@ -1,0 +1,316 @@
+{
+  "id": "15575117",
+  "category": "HR",
+  "ontology_id": "cv_ontology_basic",
+  "ontology_version": "1.0.0",
+  "education": [
+    {
+      "degree_level": "other",
+      "degree_title": "Associate in Applied Science",
+      "field": "Secretarial Science",
+      "year": 1981
+    },
+    {
+      "degree_level": "other",
+      "degree_title": "Associate in Applied Science",
+      "field": "Secretarial Science",
+      "year": null
+    }
+  ],
+  "work_experience": [
+    {
+      "job_title": "HR Senior Specialist",
+      "company": "Xerox Corporation",
+      "start_date": "2006-09",
+      "end_date": null,
+      "responsibilities": "Provide administrative support functions relating to personnel, retirement benefits and special PROJECTS. Assist participants with questions regarding Medicare/Medicaid questions, eligibility and their specific state's guidelines to qualify for the Medicare/Medicaid. Explain Health and Insurance coverage, primary doctors and specialists, hospitals and treatments covered by their medical insurance and what the Medicare/Medicaid covers. Explain the changes in their insurance of choice. Keep up to date with the changes in the health and insurance coverage, processes and changes. Responsible for processing and calculating retirees' pension. Educate participants on their retirement plan benefits. Handle inbound and outbound calls for the team and handle the administrative tasks associated with these calls. Work special PROJECTS including corrections of payment setups, tax forms (1099R) requests, process commencement retirees' package, process pension calculations and educate retirees of the different payment options offered to them. Answer questions regarding the health and insurance offered to the retirees and type of coverage they are entitled to. Provide support to the supervisor during the team meetings by preparing the issues and concerns to be discussed and take minutes of the meeting. Skilled at conducting interviews and hiring process. Mentored team members about the phone etiquette and how to score high in their quality monitoring. Worked as administrative assistant for a $7.6 million international consumer bank, operating on 4 continents."
+    },
+    {
+      "job_title": "Member and Claims Representative",
+      "company": "Amerigroup Corporation",
+      "start_date": "2001-08",
+      "end_date": "2006-05",
+      "responsibilities": "Provided support for the bilingual unit during supervisor's absence. Provided assistance and guidance to the new bilingual hired. Performed activities designed to establish and maintain positive and productive relations with Amerigroup network providers. Facilitated care coordination for members with critical care needs in the Medicaid population. Worked in special PROJECTS assigned by the Director of the Customer Service Department. PROJECTS included, providing administrative support to the Vice President, Assistant Vice President, Outbound Director and Inbound Director in absence and/or vacation of their secretaries by assisting in the following."
+    },
+    {
+      "job_title": "Executive Secretary Assistant",
+      "company": "Amerigroup Corporation",
+      "start_date": "2001-08",
+      "end_date": "2006-05",
+      "responsibilities": "Reporting to the call center Directors and an executive (VP/GM), responsible for performing advanced, diversified and confidential secretarial and administrative duties requiring broad and comprehensive EXPERIENCE, SKILLS and knowledge of the organization and its policies and practices. Primary duties included, but not limited to, write and routes confidential correspondence. Screened, handled or distributes incoming phone calls and complaints. Maintained confidential correspondence and general files. Orders supplies. Coordinated travel plans, prepared and submitted expense reports. Compiled and distributed meeting minutes. Collates and assembles materials, makes arrangements for meetings/presentations, prepared forms, reviewed documentation for conformance with internal policies and procedures. Utilized various software packages such as spreadsheet, word processing, data base and internet to prepare presentations and documents. Researched, verified and prepared reports. Created and maintained databases. Coached new hires handling supervisor and escalated calls. Provided assistance with the escalated line, followed up, and resolved members' concerns and complaints in order to maintain members' satisfaction. As a claims provider representative my responsibilities included responding to inquiries from providers in our network as well as out of network. Handled issues related to members' benefits, claims resolution and appeal status."
+    },
+    {
+      "job_title": "Administrative Secretary",
+      "company": "The Signature Group",
+      "start_date": "1999-01",
+      "end_date": "2001-02",
+      "responsibilities": "Managed project and prepared various reports. Planned and arranged conference calls, scheduled meetings, training classes and arranged travel and accommodations for Managers. I also performed general clerical tasks. Provided administrative support to the center manager for the inbound unit and the various customer service teams under his supervision as well as the training department. Provided administrative support to the Center Manager for the Outbound Unit and the Human Resources Dept. Managed incoming correspondence, scheduled conferences, made travel arrangements, prepared training material to be used in class, filing, ordered supplies, processed invoices. Prepared expense reports from receipts. Managed attendance, vacation schedules and personnel records maintaining extreme confidentiality. Performed telephone interviews for bilingual candidates."
+    },
+    {
+      "job_title": "Executive Complaint Professional",
+      "company": "Company Name",
+      "start_date": "1996-07",
+      "end_date": "1999-01",
+      "responsibilities": "Served as a consumer advocate to the Chief Executive Officer. Responsibility included serving as liaison for the company and the government agencies like the Better Business Bureau and the Attorney General offices. Successfully retained more than 90% of the customers calling to complaint about the company, its products and/or the employees. Resolved company issues by phone and correspondence. Responsible for establishing contact with both internal key managers in order to resolve customer's concern. Maintained direct contact with the Regional Directors for the chain of stores under their jurisdiction, to obtain results on behalf of the customer. Responsible to submit report of all the complaints received by phone or mail to the CEO for his review and input. Reported the open complaints awaiting resolution, closed complaints, details of the resolved complaint and reported the complaints which have been escalated to the Attorney General office and to the Better Business Bureau."
+    }
+  ],
+  "skills": [
+    {
+      "name": "excel",
+      "years_experience": null
+    },
+    {
+      "name": "data entry systems",
+      "years_experience": null
+    },
+    {
+      "name": "outlook",
+      "years_experience": null
+    },
+    {
+      "name": "microsoft systems",
+      "years_experience": null
+    },
+    {
+      "name": "amisys",
+      "years_experience": null
+    },
+    {
+      "name": "access",
+      "years_experience": null
+    },
+    {
+      "name": "customer service",
+      "years_experience": null
+    },
+    {
+      "name": "telephone inquiries",
+      "years_experience": null
+    },
+    {
+      "name": "live support",
+      "years_experience": null
+    },
+    {
+      "name": "client conflict resolution",
+      "years_experience": null
+    },
+    {
+      "name": "conducting interviews",
+      "years_experience": null
+    },
+    {
+      "name": "hiring process",
+      "years_experience": null
+    },
+    {
+      "name": "mentoring",
+      "years_experience": null
+    },
+    {
+      "name": "phone etiquette",
+      "years_experience": null
+    },
+    {
+      "name": "quality monitoring",
+      "years_experience": null
+    },
+    {
+      "name": "administrative",
+      "years_experience": null
+    },
+    {
+      "name": "administrative assistant",
+      "years_experience": null
+    },
+    {
+      "name": "administrative support",
+      "years_experience": null
+    },
+    {
+      "name": "benefits",
+      "years_experience": null
+    },
+    {
+      "name": "call center",
+      "years_experience": null
+    },
+    {
+      "name": "clerical",
+      "years_experience": null
+    },
+    {
+      "name": "conferences",
+      "years_experience": null
+    },
+    {
+      "name": "data entry",
+      "years_experience": null
+    },
+    {
+      "name": "databases",
+      "years_experience": null
+    },
+    {
+      "name": "direct marketing",
+      "years_experience": null
+    },
+    {
+      "name": "documentation",
+      "years_experience": null
+    },
+    {
+      "name": "equity",
+      "years_experience": null
+    },
+    {
+      "name": "filing",
+      "years_experience": null
+    },
+    {
+      "name": "focus",
+      "years_experience": null
+    },
+    {
+      "name": "forms",
+      "years_experience": null
+    },
+    {
+      "name": "general office",
+      "years_experience": null
+    },
+    {
+      "name": "government",
+      "years_experience": null
+    },
+    {
+      "name": "hiring",
+      "years_experience": null
+    },
+    {
+      "name": "human resources",
+      "years_experience": null
+    },
+    {
+      "name": "insurance",
+      "years_experience": null
+    },
+    {
+      "name": "market",
+      "years_experience": null
+    },
+    {
+      "name": "materials",
+      "years_experience": null
+    },
+    {
+      "name": "meetings",
+      "years_experience": null
+    },
+    {
+      "name": "mail",
+      "years_experience": null
+    },
+    {
+      "name": "network",
+      "years_experience": null
+    },
+    {
+      "name": "personnel",
+      "years_experience": null
+    },
+    {
+      "name": "policies",
+      "years_experience": null
+    },
+    {
+      "name": "presentations",
+      "years_experience": null
+    },
+    {
+      "name": "processes",
+      "years_experience": null
+    },
+    {
+      "name": "quality",
+      "years_experience": null
+    },
+    {
+      "name": "reporting",
+      "years_experience": null
+    },
+    {
+      "name": "secretarial",
+      "years_experience": null
+    },
+    {
+      "name": "spreadsheet",
+      "years_experience": null
+    },
+    {
+      "name": "tax",
+      "years_experience": null
+    },
+    {
+      "name": "telephone",
+      "years_experience": null
+    },
+    {
+      "name": "travel arrangements",
+      "years_experience": null
+    },
+    {
+      "name": "type",
+      "years_experience": null
+    },
+    {
+      "name": "word processing",
+      "years_experience": null
+    }
+  ],
+  "language": [
+    {
+      "name": "English",
+      "level": null
+    },
+    {
+      "name": "Spanish",
+      "level": null
+    }
+  ],
+  "certifications": [],
+  "projects": [],
+  "awards": [
+    {
+      "name": "Certificate of Excellent award",
+      "issuing_organization": null,
+      "date_received": null,
+      "description": "for self development and for going above and beyond my call of duty"
+    }
+  ],
+  "voluntary experience": [
+    {
+      "role": "Director of Multi-media",
+      "organization": "Church of God Ebenezer",
+      "start_date": null,
+      "end_date": null,
+      "description": null
+    },
+    {
+      "role": "Church's real time translator",
+      "organization": "Church of God Ebenezer",
+      "start_date": null,
+      "end_date": null,
+      "description": "also translate utilizing the translation devices"
+    },
+    {
+      "role": "Church Bookkeeper assistant",
+      "organization": "Church of God Ebenezer",
+      "start_date": null,
+      "end_date": null,
+      "description": null
+    }
+  ],
+  "publications": [],
+  "hobbies": []
+}

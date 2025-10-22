@@ -1,0 +1,251 @@
+{
+  "id": "52979663",
+  "category": "HR",
+  "ontology_id": "cv_ontology_basic",
+  "ontology_version": "1.0.0",
+  "education": [
+    {
+      "degree_level": "bachelor",
+      "degree_title": "Bachelor of Science",
+      "field": "Personnel",
+      "year": 1988
+    },
+    {
+      "degree_level": "other",
+      "degree_title": "Associate of Science",
+      "field": "Supervision",
+      "year": 1987
+    },
+    {
+      "degree_level": "other",
+      "degree_title": "Associate of Science",
+      "field": "Plant and Soil Science",
+      "year": 1985
+    }
+  ],
+  "work_experience": [
+    {
+      "job_title": "Senior HR",
+      "company": "Company Name",
+      "start_date": "January 2007",
+      "end_date": "October 2010",
+      "responsibilities": "Led site of 400 employees and 200 contractors in HR, training and safety functions during a time of high growth and extensive change. Key contributor for negotiation team first union contract with BCTGM resulting in millions of dollars of savings in benefit costs over the term of the 5 year contract. Implemented behavior based safety methods to reduce lost time from 12 to zero resulting in a 3 year record of no lost time incidents. Transitioned and reduced 24 shift configurations to 4 by implementing 12 hour 24/7 shift organization. Succession plan recruiter lead to assure bench strength in industrial manager and supervisor roles."
+    },
+    {
+      "job_title": "Industrial Development Director",
+      "company": "Danone",
+      "start_date": "November 2015",
+      "end_date": "Current",
+      "responsibilities": "Development of consistent technical training to assure skill attainment across the 7 manufacturing sites in the region."
+    },
+    {
+      "job_title": "Environmental, Health & Safety Director",
+      "company": "Dannon",
+      "start_date": "October 2010",
+      "end_date": "October 2015",
+      "responsibilities": "Established and led regional safety and health network for 4 Dannon US sites. Expanded responsibilities to include all safety auditing across 7 dairy Danone sites, waters division and baby nutrition divisions in the US. Attained One Team Award for the region attaining no lost time incidents during a time of growth. Expanded skill set to become an internal ISO 22000 quality auditor and a ISO 14001 Environmental auditor. Assured EHS transition for 2 newly acquired businesses. Lead on bio-vigilance, food and site security."
+    },
+    {
+      "job_title": null,
+      "company": "Company Name A Bayer Material Science Company",
+      "start_date": "January 2002",
+      "end_date": "April 2007",
+      "responsibilities": "Led HR/Training functions for 5 New England States. Closed one facility including outplacement of personnel. Team member for carve in team to align another site into a wholly owned subsidiary of Bayer. Transitioned 24/5 operations to a 24/7 schedule after successfully defeating union organizing campaign. Led cross-functional training team to attain $141,000 Massachusetts workforce development training grant. Assured completion of training of new employees and cross training of personnel from hourly to executive level. Implemented crisis management process, including negotiating local employee assistance vendor in coordination with national contract. Oversaw recruiting activities to identify top talent using consistent, high impact recruiting and compensation methods. Contributed to the Job Safety Behavior Observation process (JSBO) by conducting ongoing health, safety and ISO audits."
+    },
+    {
+      "job_title": null,
+      "company": "Company Name",
+      "start_date": "January 2000",
+      "end_date": "February 2002",
+      "responsibilities": "Served as process owner for operations of human resources functions, operations quality organization, as well as liaison to division and corporate information systems and finance functions. Facilitated staff role identification and structure to provide support to customer-centric organization. Led order fulfillment team. Reduced errors by 83% using structured problem solving approach. Implemented performance management process."
+    },
+    {
+      "job_title": "Human Resource Manager",
+      "company": "Ingersoll-Rand ARO Fluid Products Division",
+      "start_date": "July 1996",
+      "end_date": "December 1999",
+      "responsibilities": "Managed human resource functions, including safety, training and development, workers' compensation, organizational effectiveness, staffing, payroll and labor negotiations. Served as chief spokesperson in UAW contract negotiations team integrating cell based and skill based pay language. Communicated and implemented policies and procedures, including Americans with Disabilities (ADA) and Family Medical Leave Act (FMLA). Contributed to Kaizen, suggestions, business strategy planning, and safety teams as well as quality advantage training, quality of leadership, and money stream training. Reduced absenteeism from 4% to 1.5%. Implemented case management and return to work programs, reducing average lost days from 273 to zero. Reduced workers' compensation costs by 62%. Closed 114 grievances without arbitration in 3 years."
+    },
+    {
+      "job_title": "Human Resource Manager",
+      "company": "Hendrickson Truck Suspension",
+      "start_date": "February 1989",
+      "end_date": "March 1996",
+      "responsibilities": "Oversaw human resource functions for multiplant operations. Functions include safety, training and development, workers' compensations, organization effectiveness, staffing and labor negotiations. Managed 3 direct reports Implemented first HRIS - ABRA Attained 3 promotions and received the Hendrickson President's Award."
+    }
+  ],
+  "skills": [
+    {
+      "name": "ada",
+      "years_experience": null
+    },
+    {
+      "name": "approach",
+      "years_experience": null
+    },
+    {
+      "name": "arbitration",
+      "years_experience": null
+    },
+    {
+      "name": "auditing",
+      "years_experience": null
+    },
+    {
+      "name": "business strategy",
+      "years_experience": null
+    },
+    {
+      "name": "case management",
+      "years_experience": null
+    },
+    {
+      "name": "contract negotiations",
+      "years_experience": null
+    },
+    {
+      "name": "crisis management",
+      "years_experience": null
+    },
+    {
+      "name": "finance",
+      "years_experience": null
+    },
+    {
+      "name": "functional",
+      "years_experience": null
+    },
+    {
+      "name": "hris",
+      "years_experience": null
+    },
+    {
+      "name": "human resource",
+      "years_experience": null
+    },
+    {
+      "name": "human resources",
+      "years_experience": null
+    },
+    {
+      "name": "hr",
+      "years_experience": null
+    },
+    {
+      "name": "information systems",
+      "years_experience": null
+    },
+    {
+      "name": "iso",
+      "years_experience": null
+    },
+    {
+      "name": "leadership",
+      "years_experience": null
+    },
+    {
+      "name": "material science",
+      "years_experience": null
+    },
+    {
+      "name": "money",
+      "years_experience": null
+    },
+    {
+      "name": "negotiating",
+      "years_experience": null
+    },
+    {
+      "name": "negotiation",
+      "years_experience": null
+    },
+    {
+      "name": "negotiations",
+      "years_experience": null
+    },
+    {
+      "name": "network",
+      "years_experience": null
+    },
+    {
+      "name": "organizing",
+      "years_experience": null
+    },
+    {
+      "name": "organizational",
+      "years_experience": null
+    },
+    {
+      "name": "payroll",
+      "years_experience": null
+    },
+    {
+      "name": "performance management",
+      "years_experience": null
+    },
+    {
+      "name": "personnel",
+      "years_experience": null
+    },
+    {
+      "name": "policies",
+      "years_experience": null
+    },
+    {
+      "name": "problem solving",
+      "years_experience": null
+    },
+    {
+      "name": "quality",
+      "years_experience": null
+    },
+    {
+      "name": "recruiting",
+      "years_experience": null
+    },
+    {
+      "name": "recruiter",
+      "years_experience": null
+    },
+    {
+      "name": "safety",
+      "years_experience": null
+    },
+    {
+      "name": "staffing",
+      "years_experience": null
+    },
+    {
+      "name": "structured",
+      "years_experience": null
+    },
+    {
+      "name": "supervisor",
+      "years_experience": null
+    },
+    {
+      "name": "technical training",
+      "years_experience": null
+    }
+  ],
+  "language": [],
+  "certifications": [],
+  "projects": [],
+  "awards": [
+    {
+      "name": "One Team Award",
+      "issuing_organization": "Dannon",
+      "date_received": null,
+      "description": "for the region attaining no lost time incidents during a time of growth"
+    },
+    {
+      "name": "Hendrickson President's Award",
+      "issuing_organization": "Hendrickson Truck Suspension",
+      "date_received": null,
+      "description": null
+    }
+  ],
+  "voluntary experience": [],
+  "publications": [],
+  "hobbies": []
+}

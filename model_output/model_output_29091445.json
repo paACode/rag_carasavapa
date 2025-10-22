@@ -1,0 +1,192 @@
+{
+  "id": "29091445",
+  "category": "HR",
+  "ontology_id": "cv_ontology_basic",
+  "ontology_version": "1.0.0",
+  "education": [
+    {
+      "degree_level": "diploma",
+      "degree_title": "A.A",
+      "field": "General Studies",
+      "year": 2007
+    },
+    {
+      "degree_level": "bachelor",
+      "degree_title": "B.A",
+      "field": "Business Mgt",
+      "year": 2010
+    }
+  ],
+  "work_experience": [
+    {
+      "job_title": "HR Generalist",
+      "company": "Company Name",
+      "start_date": "2009-01-01",
+      "end_date": null,
+      "responsibilities": "Mobilized high volume exployees overseas on short/long term in accompanied /unaccompanied status. Point of contact form the beginning till the end of expats/Inpat assignment. Directed and implemented human resource policies and procedures and provided guidance to field human resources managers. Created assignment offers compensation packages to include uplifts and base pay, per diem allocation, additional payments and benefits. Directed employee to employee relations, policy development, training, recruitment, payroll and benefits administration. Attended corporate planning meetings and assisted in re-writing international assginment policies and procedures. Sit in interviewes and trained new employees. Administer the Good and Services review program twice a year. Evaluated new hire documents and employee evaluations, and provided extensive training to staff members. Prepared and presented training seminars to other HR professional. Assist employee issues with benefits, payroll, HR systems and Administrative issues. Manage regions: Germany, Kuwait, Brazil, Australia, Italy, Mexico, China, Zambia, Angola."
+    },
+    {
+      "job_title": "HR Associate Mobilization Coordinator",
+      "company": "Company Name",
+      "start_date": "2007-01-01",
+      "end_date": "2009-01-01",
+      "responsibilities": "Handled unemployment and workers' compensation claims, maintained personnel files, and updated the company's affirmative action plan. Responded with sensitivity in a timely manner to employee problems and concerns. Presented company policies, procedures, philosophy, and benefits to new employees. Attended corporate planning meetings and assisted in writing policies and procedures. Arranged medical appointment, assignment paperwork, travel, hotel, car rental, temporary housing and tax briefings. Prepared and processed personnel transfer paperwork. Prepared and distributed correspondence to internal and external candidates * Apply for entry and work visas. Manage regions: Nigeria, Chad, Indonesia, Algeria, Canada, Qatar."
+    },
+    {
+      "job_title": [
+        "Administrative Specialist",
+        "Administrative associate/ Tax assistant"
+      ],
+      "company": "Company Name",
+      "start_date": "2005-01-01",
+      "end_date": "2007-01-01",
+      "responsibilities": "Managed the Tax Equalization Program for Expats and inpats. Collect check payments, verified amount and send to payroll for endorsement * Assist expats with completing tax forms and answer questions. Complete check request for reimbirsement of P&I on employees and IRS notices * Initiate move notices * Administer the Certificate of Coverage program for expats on assignment. Order office materials and supplies from varies vendors. Compose and types collections letters and other corresoindence by email or certified mail. Back up timesheet keeper and Web pan initiator. Codes and process invoices and overhead financial numbers."
+    },
+    {
+      "job_title": "Administrative Associate",
+      "company": "Company Name",
+      "start_date": "2003-01-01",
+      "end_date": "2005-01-01",
+      "responsibilities": "Provided administrative or secretarial support to a department. Worked to complete defined tasks in accordance with standard procedures. Supports general business operations by providing simply administrative support activities. Compiled, copies, sorted and files records of office activities, business transactions and other activities. collect and distribute department and employee's mail. Set up pouch mail for new PROJECTS. Took passport and visa pictures. Notified payroll, HR and A&F of employees new assignment or completions. Structured and maintained a clean and organize office area."
+    }
+  ],
+  "skills": [
+    {
+      "name": "ms office",
+      "years_experience": null
+    },
+    {
+      "name": "word",
+      "years_experience": null
+    },
+    {
+      "name": "excel",
+      "years_experience": null
+    },
+    {
+      "name": "outlook",
+      "years_experience": null
+    },
+    {
+      "name": "powerpoint",
+      "years_experience": null
+    },
+    {
+      "name": "sap database",
+      "years_experience": null
+    },
+    {
+      "name": "applicant tracking system",
+      "years_experience": null
+    },
+    {
+      "name": "organizational skills",
+      "years_experience": null
+    },
+    {
+      "name": "administrative skills",
+      "years_experience": null
+    },
+    {
+      "name": "communication",
+      "years_experience": null
+    },
+    {
+      "name": "training",
+      "years_experience": null
+    },
+    {
+      "name": "administrative support",
+      "years_experience": null
+    },
+    {
+      "name": "benefits administration",
+      "years_experience": null
+    },
+    {
+      "name": "business operations",
+      "years_experience": null
+    },
+    {
+      "name": "employee relations",
+      "years_experience": null
+    },
+    {
+      "name": "process invoices",
+      "years_experience": null
+    },
+    {
+      "name": "policy development",
+      "years_experience": null
+    },
+    {
+      "name": "sap",
+      "years_experience": null
+    }
+  ],
+  "language": [
+    {
+      "name": "Spanish",
+      "level": "C2"
+    },
+    {
+      "name": "English",
+      "level": "C2"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "The basicc of Expatriate and Foreign Nationla Taxation",
+      "issuing_organization": null,
+      "date_obtained": "2007-01-01",
+      "valid_until": null
+    },
+    {
+      "name": "Death Notification Training",
+      "issuing_organization": "KBR Employee Assistance Program",
+      "date_obtained": "2008-01-01",
+      "valid_until": null
+    }
+  ],
+  "projects": [],
+  "awards": [
+    {
+      "name": "MVP Award",
+      "issuing_organization": null,
+      "date_received": "2009-01-01",
+      "description": null
+    }
+  ],
+  "voluntary experience": [
+    {
+      "role": "VP",
+      "organization": "SHRM UHD chapter",
+      "start_date": null,
+      "end_date": null,
+      "description": "HR mgt"
+    },
+    {
+      "role": "Member",
+      "organization": "SHRM",
+      "start_date": "2009-01-01",
+      "end_date": "2017-01-01",
+      "description": null
+    },
+    {
+      "role": "Member",
+      "organization": "HR Houston",
+      "start_date": "2009-01-01",
+      "end_date": "2018-01-01",
+      "description": null
+    },
+    {
+      "role": "Member",
+      "organization": "Houston International HR Roundtable LLC",
+      "start_date": "2011-01-01",
+      "end_date": "2015-01-01",
+      "description": null
+    }
+  ],
+  "publications": [],
+  "hobbies": []
+}

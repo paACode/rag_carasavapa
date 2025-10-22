@@ -1,0 +1,281 @@
+{
+  "id": "27847081",
+  "category": "HR",
+  "ontology_id": "cv_ontology_basic",
+  "ontology_version": "1.0.0",
+  "education": [
+    {
+      "degree_level": "bachelor",
+      "degree_title": "Business Administration",
+      "field": "Business Administration",
+      "year": 2018
+    }
+  ],
+  "work_experience": [
+    {
+      "job_title": "HR Specialist/ Horizontal Engineer",
+      "company": "Company Name",
+      "start_date": "2007-09-01",
+      "end_date": "Current",
+      "responsibilities": "Carried out all recruitment processes including head-hunting, reaching potential candidates by telephone/email, applicants' resume screening, interviewing applicants, processed background checks, shortlisting, finalizing hiring and closing vacancies. Carried out employee orientations and processed new hire paperwork, ensuring compliance with company requirements on time. Created, organized, updated and maintained personnel files and the HR database. Managed and coordinated employee training and development programs. Communicated with management and executives for creation, refreshing and/or interpreting policy changes. Provided administrative support for all HR functions, including filing, copying, general correspondence and support/preparation for meetings, trainings, orientations, executive travelling, etc. Analyze the information on grade stakes and placing them. Drive bulldozers, road graders and other heavy equipment to level earth. Clear, grub, strip, excavate, backfill, stockpile and push scraper with tractor crawler. Developed new process for employee evaluation which resulted in marked performance improvements. Obtained documents, clearances, certificates and approvals from local, state and federal agencies."
+    },
+    {
+      "job_title": "Shipping Clerk",
+      "company": "Company Name",
+      "start_date": "2015-03-01",
+      "end_date": "Current",
+      "responsibilities": "Read customer order, work order, shipping order or requisition to determine items to be moved, gathered, or distributed or shipped. Go- to person throughout site departments to answer questions and resolve issues associated with shipping processes. Utilizing organizational and communication skills to train new hires on shipping operations and give progress reports to area supervisor. Gathered information via SAP system and checked for accurate data to give nightly reports to team as well as supervisors."
+    },
+    {
+      "job_title": "Lead/Report Specialist",
+      "company": "Company Name",
+      "start_date": "2014-07-01",
+      "end_date": "2015-01-01",
+      "responsibilities": "Performed financial data analysis and implemented improved reporting tools. Prepared presentations and developed project plans. Automated manual data processes with help of macros. Collected useful information related to customers, suppliers and industry. Transformed data into charts and graphs for easier analysis and interpretation. Drafted proposals and created web analytics report."
+    }
+  ],
+  "skills": [
+    {
+      "name": "word"
+    },
+    {
+      "name": "excel"
+    },
+    {
+      "name": "powerpoint"
+    },
+    {
+      "name": "outlook"
+    },
+    {
+      "name": "theories of human communication"
+    },
+    {
+      "name": "oral communication"
+    },
+    {
+      "name": "customer service oriented"
+    },
+    {
+      "name": "resolves customer problems"
+    },
+    {
+      "name": "detail-oriented"
+    },
+    {
+      "name": "oral communication and writing skills"
+    },
+    {
+      "name": "employee relations"
+    },
+    {
+      "name": "manager coaching and training"
+    },
+    {
+      "name": "payroll expertise"
+    },
+    {
+      "name": "works well in group setting"
+    },
+    {
+      "name": "interpersonal skills"
+    },
+    {
+      "name": "staffing and recruiting professional"
+    },
+    {
+      "name": "project management"
+    },
+    {
+      "name": "budget management"
+    },
+    {
+      "name": "purchasing"
+    },
+    {
+      "name": "excellent time management"
+    },
+    {
+      "name": "proficient in ms office"
+    },
+    {
+      "name": "fast learner"
+    },
+    {
+      "name": "performance management strategies"
+    },
+    {
+      "name": "treats people with respect; keeps commitments; inspires the trust of others; works with integrity"
+    },
+    {
+      "name": "multi-tasking ability"
+    },
+    {
+      "name": "ability to learn quickly"
+    },
+    {
+      "name": "time management"
+    },
+    {
+      "name": "administrative support"
+    },
+    {
+      "name": "agency"
+    },
+    {
+      "name": "charts"
+    },
+    {
+      "name": "closing"
+    },
+    {
+      "name": "coaching"
+    },
+    {
+      "name": "communication"
+    },
+    {
+      "name": "copying"
+    },
+    {
+      "name": "clients"
+    },
+    {
+      "name": "customer service"
+    },
+    {
+      "name": "data analysis"
+    },
+    {
+      "name": "database"
+    },
+    {
+      "name": "email"
+    },
+    {
+      "name": "employee training"
+    },
+    {
+      "name": "engineer"
+    },
+    {
+      "name": "filing"
+    },
+    {
+      "name": "financial"
+    },
+    {
+      "name": "government"
+    },
+    {
+      "name": "graphs"
+    },
+    {
+      "name": "hiring"
+    },
+    {
+      "name": "human resource"
+    },
+    {
+      "name": "hr"
+    },
+    {
+      "name": "interpretation"
+    },
+    {
+      "name": "macros"
+    },
+    {
+      "name": "meetings"
+    },
+    {
+      "name": "works"
+    },
+    {
+      "name": "organizational"
+    },
+    {
+      "name": "payroll"
+    },
+    {
+      "name": "performance management"
+    },
+    {
+      "name": "personnel"
+    },
+    {
+      "name": "presentations"
+    },
+    {
+      "name": "processes"
+    },
+    {
+      "name": "progress"
+    },
+    {
+      "name": "project plans"
+    },
+    {
+      "name": "proposals"
+    },
+    {
+      "name": "quality"
+    },
+    {
+      "name": "read"
+    },
+    {
+      "name": "recruiting"
+    },
+    {
+      "name": "recruitment"
+    },
+    {
+      "name": "reporting"
+    },
+    {
+      "name": "sap"
+    },
+    {
+      "name": "shipping"
+    },
+    {
+      "name": "staffing"
+    },
+    {
+      "name": "supervisor"
+    },
+    {
+      "name": "telephone"
+    },
+    {
+      "name": "writing"
+    }
+  ],
+  "language": [],
+  "certifications": [
+    {
+      "name": "HUMAN RESOURCE",
+      "issuing_organization": "AIT",
+      "date_obtained": "2008-01-01"
+    }
+  ],
+  "projects": [],
+  "awards": [
+    {
+      "name": "Promotion for doing an outstanding job in the company.",
+      "date_received": "2011-01-01"
+    },
+    {
+      "name": "Recognition for pushing out product in the company.",
+      "date_received": "2012-01-01"
+    },
+    {
+      "name": "$100 gift card for having the highest production for the week.",
+      "date_received": "2012-01-01"
+    }
+  ],
+  "voluntary experience": [],
+  "publications": [],
+  "hobbies": []
+}

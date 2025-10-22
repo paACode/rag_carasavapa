@@ -1,0 +1,514 @@
+{
+  "id": "16877897",
+  "category": "HR",
+  "ontology_id": "cv_ontology_basic",
+  "ontology_version": "1.0.0",
+  "education": [
+    {
+      "degree_level": "bachelor",
+      "degree_title": "B.Ed",
+      "field": "Education",
+      "year": 2015
+    },
+    {
+      "degree_level": "master",
+      "degree_title": "MBA",
+      "field": "Human Resource",
+      "year": 2008
+    },
+    {
+      "degree_level": "bachelor",
+      "degree_title": "B.Sc",
+      "field": "Biotechnology",
+      "year": 2005
+    }
+  ],
+  "work_experience": [
+    {
+      "job_title": "Assistant Manager - HR",
+      "company": "VARROC POLYMERS PVT. LTD",
+      "start_date": "09/2012",
+      "end_date": "08/2013",
+      "responsibilities": "Generalist profile - Recruitment, Training & Development, Performance Appraisal, Employee Engagement, Audit, SAP-HR PA -Personnel Administration. Defined the Enterprise Structure, Personnel Structure and Pay Scale Structure for the enterprise and linked the Pay Scale and Enterprise Structures. Configured user parameters and the number range intervals for personnel numbers. Configured personal data. Customized the basic settings for Personnel Administration. Customized personnel actions and the reason for change in personnel action Configured Personnel Area Groupings and Employee Groupings. Assigned Personnel Area to Company Code. Performed various personnel actions, specifically, hiring employees, performing organizational reassignment, change in pay, termination. PA30, PA40, PA10, PA20. Involved in the full life cycle of the Recruitment Process. Induction of New joiners. Preparation of Job Description and Roles & Responsibilities of department. Responsible for Establishment, Implementation & Maintaining effective Training & Development system in the organization. Deployment of Competency Model (Competency Mapping /Skill Mapping). Training Need Identification of employees through PMS & IDP and Workmen through Skill Matrix. Preparation & circulation of Annual as well as Monthly Training Calendar as per QMS (ISO/TS 16949:2009 & OHSAS). Designing & developing Training procedures, Modules, Training syllabus & activities in consonance with training requirement with faculties. Organizing internal & external training programs, OBT's, Events & Workshop. Creating Pre & Post-Training Assessment Tools (Evaluation/Effectiveness) - Written Test & Feedback Form to gauge the present skill & gap. Preparation of training budget with cost reduction initiatives. Build connect with employees and their families as per part of engagement initiative by conducting welfare and sports events, new initiatives, medical support and benefits. Cascaded business plan and goal at unit level through formal and informal communication set up. Organized various activities like Get-together, Birthday, Painting competition, Safety day celeb, Kaizen competition, sports activity, Auto related games etc. Co-ordination with Functional Heads in setting up of KRA's of employees. Timely distribution of Performance Appraisal Form to all the departments. Involved in Mid - review and yearly appraisal and delivery of appraisal/promotion letters on time. Also used to take care of performance review of trainees and probationers. Involved in Provident Fund, Gratuity, Labour Welfare Fund, Factory License renewal, Contract Labour Management, Labour welfare, Standing Order & resolving IR issues in the plant. Was appointed as TPM ET-Pillar Head in the plant and was responsible for EDUCATION & Training of staff and workers as per the TPM method. Responsible for facing various Customers audits (like M&M, GM, Bajaj, VW etc.), ISO/TS 16949:2009, EMS-OHSAS & TPM Audit. Monitoring of Canteen, Housekeeping, Security, Vehicle management, Stationery & Guest Management. Started various HR activities at the plant level like Suggestion scheme, Coffee with HR, Connect to Home, Skip level meeting, Knowledge Sharing, Birthday Celebration, Appreciation of employees, Established cafeteria and Library."
+    },
+    {
+      "job_title": "Assistant Manager - HR",
+      "company": "Company Name",
+      "start_date": "07/2010",
+      "end_date": "07/2011",
+      "responsibilities": "To maintain HR database. To generate various HR reports required by the management. To maintain organizational structures, create positions and jobs in SAP To provide support in the HR administration of pay and bonus review, providing reports and stats to senior managers and supporting HRBPs in the collation of work. To maintain attendance and leave of employees in SAP. Involved in the full life cycle of the Recruitment Process and On boarding. Preparing & updating Organizational chart & making head count as well as requirement report (HR MIS). Preparation of Job Description and Roles & Responsibilities of department. Responsible for Establishment, Implementation & Maintaining effective Training & Development system in the organization. Started various HR activities at the plant level like Suggestion scheme, Coffee with HR, Connect to Home, Skip level meeting, Knowledge Sharing, Birthday Celebration, Appreciation of employees, Established cafeteria and Library. Timely distribution of Performance Appraisal Form to all the departments. Involved in Mid - review and yearly appraisal and delivery of appraisal/promotion letters on time."
+    },
+    {
+      "job_title": "Assistant Manager - HR",
+      "company": "Company Name",
+      "start_date": "05/2008",
+      "end_date": "05/2010",
+      "responsibilities": "Overlooking the recruitment process for providing best fit to the client as per their requirement. Understanding the requirement of the position in terms of competencies, EXPERIENCE etc. Sourcing suitable profiles from various sources as per requirement. Interviewing potential candidates to do an interest check for the requirement and judge their suitability. Coordinating with client to confirm profile suitability and scheduling interviews till final selection. Keeping a record of operations and deal with various recruitment enquires. Keeping excellent relationships with clients whilst helping them find the best employees for their business."
+    }
+  ],
+  "skills": [
+    {
+      "name": "sap r/3 4.7"
+    },
+    {
+      "name": "ms office"
+    },
+    {
+      "name": "word"
+    },
+    {
+      "name": "excel"
+    },
+    {
+      "name": "power point"
+    },
+    {
+      "name": "outlook"
+    },
+    {
+      "name": "internet applications"
+    },
+    {
+      "name": "sql"
+    },
+    {
+      "name": "html"
+    },
+    {
+      "name": "css"
+    },
+    {
+      "name": "javascript"
+    },
+    {
+      "name": "windows 95"
+    },
+    {
+      "name": "windows 98"
+    },
+    {
+      "name": "windows 2000"
+    },
+    {
+      "name": "windows xp"
+    },
+    {
+      "name": "recruitment"
+    },
+    {
+      "name": "organization management"
+    },
+    {
+      "name": "time management"
+    },
+    {
+      "name": "payroll"
+    },
+    {
+      "name": "benefits"
+    },
+    {
+      "name": "personal administration"
+    },
+    {
+      "name": "training and development"
+    },
+    {
+      "name": "ess"
+    },
+    {
+      "name": "performance appraisal"
+    },
+    {
+      "name": "human resource"
+    },
+    {
+      "name": "organization development"
+    },
+    {
+      "name": "performance management"
+    },
+    {
+      "name": "employee engagement"
+    },
+    {
+      "name": "tpm"
+    },
+    {
+      "name": "audit"
+    },
+    {
+      "name": "communication"
+    },
+    {
+      "name": "interpersonal"
+    },
+    {
+      "name": "problem solving"
+    },
+    {
+      "name": "analytical"
+    },
+    {
+      "name": "collaboration"
+    },
+    {
+      "name": "team building"
+    },
+    {
+      "name": "fast learner"
+    },
+    {
+      "name": "mentor resources"
+    },
+    {
+      "name": "groom resources"
+    },
+    {
+      "name": "sap-hr pa"
+    },
+    {
+      "name": "enterprise structure definition"
+    },
+    {
+      "name": "personnel structure definition"
+    },
+    {
+      "name": "pay scale structure definition"
+    },
+    {
+      "name": "user parameters configuration"
+    },
+    {
+      "name": "number range intervals configuration"
+    },
+    {
+      "name": "personal data configuration"
+    },
+    {
+      "name": "personnel administration customization"
+    },
+    {
+      "name": "personnel actions customization"
+    },
+    {
+      "name": "personnel area groupings configuration"
+    },
+    {
+      "name": "employee groupings configuration"
+    },
+    {
+      "name": "personnel area to company code assignment"
+    },
+    {
+      "name": "hiring employees"
+    },
+    {
+      "name": "organizational reassignment"
+    },
+    {
+      "name": "change in pay"
+    },
+    {
+      "name": "termination"
+    },
+    {
+      "name": "pa30"
+    },
+    {
+      "name": "pa40"
+    },
+    {
+      "name": "pa10"
+    },
+    {
+      "name": "pa20"
+    },
+    {
+      "name": "recruitment process (full life cycle)"
+    },
+    {
+      "name": "induction"
+    },
+    {
+      "name": "job description preparation"
+    },
+    {
+      "name": "roles & responsibilities preparation"
+    },
+    {
+      "name": "training & development system"
+    },
+    {
+      "name": "competency model deployment"
+    },
+    {
+      "name": "competency mapping"
+    },
+    {
+      "name": "skill mapping"
+    },
+    {
+      "name": "training need identification"
+    },
+    {
+      "name": "pms"
+    },
+    {
+      "name": "idp"
+    },
+    {
+      "name": "skill matrix"
+    },
+    {
+      "name": "annual training calendar preparation"
+    },
+    {
+      "name": "monthly training calendar preparation"
+    },
+    {
+      "name": "qms (iso/ts 16949:2009)"
+    },
+    {
+      "name": "ohsas"
+    },
+    {
+      "name": "training procedures design"
+    },
+    {
+      "name": "training procedures development"
+    },
+    {
+      "name": "training modules design"
+    },
+    {
+      "name": "training modules development"
+    },
+    {
+      "name": "training syllabus design"
+    },
+    {
+      "name": "training syllabus development"
+    },
+    {
+      "name": "training activities design"
+    },
+    {
+      "name": "training activities development"
+    },
+    {
+      "name": "organizing internal training programs"
+    },
+    {
+      "name": "organizing external training programs"
+    },
+    {
+      "name": "organizing obt's"
+    },
+    {
+      "name": "organizing events"
+    },
+    {
+      "name": "organizing workshop"
+    },
+    {
+      "name": "pre-training assessment tools creation"
+    },
+    {
+      "name": "post-training assessment tools creation"
+    },
+    {
+      "name": "written test creation"
+    },
+    {
+      "name": "feedback form creation"
+    },
+    {
+      "name": "training budget preparation"
+    },
+    {
+      "name": "cost reduction initiatives"
+    },
+    {
+      "name": "employee engagement initiatives"
+    },
+    {
+      "name": "welfare events"
+    },
+    {
+      "name": "sports events"
+    },
+    {
+      "name": "medical support"
+    },
+    {
+      "name": "business plan cascading"
+    },
+    {
+      "name": "goal setting"
+    },
+    {
+      "name": "kra's setting up"
+    },
+    {
+      "name": "performance appraisal form distribution"
+    },
+    {
+      "name": "mid-review (performance)"
+    },
+    {
+      "name": "yearly appraisal"
+    },
+    {
+      "name": "appraisal letters delivery"
+    },
+    {
+      "name": "promotion letters delivery"
+    },
+    {
+      "name": "performance review of trainees"
+    },
+    {
+      "name": "performance review of probationers"
+    },
+    {
+      "name": "provident fund compliance"
+    },
+    {
+      "name": "gratuity compliance"
+    },
+    {
+      "name": "labour welfare fund compliance"
+    },
+    {
+      "name": "factory license renewal"
+    },
+    {
+      "name": "contract labour management"
+    },
+    {
+      "name": "labour welfare"
+    },
+    {
+      "name": "standing order"
+    },
+    {
+      "name": "ir issues resolving"
+    },
+    {
+      "name": "tpm method training"
+    },
+    {
+      "name": "customer audits"
+    },
+    {
+      "name": "iso/ts 16949:2009 audit"
+    },
+    {
+      "name": "ems-ohsas audit"
+    },
+    {
+      "name": "tpm audit"
+    },
+    {
+      "name": "administration management"
+    },
+    {
+      "name": "canteen management"
+    },
+    {
+      "name": "housekeeping management"
+    },
+    {
+      "name": "security management"
+    },
+    {
+      "name": "vehicle management"
+    },
+    {
+      "name": "stationery management"
+    },
+    {
+      "name": "guest management"
+    },
+    {
+      "name": "hr initiatives"
+    },
+    {
+      "name": "hr database maintenance"
+    },
+    {
+      "name": "hr reports generation"
+    },
+    {
+      "name": "organizational structures maintenance"
+    },
+    {
+      "name": "positions creation"
+    },
+    {
+      "name": "jobs creation"
+    },
+    {
+      "name": "hr administration support (pay and bonus review)"
+    },
+    {
+      "name": "reports and stats collation"
+    },
+    {
+      "name": "hrbps support"
+    },
+    {
+      "name": "attendance management (sap)"
+    },
+    {
+      "name": "leave management (sap)"
+    },
+    {
+      "name": "on boarding"
+    },
+    {
+      "name": "organizational chart preparation"
+    },
+    {
+      "name": "organizational chart updating"
+    },
+    {
+      "name": "head count report preparation"
+    },
+    {
+      "name": "hr mis"
+    },
+    {
+      "name": "recruitment process oversight"
+    },
+    {
+      "name": "requirement understanding (client)"
+    },
+    {
+      "name": "sourcing profiles"
+    },
+    {
+      "name": "candidate interviewing"
+    },
+    {
+      "name": "client coordination (profile suitability, interview scheduling, final selection)"
+    },
+    {
+      "name": "operations record keeping"
+    },
+    {
+      "name": "recruitment enquiries handling"
+    },
+    {
+      "name": "client relationship management"
+    }
+  ],
+  "language": [],
+  "certifications": [],
+  "projects": [],
+  "awards": [],
+  "voluntary experience": [],
+  "publications": [],
+  "hobbies": []
+}

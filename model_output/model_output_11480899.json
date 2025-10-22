@@ -1,0 +1,256 @@
+{
+  "id": "11480899",
+  "category": "HR",
+  "ontology_id": "cv_ontology_basic",
+  "ontology_version": "1.0.0",
+  "education": [
+    {
+      "degree_level": "master",
+      "degree_title": "Public Administration",
+      "field": "Public Administration",
+      "year": 2012
+    },
+    {
+      "degree_level": "certificate",
+      "degree_title": "Comprehensive English Course",
+      "field": "English",
+      "year": 2007
+    },
+    {
+      "degree_level": "bachelor",
+      "degree_title": "EDUCATION",
+      "field": "EDUCATION",
+      "year": 2002
+    }
+  ],
+  "work_experience": [
+    {
+      "job_title": "HR Manager",
+      "company": "Sunningdale Tech (Thailand) Co.,Ltd.",
+      "start_date": "04/2016",
+      "end_date": "Current",
+      "responsibilities": ""
+    },
+    {
+      "job_title": "HR & Admin.Manager",
+      "company": "Sekisui s - lec ( Thailand ) Co., Ltd.",
+      "start_date": "09/2013",
+      "end_date": "04/2015",
+      "responsibilities": "Report directly to CEO Transformed HR from administrative role to strategic business partner, including working with management level to drive key business and implement performance initiative, conducted extensive analysis of existing HR Organization and Development business plan to up dated all policies, procedure, service, program and operation. Direct HR function including recruiting, hiring practice, benefit and Compensation. Develop standardized organizational model to clarify authority and responsibilities. Learning and development as providing guidance on learning and development for manager and their team as well as set up training system, implementing and identify areas that need to attention and improvement. Ensure legal compliance by monitoring and implementing applicable labor law requirements, conducting investigation, maintaining record, representing the organization at hearing. Deal with complex disciplinary/grievance and HR issues, using HR and company knowledge evidencing appropriate decision making Overseeing and manage all administrative activities of the company, ensuring that all work processes are maximized for efficiency."
+    },
+    {
+      "job_title": "General Administration Asst. Chief",
+      "company": "",
+      "start_date": "11/2002",
+      "end_date": "09/2013",
+      "responsibilities": "Promoted to fulfill a broad range of HR functions, including Purchasing and General Administration to ensuring that meet the company's goal Human Resource Handle and Played a key role in ensuring the successful of a full spectrum of all HR Operation system and program :- Recruitment and Selection ; Managed recruitment process in an effective and efficient manner Maintain up-to-date recruitment progress and implemented a reporting process on manpower concerns. Coordinates, negotiates and liaises with employment and advertising agent on service fee, advertisement recruitment and interview schedules. Conducts interview up to executive levels and arranges interviews for management levels. Managing orientation program for employee to the business and culture Training and Development ; Identify key SKILLS, specialty SKILLS and propose training needs accordingly Responsible for developing and maintaining standard, developing and meeting objectives, continuous improvement of department operations, developing strategic plans to meet company goals, and managing assigned staff. Compensation and benefits ; Monitor and alert division manager to any variance of any concerns issues. Compile all data needed for the annual salary review, annual performance appraisal analysis and promotion, annual bonus. Improve and Implemented a performance measurement and development. Supervise and manage all HR function generalist and other job as assign by Division Manager Purchasing Supervise and manage all purchasing function both Oversea & Domestic and other concerns. Supervise and lead the procurement group in all phases. Prepare purchase requisitions, initiative to approve and issues purchase orders in accordance with company policy and negotiated terms and conditions. Other job as assign by Division Manager General Administration Managerial Overseeing all administrative activities of the company, ensuring that all work processes are maximized for efficiency. Contributes to team effort by accomplishing related results as needed. To supervise general administrative support and serve as a general resource for all direct inquiries from a wide variety requestors Planning and scheduling PROJECTS and ensuring timely completion Work closely to General Administration Manager and perform executive administrative tasks with supporting all the requestors from both internal and external Coordinating workflow and maintaining a productive work environment Develop and recommend administrative processes and procedures to assure efficiency Work closely with the Administrative Manager to coordinate efforts towards meeting deadlines and clarifying priorities Establish processes and schedules to ensure all required submissions are made accurately and in a timely manner Respond to and initiate inquiries (questions regarding purchasing, personnel, facilities, administration, specialized programs, etc.). Explain policies, answer questions, and independently resolve problems wheneverfeasible."
+    }
+  ],
+  "skills": [
+    {
+      "name": "compensation/payroll"
+    },
+    {
+      "name": "regulatory compliance"
+    },
+    {
+      "name": "staff development"
+    },
+    {
+      "name": "compensation/benefits administration"
+    },
+    {
+      "name": "policy/program development"
+    },
+    {
+      "name": "salary structure/compensation analysis"
+    },
+    {
+      "name": "performance management strategies"
+    },
+    {
+      "name": "interviewing expertise"
+    },
+    {
+      "name": "staffing and recruiting professional"
+    },
+    {
+      "name": "hiring and retention"
+    },
+    {
+      "name": "training and development"
+    },
+    {
+      "name": "employee relations"
+    },
+    {
+      "name": "administrative"
+    },
+    {
+      "name": "administrative support"
+    },
+    {
+      "name": "advertising"
+    },
+    {
+      "name": "benefits"
+    },
+    {
+      "name": "business plan"
+    },
+    {
+      "name": "good communication skills"
+    },
+    {
+      "name": "interpersonal skills"
+    },
+    {
+      "name": "continuous improvement"
+    },
+    {
+      "name": "decision making"
+    },
+    {
+      "name": "english"
+    },
+    {
+      "name": "hiring"
+    },
+    {
+      "name": "human resource"
+    },
+    {
+      "name": "hr"
+    },
+    {
+      "name": "law"
+    },
+    {
+      "name": "legal compliance"
+    },
+    {
+      "name": "managerial"
+    },
+    {
+      "name": "organizational"
+    },
+    {
+      "name": "payroll"
+    },
+    {
+      "name": "performance appraisal"
+    },
+    {
+      "name": "performance management"
+    },
+    {
+      "name": "personnel"
+    },
+    {
+      "name": "policies"
+    },
+    {
+      "name": "processes"
+    },
+    {
+      "name": "procurement"
+    },
+    {
+      "name": "promotion"
+    },
+    {
+      "name": "speaking"
+    },
+    {
+      "name": "purchase requisitions"
+    },
+    {
+      "name": "purchasing"
+    },
+    {
+      "name": "recruitment"
+    },
+    {
+      "name": "recruiting"
+    },
+    {
+      "name": "reporting"
+    },
+    {
+      "name": "scheduling"
+    },
+    {
+      "name": "strategic"
+    },
+    {
+      "name": "workflow"
+    },
+    {
+      "name": "ms office package"
+    },
+    {
+      "name": "surfing internet"
+    },
+    {
+      "name": "human resource management"
+    },
+    {
+      "name": "analytical problem solving and prevention"
+    },
+    {
+      "name": "tax"
+    },
+    {
+      "name": "iso/ts 16949 requirements"
+    },
+    {
+      "name": "iso 14001 requirements"
+    },
+    {
+      "name": "leadership competency and work performance appraisal"
+    },
+    {
+      "name": "labor law"
+    },
+    {
+      "name": "balance scorecard and kpi"
+    },
+    {
+      "name": "happy work place"
+    },
+    {
+      "name": "welfare and salary structure"
+    },
+    {
+      "name": "recruitment compensation and benefit"
+    },
+    {
+      "name": "corrective and preventive action by 8d report"
+    },
+    {
+      "name": "why why analysis technique"
+    },
+    {
+      "name": "safety supervisor level"
+    }
+  ],
+  "language": [
+    {
+      "name": "English",
+      "level": null
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Human Resource Management (PM and APM Certification Course)",
+      "issuing_organization": null,
+      "date_obtained": null,
+      "valid_until": null
+    }
+  ],
+  "projects": [],
+  "awards": [],
+  "voluntary experience": [],
+  "publications": [],
+  "hobbies": []
+}

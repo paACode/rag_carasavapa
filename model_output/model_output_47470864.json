@@ -1,0 +1,232 @@
+{
+  "id": "47470864",
+  "category": "HR",
+  "ontology_id": "cv_ontology_basic",
+  "ontology_version": "1.0.0",
+  "education": [
+    {
+      "degree_level": "other",
+      "degree_title": "Associates Degree",
+      "field": "Business Administration/Human Resources"
+    },
+    {
+      "degree_level": "certificate",
+      "degree_title": "Certificate Program",
+      "field": "Essentials of Human Resource Management"
+    }
+  ],
+  "work_experience": [
+    {
+      "job_title": "General HR Assistant/Office Assistant",
+      "company": "Company Name",
+      "start_date": "2010-08-01",
+      "end_date": "2016-02-01",
+      "responsibilities": "Greet and screen patients, visitors, and staff, via telephone or in person, for the Medical Department and its related Programs, and answer inquires. Provide quality service that meets the needs of patients and clients as well as other customers - payers, families, referrers, and staff. General clerical duties including photocopying, fax and mailing, maintains inventory of medical supplies and instruments and maintain electronic and hard copy filing system. Retrieve documents from filing system, maintains office equipment, monitors and maintains office supplies and forms. Handle requests for information and data - Insurance authorizations, consult with insurance carriers to determine or obtain authorization for medical consults. Resolve administrative problems and inquiries, prepare written responses to routine enquires. Prepare and modify documents including correspondence, reports, drafts, memos and emails. Schedule and coordinate confidential/sensitive information, such as patient matters, to authorized persons."
+    },
+    {
+      "job_title": "Customer Service Specialist/Call Center",
+      "company": "Company Name",
+      "start_date": "2009-11-01",
+      "end_date": "2010-04-01",
+      "responsibilities": "Gather and assembles fiscal data and prepares various reports. Monitor the expenditure of funds. Resolve operational issues which arises at the center. Receive and responds to questions and complaints from the public. Recruit, train, develop work schedules and guides staff Manage day-to-day activities of the Call Center in the absence of the manager. Store, retrieve and distribute information to staff and clients of organization. Schedule client appointments and maintained highly confidential information."
+    },
+    {
+      "job_title": "Human Resources Assistant",
+      "company": "Company Name",
+      "start_date": "2005-12-01",
+      "end_date": "2008-12-01",
+      "responsibilities": "Maintain organized job files for all positions with position documentation, applicant data, and interview notes. Put together new hire packets and new employee folders for HR department. Draft correspondence including offer letters, resume acknowledgements, etc. Process all new hire and termination paperwork and workflows; including filing. Serves as main point of contact for payroll related information. Maintain the employee personnel and benefits files. Prepare correspondence, letters, memos, presentation material, other documents, spreadsheets. Coordinate and prepare New Hire Orientations. Use computers to input, extract, query, and research data in personnel database systems, as well as performing office applications. Evaluate applicants for basic compliance in regards to position specifications, scheduled. interviews and physicals and performed background checks and new employee orientation. Create employee surveys through Zarca Interactive software. Assist with necessary EDUCATION and materials to managers/employees including workshops, manuals, employee handbooks, and standardized reports. Work closely with Employee Relations Manager of Human Resources to deescalate issues, propose resolutions and execute action plans in order to Organizational challenges. Preparation and maintenance of such reports as necessary to carry out the functions of proper disciplinary action or unemployment review hearings. Support and lead special PROJECTS as needed."
+    },
+    {
+      "job_title": "Assistant Manager",
+      "company": "Company Name",
+      "start_date": "2002-12-01",
+      "end_date": "2005-04-01",
+      "responsibilities": "Assisted end-users with a variety of tax preparation related issues. Supervise and train staff, develops and oversee the completion of work, monitors the expenditure of funds. Store, retrieve and distribute information to staff and clients of organization. Ensure that all staff members could use the system effectively and properly transmit documents to the Internal Revenue Service. Receive and responds to questions and complaints from the public. Purchase, inventories, and stores merchandise, supplies and equipment."
+    },
+    {
+      "job_title": "Senior Customer Service Representative",
+      "company": "Company Name",
+      "start_date": "1999-08-01",
+      "end_date": "2005-12-01",
+      "responsibilities": "Updating customer's information; inputting recent financial data. Provide training and support to employees on banking procedures and terminology. Answer customer inquiries and completed troubleshooting on banking software. Provide day-to-day guidance, coaching, and support to management and staff. Receive and responds to questions and complaints from the public. Develop and oversees the completion of work PROJECTS. Complete PROJECTS as assigned including information gathering and tracking."
+    }
+  ],
+  "skills": [
+    {
+      "name": "time management"
+    },
+    {
+      "name": "organization"
+    },
+    {
+      "name": "planning"
+    },
+    {
+      "name": "oral communication"
+    },
+    {
+      "name": "written communication"
+    },
+    {
+      "name": "multi task"
+    },
+    {
+      "name": "meet deadlines"
+    },
+    {
+      "name": "microsoft office programs"
+    },
+    {
+      "name": "computerized business systems"
+    },
+    {
+      "name": "interpersonal skills"
+    },
+    {
+      "name": "personnel records maintenance"
+    },
+    {
+      "name": "inventory control"
+    },
+    {
+      "name": "staff training"
+    },
+    {
+      "name": "supervision and training"
+    },
+    {
+      "name": "administrative"
+    },
+    {
+      "name": "banking"
+    },
+    {
+      "name": "basic"
+    },
+    {
+      "name": "benefits"
+    },
+    {
+      "name": "call center"
+    },
+    {
+      "name": "clerical"
+    },
+    {
+      "name": "coaching"
+    },
+    {
+      "name": "client"
+    },
+    {
+      "name": "clients"
+    },
+    {
+      "name": "database"
+    },
+    {
+      "name": "documentation"
+    },
+    {
+      "name": "employee relations"
+    },
+    {
+      "name": "fax"
+    },
+    {
+      "name": "filing"
+    },
+    {
+      "name": "financial"
+    },
+    {
+      "name": "forms"
+    },
+    {
+      "name": "funds"
+    },
+    {
+      "name": "human resource management"
+    },
+    {
+      "name": "human resources"
+    },
+    {
+      "name": "hr"
+    },
+    {
+      "name": "insurance"
+    },
+    {
+      "name": "maintains inventory"
+    },
+    {
+      "name": "letters"
+    },
+    {
+      "name": "notes"
+    },
+    {
+      "name": "mailing"
+    },
+    {
+      "name": "materials"
+    },
+    {
+      "name": "office applications"
+    },
+    {
+      "name": "office"
+    },
+    {
+      "name": "monitors"
+    },
+    {
+      "name": "office equipment"
+    },
+    {
+      "name": "organizational"
+    },
+    {
+      "name": "payroll"
+    },
+    {
+      "name": "personnel"
+    },
+    {
+      "name": "quality"
+    },
+    {
+      "name": "research"
+    },
+    {
+      "name": "spreadsheets"
+    },
+    {
+      "name": "surveys"
+    },
+    {
+      "name": "tax preparation"
+    },
+    {
+      "name": "telephone"
+    },
+    {
+      "name": "employee handbooks"
+    },
+    {
+      "name": "troubleshooting"
+    },
+    {
+      "name": "workshops"
+    }
+  ],
+  "language": [],
+  "certifications": [],
+  "projects": [],
+  "awards": [],
+  "voluntary experience": [],
+  "publications": [],
+  "hobbies": []
+}

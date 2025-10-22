@@ -1,0 +1,98 @@
+{
+  "id": "20993320",
+  "category": "HR",
+  "ontology_id": "cv_ontology_basic",
+  "ontology_version": "1.0.0",
+  "education": [
+    {
+      "degree_level": "master",
+      "degree_title": "Master of Arts",
+      "field": "Organizational Leadership",
+      "year": 2011
+    },
+    {
+      "degree_level": "bachelor",
+      "degree_title": "Bachelor of Science",
+      "field": "Apparel and Merchandising",
+      "year": 1991
+    }
+  ],
+  "work_experience": [
+    {
+      "job_title": "HR COORDINATOR",
+      "company": "Girl Scouts of Gulfcoast Florida",
+      "start_date": "2011-12",
+      "end_date": "Current",
+      "responsibilities": "Implement new technology to manage volunteer information, to progress the on-boarding program for newly hired employees and to engage in all aspects of Human Resources. Improve how the organization manages its volunteer information and approvals by learning, implementing, and training others on a new computer program. Successfully oversaw the volunteer approval process which includes background screening. Design new employee packages and send them via mail and e-mail. Resolve personnel issues regarding human resources matters needing clarification, submissions and corrections. Post and audit job postings for old, pending, on-hold and draft positions. Draft department-specific employee announcements. Explain human resources policies and procedures to all employees. Manage communication regarding employee orientation and open enrollment for benefits. Offer consistent payroll disbursement with accurate record keeping of employee PTO and vacation accruals. Process all salary changes stemming from merit increases, promotions, bonuses and pay adjustments. Address inquiries from employees and management regarding new-hire activity and ongoing employee relation issues. Work with senior-level management to create fair and consistent HR policies and procedures. Guid clients on how to conduct background checks and verify references. Successfully advanced the on-boarding process by creating a positive, comprehensive new hire experience. Conduct all new hire training. Oversee completion of required paperwork and documentation. Manage employee benefits enrollment and termination; comprehensive knowledge of benefit details. Key contributor to the revision of corporate background screening policy, practices, and legal adherence. Revamped the orientation process for all new hires, which was implemented company-wide."
+    },
+    {
+      "job_title": "HUMAN RESOURCES/OFFICE MANAGER",
+      "company": "Company Name",
+      "start_date": "2003-06",
+      "end_date": "2011-04",
+      "responsibilities": "Conducted benefits administration for benefit-eligible employees. Worked with senior-level management to create fair and consistent HR policies and procedures. Developed an employee handbook, including content and layout. Guided the development and management of HR operations and processes for the organization. Created and managed confidential personnel records. Managed personnel files according to policy and federal and state law and regulations. Generated employee tracking reports each month. Offered consistent payroll disbursement with accurate record keeping of employee PTO and vacation accruals. Managed communication regarding employee orientation and open enrollment for benefits. Resolved personnel issues regarding human resources matters needing clarification, submissions and corrections. Planned and led training programs on staff development. Provided support for CEO and sales team in managing operation work flow. Handled and processed confidential client information."
+    }
+  ],
+  "skills": [
+    {
+      "name": "creative problem solving"
+    },
+    {
+      "name": "organized with attention to detail"
+    },
+    {
+      "name": "computer proficient"
+    },
+    {
+      "name": "customer service"
+    },
+    {
+      "name": "benefits"
+    },
+    {
+      "name": "payroll"
+    },
+    {
+      "name": "records management"
+    },
+    {
+      "name": "employee relations"
+    },
+    {
+      "name": "on-boarding and training"
+    },
+    {
+      "name": "hris"
+    },
+    {
+      "name": "ms office suite"
+    },
+    {
+      "name": "adp"
+    },
+    {
+      "name": "sage payroll"
+    }
+  ],
+  "language": [],
+  "certifications": [],
+  "projects": [],
+  "awards": [
+    {
+      "name": "Special recognition",
+      "description": "designing and completing a two-year restructuring project of 20+ years of volunteer records."
+    },
+    {
+      "name": "Employee of the year",
+      "description": "for outstanding and dedicated service."
+    }
+  ],
+  "voluntary experience": [
+    {
+      "role": "Founding Member",
+      "organization": "Zeta Tau Alpha Sorority"
+    }
+  ],
+  "publications": [],
+  "hobbies": []
+}
