@@ -1,0 +1,266 @@
+[
+    {
+        "level": "senior",
+        "job_description": "jd_senior",
+        "metrics": {
+            "accuracy": 0.75,
+            "cohen_kappa": 0.0,
+            "reasoning_texts": [
+                {
+                    "resume": "resume_11480899.txt",
+                    "reasoning": "The candidate has extensive HR management experience with a focus on strategic business partnership, compliance, talent development, and has worked directly with executives, aligning with the job requirements."
+                },
+                {
+                    "resume": "resume_13879043.txt",
+                    "reasoning": "The candidate has over 7 years of HR experience in a business partner capacity, a relevant educational background, and demonstrated skills in performance management and employee relations, aligning well with the job requirements."
+                },
+                {
+                    "resume": "resume_15375009.txt",
+                    "reasoning": "The candidate has extensive HR experience, meets educational requirements, and has a successful track record in recruitment, onboarding, performance management, and developing company policies."
+                },
+                {
+                    "resume": "resume_17812897.txt",
+                    "reasoning": "The candidate has extensive HR management experience, strong skills in strategic partnership, recruitment, performance management, and has successfully managed HR functions in various sectors, aligning well with the job requirements."
+                },
+                {
+                    "resume": "resume_23155093.txt",
+                    "reasoning": "The candidate has extensive HR management experience, meets the education and experience requirements, and possesses strong leadership and communication skills relevant to the role."
+                },
+                {
+                    "resume": "resume_24184357.txt",
+                    "reasoning": "The candidate meets the required qualifications, including a degree in a related field and extensive HR experience, and has strong skills in communication, relationship-building, and managing HR functions."
+                },
+                {
+                    "resume": "resume_25824789.txt",
+                    "reasoning": "The candidate has extensive HR management experience, strong communication skills, and a background in HR policies and employee relations, aligning well with the job requirements."
+                },
+                {
+                    "resume": "resume_33176873.txt",
+                    "reasoning": "The candidate has extensive HR experience, including executive management and HRIS development, making them well-suited for an HR Manager role despite not having specified retail experience."
+                }
+            ]
+        },
+        "llm_results": [
+            {
+                "model": "gpt-4o",
+                "resume": "resume_11480899.txt",
+                "answer": {
+                    "hire": true,
+                    "reason": "The candidate has extensive HR management experience with a focus on strategic business partnership, compliance, talent development, and has worked directly with executives, aligning with the job requirements."
+                }
+            },
+            {
+                "model": "gpt-4o",
+                "resume": "resume_13879043.txt",
+                "answer": {
+                    "hire": true,
+                    "reason": "The candidate has over 7 years of HR experience in a business partner capacity, a relevant educational background, and demonstrated skills in performance management and employee relations, aligning well with the job requirements."
+                }
+            },
+            {
+                "model": "gpt-4o",
+                "resume": "resume_15375009.txt",
+                "answer": {
+                    "hire": true,
+                    "reason": "The candidate has extensive HR experience, meets educational requirements, and has a successful track record in recruitment, onboarding, performance management, and developing company policies."
+                }
+            },
+            {
+                "model": "gpt-4o",
+                "resume": "resume_17812897.txt",
+                "answer": {
+                    "hire": true,
+                    "reason": "The candidate has extensive HR management experience, strong skills in strategic partnership, recruitment, performance management, and has successfully managed HR functions in various sectors, aligning well with the job requirements."
+                }
+            },
+            {
+                "model": "gpt-4o",
+                "resume": "resume_23155093.txt",
+                "answer": {
+                    "hire": true,
+                    "reason": "The candidate has extensive HR management experience, meets the education and experience requirements, and possesses strong leadership and communication skills relevant to the role."
+                }
+            },
+            {
+                "model": "gpt-4o",
+                "resume": "resume_24184357.txt",
+                "answer": {
+                    "hire": true,
+                    "reason": "The candidate meets the required qualifications, including a degree in a related field and extensive HR experience, and has strong skills in communication, relationship-building, and managing HR functions."
+                }
+            },
+            {
+                "model": "gpt-4o",
+                "resume": "resume_25824789.txt",
+                "answer": {
+                    "hire": true,
+                    "reason": "The candidate has extensive HR management experience, strong communication skills, and a background in HR policies and employee relations, aligning well with the job requirements."
+                }
+            },
+            {
+                "model": "gpt-4o",
+                "resume": "resume_33176873.txt",
+                "answer": {
+                    "hire": true,
+                    "reason": "The candidate has extensive HR experience, including executive management and HRIS development, making them well-suited for an HR Manager role despite not having specified retail experience."
+                }
+            }
+        ]
+    },
+    {
+        "level": "mid",
+        "job_description": "jd_mid",
+        "metrics": {
+            "accuracy": 0.5,
+            "cohen_kappa": 0.0,
+            "reasoning_texts": [
+                {
+                    "resume": "resume_11763983.txt",
+                    "reasoning": "The candidate has substantial HR experience, including recruitment, training, and compliance, aligning well with the job requirements."
+                },
+                {
+                    "resume": "resume_11847784.txt",
+                    "reasoning": "The candidate has extensive HR experience but lacks specific experience in a manufacturing environment and recent use of ATS or HRIS."
+                },
+                {
+                    "resume": "resume_22323967.txt",
+                    "reasoning": "The candidate lacks specific experience in manufacturing and end-to-end recruitment which are essential for the HR Generalist role in this job description."
+                },
+                {
+                    "resume": "resume_27018550.txt",
+                    "reasoning": "The candidate lacks a Bachelor's degree in HR or related field and relevant HR experience in a manufacturing environment."
+                },
+                {
+                    "resume": "resume_73077810.txt",
+                    "reasoning": "The candidate has extensive HR experience, skills in recruitment, training, and data management, and a relevant degree; despite the absence of manufacturing experience, their broad HR knowledge aligns well with the job requirements."
+                },
+                {
+                    "resume": "resume_93002334.txt",
+                    "reasoning": "The candidate lacks specific experience in recruitment and employee development in a manufacturing environment, and the resume does not indicate proficiency with Learning Management Systems or bilingual abilities."
+                }
+            ]
+        },
+        "llm_results": [
+            {
+                "model": "gpt-4o",
+                "resume": "resume_11763983.txt",
+                "answer": {
+                    "hire": true,
+                    "reason": "The candidate has substantial HR experience, including recruitment, training, and compliance, aligning well with the job requirements."
+                }
+            },
+            {
+                "model": "gpt-4o",
+                "resume": "resume_11847784.txt",
+                "answer": {
+                    "hire": false,
+                    "reason": "The candidate has extensive HR experience but lacks specific experience in a manufacturing environment and recent use of ATS or HRIS."
+                }
+            },
+            {
+                "model": "gpt-4o",
+                "resume": "resume_22323967.txt",
+                "answer": {
+                    "hire": false,
+                    "reason": "The candidate lacks specific experience in manufacturing and end-to-end recruitment which are essential for the HR Generalist role in this job description."
+                }
+            },
+            {
+                "model": "gpt-4o",
+                "resume": "resume_27018550.txt",
+                "answer": {
+                    "hire": false,
+                    "reason": "The candidate lacks a Bachelor's degree in HR or related field and relevant HR experience in a manufacturing environment."
+                }
+            },
+            {
+                "model": "gpt-4o",
+                "resume": "resume_73077810.txt",
+                "answer": {
+                    "hire": true,
+                    "reason": "The candidate has extensive HR experience, skills in recruitment, training, and data management, and a relevant degree; despite the absence of manufacturing experience, their broad HR knowledge aligns well with the job requirements."
+                }
+            },
+            {
+                "model": "gpt-4o",
+                "resume": "resume_93002334.txt",
+                "answer": {
+                    "hire": false,
+                    "reason": "The candidate lacks specific experience in recruitment and employee development in a manufacturing environment, and the resume does not indicate proficiency with Learning Management Systems or bilingual abilities."
+                }
+            }
+        ]
+    },
+    {
+        "level": "entry",
+        "job_description": "jd_entry",
+        "metrics": {
+            "accuracy": 0.8,
+            "cohen_kappa": 0.6153846153846154,
+            "reasoning_texts": [
+                {
+                    "resume": "resume_16852973.txt",
+                    "reasoning": "The candidate does not meet the educational requirement of a Bachelor's degree."
+                },
+                {
+                    "resume": "resume_27490876.txt",
+                    "reasoning": "The candidate has extensive HR experience, relevant education, and necessary skills like handling confidential information and organizing HR tasks."
+                },
+                {
+                    "resume": "resume_29149998.txt",
+                    "reasoning": "The candidate lacks a Bachelor's degree which is required for the position."
+                },
+                {
+                    "resume": "resume_32896934.txt",
+                    "reasoning": "The candidate has extensive HR and administrative experience, a relevant Bachelor's degree, and demonstrated skills in handling confidential information and administrative tasks aligned with the job description."
+                },
+                {
+                    "resume": "resume_32977530.txt",
+                    "reasoning": "The candidate has a relevant Bachelor's degree, administrative and HR experience, strong organizational and communication skills, and proficiency in Microsoft Office, meeting the job requirements for an HR Assistant."
+                }
+            ]
+        },
+        "llm_results": [
+            {
+                "model": "gpt-4o",
+                "resume": "resume_16852973.txt",
+                "answer": {
+                    "hire": false,
+                    "reason": "The candidate does not meet the educational requirement of a Bachelor's degree."
+                }
+            },
+            {
+                "model": "gpt-4o",
+                "resume": "resume_27490876.txt",
+                "answer": {
+                    "hire": true,
+                    "reason": "The candidate has extensive HR experience, relevant education, and necessary skills like handling confidential information and organizing HR tasks."
+                }
+            },
+            {
+                "model": "gpt-4o",
+                "resume": "resume_29149998.txt",
+                "answer": {
+                    "hire": false,
+                    "reason": "The candidate lacks a Bachelor's degree which is required for the position."
+                }
+            },
+            {
+                "model": "gpt-4o",
+                "resume": "resume_32896934.txt",
+                "answer": {
+                    "hire": true,
+                    "reason": "The candidate has extensive HR and administrative experience, a relevant Bachelor's degree, and demonstrated skills in handling confidential information and administrative tasks aligned with the job description."
+                }
+            },
+            {
+                "model": "gpt-4o",
+                "resume": "resume_32977530.txt",
+                "answer": {
+                    "hire": true,
+                    "reason": "The candidate has a relevant Bachelor's degree, administrative and HR experience, strong organizational and communication skills, and proficiency in Microsoft Office, meeting the job requirements for an HR Assistant."
+                }
+            }
+        ]
+    }
+]

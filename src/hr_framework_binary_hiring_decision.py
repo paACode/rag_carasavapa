@@ -8,7 +8,7 @@ import pandas as pd
 from sklearn.metrics import accuracy_score, cohen_kappa_score
 
 #Define Paths
-resume_path = Path("../data/")
+resume_path = Path("../data_binary_decisions/")
 jd_path = Path("../jobdescriptions/")
 result_path = Path("../experiment_results")
 use_cases_path = Path("../system_prompts")
@@ -137,22 +137,35 @@ def load_human_ratings(filepath):
     df["Ratings combined"] = df["Ratings combined"].astype(int)
     return df
 
-def filter_by_level(human_ratings_df, level):
+
+def filter_by_level(human_ratings_df, level=None):
     """
-    Filters human ratings and corresponding resume files by job level.
+    Returns human ratings and corresponding resume files.
+    - If level is specified, only include rows matching that level.
+    - Only include resumes that exist in the data folder.
     """
-    # Filter human ratings
-    df_level = human_ratings_df[human_ratings_df["JD Level"].str.lower() == level.lower()]
+    # Normalize JD Level column
+    human_ratings_df["JD Level"] = human_ratings_df["JD Level"].str.strip().str.lower()
+
+    # Filter by level if provided
+    if level:
+        df_level = human_ratings_df[human_ratings_df["JD Level"] == level.lower()]
+    else:
+        df_level = human_ratings_df.copy()
 
     # Keep only resumes that exist in the folder
-    resume_files = [
-        f"resume_{row['ID']}.txt"
-        for _, row in df_level.iterrows()
-        if (resume_path / f"resume_{row['ID']}.txt").exists()
-    ]
+    all_resume_files = [f.name for f in resume_path.glob("*.txt")]
+    valid_ids = [int(f.split("_")[1].replace(".txt", "")) for f in all_resume_files]
+
+    df_level = df_level[df_level["ID"].isin(valid_ids)]
+
+    # Map existing files
+    resume_files = [f"resume_{row['ID']}.txt" for _, row in df_level.iterrows() if
+                    f"resume_{row['ID']}.txt" in all_resume_files]
+
+    print(f"Level: {level if level else 'all'}, Found {len(resume_files)} resumes in folder.")
 
     return df_level, resume_files
-
 
 # evaluate results
 def evaluate_llm_results(llm_results, human_ratings_df):
@@ -185,7 +198,7 @@ def evaluate_llm_results(llm_results, human_ratings_df):
         })
 
     acc = accuracy_score(y_true, y_pred)
-    kappa = cohen_kappa_score(y_true, y_pred)
+    kappa = cohen_kappa_score(y_true, y_pred, labels=[0, 1])
 
     return {
         "accuracy": acc,
@@ -245,10 +258,10 @@ def test_single_api_call_by_level(level="senior"):
 
 def main():
     # === SINGLE API CALL TEST ===
-    test_single_api_call_by_level(level="senior")
+    # test_single_api_call_by_level(level="senior")
 
     # === BATCH PROCESSING ===
-"""
+
     # Load human ratings
     human_ratings_df = load_human_ratings("../human_rating/ratings_combined_clean.csv")
     human_ratings_df["JD Level"] = human_ratings_df["JD Level"].str.lower()  # normalize
@@ -306,7 +319,6 @@ def main():
     # Save aggregated results for all levels
     save_result_as_json(result=all_results, name="llm_vs_human_all_levels")
     print("=== Batch evaluation completed ===")
-"""
 
 if __name__ == "__main__":
     main()

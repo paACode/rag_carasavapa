@@ -1,0 +1,50 @@
+[
+    {
+        "model": "gpt-4o",
+        "resume": "resume_11763983.txt",
+        "answer": {
+            "hire": true,
+            "reason": "The candidate has substantial HR experience, including recruitment, training, and compliance, aligning well with the job requirements."
+        }
+    },
+    {
+        "model": "gpt-4o",
+        "resume": "resume_11847784.txt",
+        "answer": {
+            "hire": false,
+            "reason": "The candidate has extensive HR experience but lacks specific experience in a manufacturing environment and recent use of ATS or HRIS."
+        }
+    },
+    {
+        "model": "gpt-4o",
+        "resume": "resume_22323967.txt",
+        "answer": {
+            "hire": false,
+            "reason": "The candidate lacks specific experience in manufacturing and end-to-end recruitment which are essential for the HR Generalist role in this job description."
+        }
+    },
+    {
+        "model": "gpt-4o",
+        "resume": "resume_27018550.txt",
+        "answer": {
+            "hire": false,
+            "reason": "The candidate lacks a Bachelor's degree in HR or related field and relevant HR experience in a manufacturing environment."
+        }
+    },
+    {
+        "model": "gpt-4o",
+        "resume": "resume_73077810.txt",
+        "answer": {
+            "hire": true,
+            "reason": "The candidate has extensive HR experience, skills in recruitment, training, and data management, and a relevant degree; despite the absence of manufacturing experience, their broad HR knowledge aligns well with the job requirements."
+        }
+    },
+    {
+        "model": "gpt-4o",
+        "resume": "resume_93002334.txt",
+        "answer": {
+            "hire": false,
+            "reason": "The candidate lacks specific experience in recruitment and employee development in a manufacturing environment, and the resume does not indicate proficiency with Learning Management Systems or bilingual abilities."
+        }
+    }
+]
