@@ -120,11 +120,11 @@ def test_repeatability(model_under_test,use_case_path, evaluate_job, files_under
 
 
 def main():
-    result_rp = test_repeatability(model_under_test=[gpt_model],
+    result_rp = test_repeatability(model_under_test=[gpt_model, gemini_model],
                                    use_case_path=use_cases_path / "use_case2.json",
                                    evaluate_job="HR Recruiter",
-                                   repetitions=20,
-                                   files_under_test=["resume_11480899.txt"])
+                                   repetitions=10,
+                                   files_under_test=["resume_86184722.txt"])
     save_result_as_json(result=result_rp, name="repeatability_uc2")
 
 

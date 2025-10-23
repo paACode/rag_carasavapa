@@ -1,0 +1,182 @@
+[
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has extensive HR experience and skills, including staffing and recruiting, which are relevant to the HR Recruiter position, but their experience focuses more on generalist roles and administrative support."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has experience in recruiting and staffing as part of broader HR generalist roles, but the resume does not showcase a dedicated or specialized focus on HR Recruiter functions."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has significant HR experience and relevant skills but lacks specific focus on recruitment in their recent roles."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has direct experience with recruiting and staffing from their HR Generalist and Human Resource Representative roles, making them a strong fit for an HR Recruiter position."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has extensive HR experience and relevant skills but lacks specific experience in recruiting."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has experience with recruiting and staffing as part of broader HR Generalist roles, but the resume does not indicate a primary focus as a dedicated HR Recruiter."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has extensive HR experience and skills relevant to recruiting, such as employee relations, record keeping, and talent management processes, making them a strong fit for an HR Recruiter role."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has extensive experience in various HR functions, including recruiting and staffing, but the resume shows a broader HR Generalist background rather than a specialized focus on recruiting as the primary role, which is what the job description implies."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has a strong HR background with experience in recruiting and staffing, but lacks specific HR recruiter experience and focused recruiter skills."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "score": 2,
+                "reason": "The resume shows extensive HR experience, but the current HR Generalist role and past roles have only a few mentions of recruiting, which is the sole focus of the HR Recruiter job description."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has significant HR experience including recruiting and staffing functions, but their expertise seems more broad as a generalist rather than specifically focused on HR recruiting."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate demonstrates strong experience in recruiting and staffing, including talent management processes and ATS, within their various HR roles."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has extensive HR experience, including recruiting and staffing duties, making them a strong fit for an HR Recruiter role."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate demonstrates current and past experience in recruiting and staffing as part of their HR Generalist and Administrator roles, along with relevant skills like ATS, making them a strong fit for an HR Recruiter position despite not having a dedicated recruiter title."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has extensive HR experience, but the resume focuses more on generalist roles rather than recruitment-specific responsibilities, which makes them a moderate fit for an HR Recruiter position."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has experience with recruiting and staffing as part of broader HR generalist and administrative roles, but their resume does not indicate extensive, dedicated experience as a primary HR Recruiter."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has extensive HR experience but limited specific focus on recruitment, which is essential for an HR Recruiter role."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate's resume shows direct experience with recruiting and staffing functions across multiple roles, including explicit mention of ATS and 'Recruitment and Employment' skills, which aligns well with an HR Recruiter position."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has extensive HR experience and relevant skills, but their primary focus has been on generalist roles rather than recruitment-specific tasks."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has experience with recruiting and staffing as part of broader HR generalist and administrative roles, but lacks dedicated, specialized experience as an HR Recruiter."
+            }
+        }
+    ]
+]

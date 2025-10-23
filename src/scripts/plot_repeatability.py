@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 result_path = Path("../../experiment_results")
 
 # Path to your JSON file
-json_file = result_path / "repeatability_uc2.20251021_080549.json"
+json_file = result_path / "repeatability_uc2.20251023_084334.json"
 
 # Read data from JSON file
 with open(json_file, "r", encoding="utf-8") as f:
@@ -35,7 +35,7 @@ plt.plot(range(len(gpt4o_scores)), gpt4o_scores, marker='o', color='blue', label
 plt.plot(range(len(gemini_scores)), gemini_scores, marker='s', color='orange', label='Gemini')
 
 # Add titles and labels
-plt.title("Model Score Comparison")
+plt.title("Repeatability")
 plt.xlabel("Index")
 plt.ylabel("Score")
 plt.legend()

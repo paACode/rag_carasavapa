@@ -1,0 +1,182 @@
+[
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has extensive HR and recruitment experience, including managing recruitment life cycles and working as a Recruitment Manager, which aligns well with the HR Recruiter role."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "score": 5,
+                "reason": "The candidate has extensive and direct experience managing the entire recruitment lifecycle, from sourcing and interviewing to onboarding, making them an excellent match for an HR Recruiter role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has relevant HR experience, including recruitment, but the resume emphasizes broader HR management experience and might be overqualified for a specialized recruiter role."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "score": 5,
+                "reason": "The candidate's resume shows extensive and direct experience as a Recruitment Manager, handling end-to-end recruitment cycles and achieving significant hiring targets, which is an excellent match for an HR Recruiter role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has extensive experience in recruitment and HR management, making them a strong fit for an HR Recruiter role."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "score": 5,
+                "reason": "The candidate has extensive and direct experience as a Recruitment Manager and in full-cycle recruiting as part of their Regional HR Manager roles, demonstrating a strong skill set perfectly aligned with an HR Recruiter position."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has extensive experience in HR roles with a strong focus on recruitment, which is highly relevant for an HR Recruiter position."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "score": 5,
+                "reason": "The candidate has extensive and direct experience as a Recruitment Manager, handling end-to-end recruitment cycles, sourcing, interviewing, and onboarding, which makes them an excellent fit for an HR Recruiter role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has extensive experience in recruitment and HR management, making them a strong fit for an HR Recruiter role."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "score": 5,
+                "reason": "The candidate possesses extensive and direct experience in all aspects of recruitment, including managing end-to-end recruitment cycles, sourcing, interviewing, and onboarding, which is an excellent match for an HR Recruiter role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has extensive HR experience, particularly in recruitment and staffing, which aligns well with the HR Recruiter role, although they have held more senior positions previously."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "score": 5,
+                "reason": "The candidate possesses extensive and highly relevant full-cycle recruitment experience, including dedicated Recruitment Manager roles, sourcing, interviewing, onboarding, and strategic reporting, making them an excellent match for an HR Recruiter position."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has extensive experience in recruitment and HR management, making them a strong fit for an HR Recruiter role."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "score": 5,
+                "reason": "The candidate's resume demonstrates extensive and direct experience in full-cycle recruitment, including sourcing, interviewing, onboarding, and strategic recruitment initiatives, which aligns perfectly with the HR Recruiter role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has extensive experience in HR recruitment and management, making them a strong fit for an HR Recruiter position."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "score": 5,
+                "reason": "The candidate has extensive and detailed experience in full-cycle recruitment, including managing entire recruitment functions and recruiting at scale, making them an excellent fit for an HR Recruiter role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has strong experience in HR recruitment and management, making them a strong fit for a HR Recruiter role, although the role history shows more senior roles than typical HR Recruiter positions."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "score": 5,
+                "reason": "The candidate possesses extensive, direct experience as a Recruitment Manager and in end-to-end recruitment functions within broader HR roles, making them an excellent fit for an HR Recruiter position."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has extensive experience in HR roles, with a strong focus on recruitment, which aligns well with the HR Recruiter position."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "score": 5,
+                "reason": "The candidate possesses extensive and specific experience in recruitment, including managing full life cycle recruiting and leading recruitment efforts, which is an excellent match for an HR Recruiter role."
+            }
+        }
+    ]
+]

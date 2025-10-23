@@ -1,0 +1,182 @@
+[
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has extensive HR experience, including recruitment and selection activities, but the emphasis is more on HR management rather than specifically on recruiting."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 2,
+                "reason": "The candidate has extensive HR management experience with some recruitment duties, but the resume does not highlight a primary focus on or specialized experience as an HR Recruiter, which is the specific role being sought."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 2,
+                "reason": "The candidate has extensive HR management experience, but the emphasis is on strategic HR functions and administrative management rather than specialized recruiting skills required for an HR Recruiter role."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 2,
+                "reason": "The candidate has extensive HR management experience with some recruiting duties, but the resume does not highlight a dedicated HR Recruiter role or deep specialization in recruitment, which is the sole focus of the job description."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has extensive HR management experience, including recruitment, but may be overqualified for the specific role of an HR Recruiter."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 2,
+                "reason": "The candidate has extensive HR management experience with some recruiting duties, but the resume does not strongly highlight or specialize in the core responsibilities of an HR Recruiter role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has extensive HR management experience, including recruitment and selection, but may be overqualified for a recruiter position focusing solely on recruitment tasks."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 2,
+                "reason": "The candidate has extensive HR management experience with some involvement in recruitment, but the resume lacks a dedicated focus on an HR Recruiter role as a primary function."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 2,
+                "reason": "The candidate has extensive HR management and generalist experience but lacks specific focus on recruitment, which is crucial for an HR Recruiter role."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 2,
+                "reason": "The candidate has extensive HR management and generalist experience, but the job description is specifically for an HR Recruiter, which is a much narrower focus than their broad experience, and while recruiting is mentioned, it's not their primary expertise."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has extensive experience in HR management and recruiting, but the resume is focused more on strategic HR functions and management, which may not align directly with a specialized role as an HR Recruiter."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 2,
+                "reason": "The candidate has extensive HR management experience with some recruitment duties, but the resume does not focus on or highlight the dedicated recruiter role and skills required for an HR Recruiter position."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has extensive HR experience, including recruiting and staff management, but their background is more focused on HR management and strategic business partnering than on direct recruiting functions."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 2,
+                "reason": "The candidate has extensive experience as an HR Manager with broad generalist responsibilities, but the resume does not focus specifically on a dedicated HR Recruiter role, which is the primary requirement of the job description."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has extensive HR management experience with a focus on strategic planning and staff development, but lacks direct emphasis on recruitment-specific skills required for an HR Recruiter role."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 2,
+                "reason": "The candidate has extensive HR management experience with some recruiting aspects, but the job description specifically asks for an HR Recruiter, indicating a much more specialized role than their generalist background."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The candidate has strong HR experience and skills but their background is more managerial than focused on recruitment specifically."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 2,
+                "reason": "The candidate has extensive experience as an HR Manager with broad HR generalist responsibilities, but the resume does not show a primary focus on or dedicated experience as an HR Recruiter, which is the specific role advertised."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 2,
+                "reason": "The candidate has extensive HR management experience but lacks specific focus on recruiting-related skills required for an HR Recruiter role."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 2,
+                "reason": "The candidate has extensive HR management experience with some recruiting tasks, but the resume does not focus specifically on a dedicated HR Recruiter role, indicating a weak fit for a specialist position."
+            }
+        }
+    ]
+]
