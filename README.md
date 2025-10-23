@@ -1,23 +1,17 @@
-# RAG CaRaSaVaPa
+# Entity Extraction and Evaluation 
 
-## Setup Instructions
+## xx
 
-Follow these steps to set up the project environment:
 
-### 1. Create VENV
 
-### 2. Install required packages in VENV
-```bash
-pip install -r requirements.txt
-```
+### xx
 
-### 3. Verify installation
-You can check that all required packages are installed by running:
-```bash
-pip list
-```
+### xxx
+
+
+### xxx
+x
+
 
 ---
-
-Now your environment is ready to run the project.
 
