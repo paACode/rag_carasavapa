@@ -22,19 +22,15 @@ gpt_model = "gpt-4o"
 
 # Required Env vars
 load_dotenv() # Ensure .env with API Keys is loaded
-llm_env_vars = ["GEMINI_API_KEY", "OPENAI_API_KEY"]
+llm_env_vars = ["OPENAI_API_KEY"]
 
 def ask_llm(prompt, model):
-    # Mock response for testing pipeline
-    return json.dumps({"hire": 1, "reason": "Candidate meets the requirements for this level."})
-
-#def ask_llm(prompt, model):
-    #try:
-        #messages = prompt
-        #response = completion(model=model, messages=messages)
-        #return response['choices'][0]['message']['content']
-    #except Exception as e:
-        #return json.dumps({"hire": 0, "reason": f"Error: {str(e)}"})
+    try:
+        messages = prompt
+        response = completion(model=model, messages=messages)
+        return response['choices'][0]['message']['content']
+    except Exception as e:
+        return json.dumps({"hire": 0, "reason": f"Error: {str(e)}"})
 
 def api_keys_exist(env_vars, debug=False):
     for env in env_vars:
@@ -177,7 +173,6 @@ def evaluate_llm_results(llm_results, human_ratings_df):
             resume_id = 0
 
         human_row = human_ratings_df[human_ratings_df["ID"] == resume_id]
-        print(human_ratings_df.dtypes)
         print(f"Resume: {resume_name}, Resume ID: {resume_id}, Human row:\n{human_row}")
 
         true_val = int(human_row["Ratings combined"].values[0]) if not human_row.empty else 0
