@@ -318,7 +318,8 @@ def main():
     save_result_as_json(output_data, name="llm_vs_human_all_candidates")
     print("=== Batch evaluation completed ===")
 
-
+if __name__ == "__main__":
+    main()
 
 
 
