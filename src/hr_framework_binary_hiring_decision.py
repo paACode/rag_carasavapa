@@ -186,7 +186,6 @@ def evaluate_llm_results(llm_results, human_ratings_df):
             resume_id = 0
 
         human_row = human_ratings_df[human_ratings_df["ID"] == resume_id]
-        print(f"Resume: {resume_name}, Resume ID: {resume_id}, Human row:\n{human_row}")
 
         true_val = int(human_row["Ratings combined"].values[0]) if not human_row.empty else 0
 
@@ -197,14 +196,8 @@ def evaluate_llm_results(llm_results, human_ratings_df):
             "reasoning": reason
         })
 
-    acc = accuracy_score(y_true, y_pred)
-    kappa = cohen_kappa_score(y_true, y_pred, labels=[0, 1])
+    return y_true, y_pred, reasoning_texts
 
-    return {
-        "accuracy": acc,
-        "cohen_kappa": kappa,
-        "reasoning_texts": reasoning_texts
-    }
 
 def test_single_api_call_by_level(level="senior"):
     """
@@ -257,44 +250,32 @@ def test_single_api_call_by_level(level="senior"):
 
 
 def main():
-    # === SINGLE API CALL TEST ===
-    # test_single_api_call_by_level(level="senior")
-
-    # === BATCH PROCESSING ===
-
     # Load human ratings
     human_ratings_df = load_human_ratings("../human_rating/ratings_combined_clean.csv")
     human_ratings_df["JD Level"] = human_ratings_df["JD Level"].str.lower()  # normalize
 
     # Define levels to process
     levels = ["senior", "mid", "entry"]
-
     models_under_test = [gpt_model]
-    all_results = []
+
+    all_y_true = []
+    all_y_pred = []
+    all_candidate_results = []
 
     for level in levels:
         print(f"=== Processing level: {level} ===")
 
-        # Filter resumes and human ratings by level
         human_ratings_level, resumes_level = filter_by_level(human_ratings_df, level)
         if not resumes_level:
-            print(f"No resumes found for level: {level}. Skipping.")
             continue
 
-        # Filter job descriptions by level
         jd_files = [f for f in get_txt_filenames(jd_path) if level in f.lower()]
         if not jd_files:
-            print(f"No job descriptions found for level: {level}. Skipping.")
             continue
 
         for jd_file in jd_files:
             job_txt = (jd_path / jd_file).read_text(encoding="utf-8")
-            print(f"Evaluating resumes for job description: {jd_file} (level: {level})")
-            
-            for resume in resumes_level:
-                print(f"Processing resume: {resume} for JD: {jd_file}")
 
-            # Run LLM for all resumes of this level
             llm_results = run_use_case(
                 models_under_test=models_under_test,
                 use_case_path=use_cases_path / "use_case_2_binary.json",
@@ -302,26 +283,41 @@ def main():
                 files_under_test=resumes_level
             )
 
-            # Evaluate results against human ratings
-            metrics = evaluate_llm_results(llm_results, human_ratings_level)
+            # Evaluate results
+            y_true, y_pred, reasoning_texts = evaluate_llm_results(llm_results, human_ratings_level)
 
-            # Save results per level + JD
-            save_result_as_json(result=llm_results, name=f"llm_vs_human_{level}_{Path(jd_file).stem}")
+            all_y_true.extend(y_true)
+            all_y_pred.extend(y_pred)
 
-            # Append to aggregated results
-            all_results.append({
-                "level": level,
-                "job_description": Path(jd_file).stem,
-                "metrics": metrics,
-                "llm_results": llm_results
-            })
+            # Combine per-candidate results
+            for i, result in enumerate(llm_results):
+                all_candidate_results.append({
+                    "resume": result["resume"],
+                    "model": result["model"],
+                    "hire_pred": y_pred[i],
+                    "hire_true": y_true[i],
+                    "reasoning": reasoning_texts[i]["reasoning"]
+                })
 
-    # Save aggregated results for all levels
-    save_result_as_json(result=all_results, name="llm_vs_human_all_levels")
+    # Compute overall metrics
+    overall_accuracy = accuracy_score(all_y_true, all_y_pred)
+    overall_kappa = cohen_kappa_score(all_y_true, all_y_pred, labels=[0, 1])
+    print("Overall Accuracy:", overall_accuracy)
+    print("Overall Cohen's κ:", overall_kappa)
+
+    # Add overall metrics to candidate results
+    output_data = {
+        "overall_metrics": {
+            "accuracy": overall_accuracy,
+            "cohen_kappa": overall_kappa
+        },
+        "candidates": all_candidate_results
+    }
+
+    # Save combined result
+    save_result_as_json(output_data, name="llm_vs_human_all_candidates")
     print("=== Batch evaluation completed ===")
 
-if __name__ == "__main__":
-    main()
 
 
 
