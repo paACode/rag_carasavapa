@@ -1,0 +1,182 @@
+[
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 1,
+                "reason": "The job description content was not provided, making it impossible to evaluate the resume's fit against specific requirements."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has extensive HR experience, strong strategic planning, and people management skills, aligning well with common requirements for senior HR roles."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The resume highlights extensive HR generalist experience, including strategic HR, compensation, benefits, training, and compliance, which aligns well with many senior HR roles, but without a specific job description, it's a moderate fit as 'Senior' can encompass a wide range of responsibilities."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has significant HR managerial experience and skills that match the job description, demonstrating strong competencies in HR management, compliance, staff development, and strategic planning."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 1,
+                "reason": "Unable to assess fit due to missing job description."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has extensive experience in HR management, strategic planning, recruitment, and training, aligning well with senior HR management responsibilities outlined in the job description."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 1,
+                "reason": "A match cannot be accurately assessed as the job description was not provided."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has extensive experience in HR management, strategic planning, and compliance, which strongly aligns with the requirements of a senior HR position."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 1,
+                "reason": "Unable to evaluate candidate fit as the job description was not provided for comparison."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has extensive experience in HR management, including strategic planning, employee training, regulatory compliance, and performance management, which aligns well with the requirements for a Senior HR role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 1,
+                "reason": "The job description was not provided, so a proper evaluation of the resume's fit is not possible."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has extensive HR management experience and expertise in areas such as recruitment, compliance, training, compensation, and strategic planning, matching well with senior HR roles."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 1,
+                "reason": "The job description provided is incomplete, making it impossible to assess the candidate's fit accurately."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has extensive HR management experience, covering areas such as recruitment, compliance, staff development, and benefits administration, which align well with the job description for a senior HR role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 3,
+                "reason": "The resume highlights a strong HR background with extensive experience in many areas mentioned in a typical senior HR role, but without the specific job description to compare against, it's a moderate fit."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has extensive HR management experience and expertise in areas relevant to the job description, such as employee training, recruiting, and policy development, making them a strong fit."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 1,
+                "reason": "The job description was not provided, making it impossible to assess the resume's fit for the role."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has extensive HR management experience, aligned with strategic planning, compliance, and staff development, which are key components of the senior HR management role in the job description."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 3,
+                "reason": "A direct comparison is not possible as the job description was not provided in the prompt."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "score": 4,
+                "reason": "The candidate has extensive HR management experience, strategic planning and people-management skills, and expertise in recruitment, training, and compliance, aligning well with a senior HR role."
+            }
+        }
+    ]
+]

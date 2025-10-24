@@ -9,6 +9,7 @@ import json
 resume_path = Path("../data/")
 result_path = Path("../experiment_results")
 use_cases_path = Path("../system_prompts")
+jobdescription_path = Path("../jobdescriptions")
 
 
 #Available Local Models(via Llama)
@@ -120,9 +121,9 @@ def test_repeatability(model_under_test,use_case_path, evaluate_job, files_under
 
 
 def main():
-    result_rp = test_repeatability(model_under_test=[gpt_model, gemini_model],
+    result_rp = test_repeatability(model_under_test=[gemini_model, gpt_model],
                                    use_case_path=use_cases_path / "use_case2.json",
-                                   evaluate_job="HR Recruiter",
+                                   evaluate_job= jobdescription_path / "jd_senior" ,
                                    repetitions=10,
                                    files_under_test=["resume_86184722.txt"])
     save_result_as_json(result=result_rp, name="repeatability_uc2")

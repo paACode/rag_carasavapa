@@ -1,0 +1,182 @@
+[
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "hire": false,
+                "reason": "The resume does not specify experience in a senior HR role, which may be a requirement given that the job description is for a senior position."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate possesses extensive, relevant HR Generalist experience, a strong track record of strategic contributions and quantifiable achievements, and a solid educational background for a senior-level HR position."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate has extensive experience and skills in HR, including strategic HR counsel, employee relations, and performance management, making them a strong fit for a senior HR role."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate has extensive and diverse HR experience, including strategic generalist duties, an MBA, and a proven track record in various HR functions, making them a strong fit for a senior HR role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate has extensive HR experience, proven track record in implementing HR solutions, and strong skills in HRIS, performance management, recruitment, and employee relations, making them highly suitable for a senior HR role."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "hire": true,
+                "reason": "Candidate possesses extensive and well-rounded HR experience, strategic capabilities, strong technical skills, and a proven track record of delivering measurable results across various HR functions."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate has over 18 years of HR experience, including roles as an HR Generalist and Human Resources Administrator, and possesses relevant skills and education for a senior HR position."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate has extensive progressive experience across all facets of HR, including strategic counsel, labor relations, talent management, benefits, and compliance, with a strong track record of measurable results and an advanced degree."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "hire": false,
+                "reason": "The resume does not mention specific experience or skills that align with the 'senior' job description details."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate possesses extensive experience across all HR functions, including strategic counsel, talent management, employee relations, and compensation, with a strong record of quantifiable achievements and a relevant MBA, making them a strong fit for a Senior HR Business Partner role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate has extensive HR experience and relevant skills that align well with the requirements of a senior HR role as described in the job description."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate has extensive and diverse HR experience with a strong track record of strategic contributions and quantifiable achievements across various HR functions, making them well-suited for a senior role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate has extensive HR experience, relevant skills, and a strong track record of performance in HR roles."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate possesses extensive and progressive HR experience, including strategic generalist responsibilities, strong results in key HR areas like compliance and turnover reduction, and proficiency in multiple HRIS systems, aligning well with a senior-level role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "hire": false,
+                "reason": "The job description is not fully provided, making it difficult to determine the specific requirements and whether the candidate meets them thoroughly."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate possesses extensive and diverse HR experience, including strategic counsel and measurable achievements in key HR functions, which is highly suitable for a senior role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "hire": false,
+                "reason": "The job description for the senior role is incomplete, making it impossible to assess the candidate's fit for the position."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate possesses extensive HR experience (19 years, 9+ as an HR Generalist), a comprehensive skill set covering all key HR functions, strategic thinking, and a strong track record of quantifiable achievements, making them an excellent fit for a senior HR role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gpt-4o",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate has extensive HR experience, relevant skills, and a strong educational background that aligns well with the senior HR role described."
+            }
+        },
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_86184722.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate possesses over 18 years of progressive HR experience, including an MBA, and demonstrates a comprehensive skill set with quantifiable achievements in strategic HR, talent management, employee relations, and compliance, making them an excellent fit for a senior HR role."
+            }
+        }
+    ]
+]

@@ -1,0 +1,182 @@
+[
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate possesses extensive senior-level HR management experience, including strategic HR transformation, comprehensive functional expertise across all HR domains, and a strong educational background, making them highly qualified for a senior HR role."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate's extensive experience in HR management, strategic planning, compliance, and staff development aligns well with the responsibilities and skills required for a senior HR role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate demonstrates extensive experience in all facets of HR, strategic leadership, and continuous professional development, making them highly qualified for a senior-level HR position."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate has extensive HR management experience, strong strategic planning, and relevant skills that align well with the job description for a senior HR role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "hire": false,
+                "reason": "Cannot make a hiring decision as the job description is missing."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "hire": false,
+                "reason": "The resume lacks specific quantifiable achievements and years of experience that align with a senior-level HR position."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate possesses extensive experience across all facets of HR, including strategic partnership, policy development, talent management, and compliance, making them an excellent fit for a senior HR role."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate has extensive experience in HR management, strong strategic planning skills, and a proven track record of transforming HR roles into strategic business partners, aligning with the job's senior-level requirements."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "hire": false,
+                "reason": "The job description was not provided, so a hiring decision cannot be made."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "hire": false,
+                "reason": "The resume does not match the specific job description provided, as the job description is not visible."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "hire": false,
+                "reason": "A job description was not provided, therefore a proper evaluation cannot be made."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "hire": false,
+                "reason": "The resume appears incomplete and lacks specific details required to assess the candidate's fit for a senior HR role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "hire": false,
+                "reason": "The resume lacks a clear job title and explicit senior-level management experience directly matching the job description's implicit requirement for a 'Senior' role."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "hire": false,
+                "reason": "The resume lacks specific quantifiable achievements and complete relevant experience years to match the expected seniority level in the job description."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate possesses extensive experience across all HR functions, including strategic leadership, policy development, talent management, and compliance, making them highly qualified for a senior HR role."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate has extensive HR management experience, aligns well with key responsibilities in the job description, and holds relevant qualifications and skills."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "hire": false,
+                "reason": "A hiring decision cannot be made as the content of the 'jd_senior' job description was not provided, preventing a proper evaluation against specific requirements."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate has extensive HR managerial experience with a strong background in strategic planning, compliance, and staff development, aligning well with senior HR roles."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "hire": false,
+                "reason": "A hiring decision cannot be made without the job description to evaluate the candidate's fit for the role."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_11480899.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate has extensive HR managerial experience, covering key areas such as performance management, compliance, training, and recruitment which align well with the requirements of a senior HR role."
+            }
+        }
+    ]
+]

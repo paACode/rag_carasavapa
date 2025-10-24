@@ -1,0 +1,182 @@
+[
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate demonstrates strong, well-rounded HR experience across recruitment, employee relations, and performance management, including leadership and HRBP-like responsibilities, making them a suitable fit for a senior HR position."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "hire": false,
+                "reason": "The resume does not clearly match the specifics of the Senior HR role, focusing instead on regional manager experiences which may not align with the seniority and strategic focus required."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate possesses strong, diverse HR experience (7+ years) across multiple functions, including leadership, strategic initiatives, and significant accomplishments, which aligns well with a senior-level HR role."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "hire": false,
+                "reason": "The resume does not provide enough recent experience or details aligned with the senior HR position described in the truncated job description."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate demonstrates strong, comprehensive HR experience across multiple functions including recruitment, employee relations, and performance management, with proven accomplishments and management experience, making them a suitable fit for a senior HR role."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate has extensive HR experience, including senior HR roles and relevant skills such as recruitment, performance management, and employee relations, making them well-suited for the job."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "hire": false,
+                "reason": "The job description was not provided, so a proper evaluation cannot be made."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "hire": false,
+                "reason": "The candidate lacks the necessary recent experience for a senior HR role, having not held a management position since 2016."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate possesses extensive and broad HR experience across various functions, an MBA, and leadership roles, demonstrating strong qualifications for a senior HR position, coupled with the advantage of not requiring visa sponsorship."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "hire": false,
+                "reason": "The resume does not include recent experience or current qualifications relevant to the job market, and ends abruptly without sufficient matching to the specific job description provided."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate demonstrates strong, well-rounded experience in all key HR areas including strategic partnership, recruitment, employee relations, and performance management, with a track record of impactful accomplishments and leadership, making them well-suited for a senior HR role despite being slightly below typical years of experience for some senior positions."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate has extensive HR management experience, demonstrated success in recruitment and employee relations, and possesses the necessary skills and accomplishments relevant to the role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "hire": false,
+                "reason": "The job description was not provided, making it impossible to evaluate the candidate's fit for the role."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate has extensive HR experience, including regional management, recruitment, and performance management, which aligns well with the requirements for a Senior-level HR position."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "hire": false,
+                "reason": "The job description was not provided, preventing a proper evaluation of the candidate's fit for the specific role."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "hire": false,
+                "reason": "The candidate's resume lacks detailed recent experience and specific qualifications for a senior HR role."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate demonstrates strong experience and accomplishments across key HR functions including recruitment, employee relations, and performance management, with leadership and strategic impact suitable for a senior role."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "hire": false,
+                "reason": "The candidate's HR expertise and experience do not match a 'jd_senior' job description, which likely requires different or advanced qualifications."
+            }
+        }
+    ],
+    [
+        {
+            "model": "gemini/gemini-2.5-flash",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "hire": false,
+                "reason": "The job description was not provided, making it impossible to evaluate the candidate's fit for the role."
+            }
+        },
+        {
+            "model": "gpt-4o",
+            "resume": "resume_25724495.txt",
+            "answer": {
+                "hire": true,
+                "reason": "The candidate has over five years of relevant HR experience, including regional management, recruitment, employee relations, and performance management, which aligns well with the senior-level HR role described in the job posting."
+            }
+        }
+    ]
+]

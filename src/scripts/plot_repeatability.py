@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 result_path = Path("../../experiment_results")
 
 # Path to your JSON file
-json_file = result_path / "repeatability_uc2.20251023_084334.json"
+json_file = result_path / "repeatability_uc2.20251024_075208.json"
 
 # Read data from JSON file
 with open(json_file, "r", encoding="utf-8") as f:
