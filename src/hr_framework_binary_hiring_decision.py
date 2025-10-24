@@ -22,7 +22,7 @@ gpt_model = "gpt-4o"
 
 # Required Env vars
 load_dotenv() # Ensure .env with API Keys is loaded
-llm_env_vars = ["GEMINI_API_KEY"]
+llm_env_vars = ["OPEN_AI_KEY", "GEMINI_API_KEY"]
 
 def ask_llm(prompt, model):
     try:
@@ -256,7 +256,7 @@ def main():
 
     # Define levels to process
     levels = ["senior", "mid", "entry"]
-    models_under_test = [gemini_model]
+    models_under_test = [gemini_model] # choose model
 
     all_y_true = []
     all_y_pred = []

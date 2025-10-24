@@ -1,0 +1,151 @@
+{
+    "overall_metrics": {
+        "accuracy": 0.8,
+        "cohen_kappa": 0.5789473684210527,
+        "precision": 0.7333333333333333,
+        "recall": 1.0,
+        "f1": 0.8461538461538461
+    },
+    "candidates": [
+        {
+            "resume": "resume_11480899.txt",
+            "model": "gemini/gemini-2.5-flash",
+            "hire_pred": true,
+            "hire_true": 1,
+            "reasoning": "The candidate demonstrates extensive HR experience as a strategic business partner, covering all key responsibilities like talent lifecycle, performance management, and associate relations, with relevant education and strong communication skills."
+        },
+        {
+            "resume": "resume_13879043.txt",
+            "model": "gemini/gemini-2.5-flash",
+            "hire_pred": true,
+            "hire_true": 1,
+            "reasoning": "The candidate meets all required qualifications, has extensive experience as an HR Partner covering all key responsibilities outlined in the job description, and has a strong track record of impactful HR initiatives."
+        },
+        {
+            "resume": "resume_15375009.txt",
+            "model": "gemini/gemini-2.5-flash",
+            "hire_pred": true,
+            "hire_true": 1,
+            "reasoning": "The candidate's extensive HR experience, including 7.5 years as an HR Manager, aligns perfectly with all key responsibilities and requirements, demonstrating strong capabilities in talent lifecycle management, performance, and associate relations."
+        },
+        {
+            "resume": "resume_17812897.txt",
+            "model": "gemini/gemini-2.5-flash",
+            "hire_pred": true,
+            "hire_true": 1,
+            "reasoning": "The candidate possesses extensive experience as an HR business partner across various industries, directly matching all key responsibilities and exceeding the experience requirements outlined in the job description, including preferred retail experience."
+        },
+        {
+            "resume": "resume_23155093.txt",
+            "model": "gemini/gemini-2.5-flash",
+            "hire_pred": true,
+            "hire_true": 0,
+            "reasoning": "The candidate possesses extensive experience as an HR Manager directly aligning with the job description's core responsibilities and exceeds the required years of experience, including preferred retail background."
+        },
+        {
+            "resume": "resume_24184357.txt",
+            "model": "gemini/gemini-2.5-flash",
+            "hire_pred": true,
+            "hire_true": 0,
+            "reasoning": "The candidate possesses a strong academic background in HR and extensive experience covering all key responsibilities and requirements of the HR Manager role, including talent lifecycle management, associate relations, compliance, and strategic partnership."
+        },
+        {
+            "resume": "resume_25824789.txt",
+            "model": "gemini/gemini-2.5-flash",
+            "hire_pred": true,
+            "hire_true": 1,
+            "reasoning": "The candidate possesses extensive HR experience exceeding requirements, with strong alignment in performance management, employee relations, talent development, and HR project leadership, plus relevant retail background."
+        },
+        {
+            "resume": "resume_33176873.txt",
+            "model": "gemini/gemini-2.5-flash",
+            "hire_pred": true,
+            "hire_true": 1,
+            "reasoning": "The candidate significantly exceeds the experience requirements with over 20 years in HR and executive management, demonstrating expertise across all key responsibilities of the HR Manager role, including strategic partnership, talent lifecycle management, and project leadership."
+        },
+        {
+            "resume": "resume_11592605.txt",
+            "model": "gemini/gemini-2.5-flash",
+            "hire_pred": false,
+            "hire_true": 0,
+            "reasoning": "The candidate's experience is heavily specialized in immigration and international student services, which does not align with the broad recruitment, employee development, and manufacturing environment requirements of this generalist role."
+        },
+        {
+            "resume": "resume_11763983.txt",
+            "model": "gemini/gemini-2.5-flash",
+            "hire_pred": true,
+            "hire_true": 0,
+            "reasoning": "The candidate has extensive HR Generalist and management experience far exceeding the job requirements, strong skills in recruitment, HR operations, compliance, and employee relations, and relevant education and certifications, making them a highly qualified candidate."
+        },
+        {
+            "resume": "resume_11847784.txt",
+            "model": "gemini/gemini-2.5-flash",
+            "hire_pred": true,
+            "hire_true": 1,
+            "reasoning": "The candidate's extensive experience in recruitment, training and development, compensation, and HR operations far exceeds the job requirements, making them highly capable of fulfilling all responsibilities despite being overqualified for the stated experience range."
+        },
+        {
+            "resume": "resume_22323967.txt",
+            "model": "gemini/gemini-2.5-flash",
+            "hire_pred": true,
+            "hire_true": 0,
+            "reasoning": "The candidate possesses extensive HR experience exceeding requirements, strong communication and training development skills, and relevant experience in HR operations and process improvement, making them a strong fit despite less explicit end-to-end recruitment detail."
+        },
+        {
+            "resume": "resume_27018550.txt",
+            "model": "gemini/gemini-2.5-flash",
+            "hire_pred": false,
+            "hire_true": 0,
+            "reasoning": "The candidate lacks the required Bachelor's degree, comprehensive experience in end-to-end recruitment and training design/delivery, and specific HR Generalist responsibilities outlined in the job description."
+        },
+        {
+            "resume": "resume_73077810.txt",
+            "model": "gemini/gemini-2.5-flash",
+            "hire_pred": true,
+            "hire_true": 1,
+            "reasoning": "Candidate possesses extensive HR generalist experience, strong recruitment and HR operations skills, and a relevant Master's degree, demonstrating a strong fit for the core responsibilities despite not explicitly detailing manufacturing or LMS experience."
+        },
+        {
+            "resume": "resume_93002334.txt",
+            "model": "gemini/gemini-2.5-flash",
+            "hire_pred": true,
+            "hire_true": 1,
+            "reasoning": "The candidate possesses extensive HR experience, strong system proficiency, and demonstrated capabilities in recruitment, HR operations, and process improvement within a manufacturing context, aligning well with most key responsibilities."
+        },
+        {
+            "resume": "resume_16852973.txt",
+            "model": "gemini/gemini-2.5-flash",
+            "hire_pred": false,
+            "hire_true": 0,
+            "reasoning": "The candidate does not clearly meet the stated requirement of a Bachelor's degree, indicating 'N/A' for their college education."
+        },
+        {
+            "resume": "resume_27490876.txt",
+            "model": "gemini/gemini-2.5-flash",
+            "hire_pred": false,
+            "hire_true": 0,
+            "reasoning": "The candidate is significantly overqualified for an HR Assistant role, possessing extensive experience at HR Coordinator, Consultant, and Manager levels, which suggests a poor long-term fit for this junior position."
+        },
+        {
+            "resume": "resume_29149998.txt",
+            "model": "gemini/gemini-2.5-flash",
+            "hire_pred": 0,
+            "hire_true": 0,
+            "reasoning": "Error: litellm.InternalServerError: litellm.InternalServerError: geminiException - {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"The model is overloaded. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
+        },
+        {
+            "resume": "resume_32896934.txt",
+            "model": "gemini/gemini-2.5-flash",
+            "hire_pred": true,
+            "hire_true": 1,
+            "reasoning": "The candidate has extensive HR and administrative experience, a relevant bachelor's degree, and explicitly meets all key responsibilities and requirements outlined in the job description."
+        },
+        {
+            "resume": "resume_32977530.txt",
+            "model": "gemini/gemini-2.5-flash",
+            "hire_pred": true,
+            "hire_true": 1,
+            "reasoning": "The candidate possesses a relevant Bachelor's degree, extensive administrative and financial support experience directly matching key responsibilities like billing and invoicing, and demonstrates proficiency in required skills and software."
+        }
+    ]
+}

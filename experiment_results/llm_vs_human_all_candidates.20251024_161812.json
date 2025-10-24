@@ -1,0 +1,151 @@
+{
+    "overall_metrics": {
+        "accuracy": 0.65,
+        "cohen_kappa": 0.2857142857142858,
+        "precision": 0.6666666666666666,
+        "recall": 0.7272727272727273,
+        "f1": 0.6956521739130435
+    },
+    "candidates": [
+        {
+            "resume": "resume_11480899.txt",
+            "model": "gpt-4o",
+            "hire_pred": true,
+            "hire_true": 1,
+            "reasoning": "The candidate possesses extensive HR management experience, meets the educational requirements, and has demonstrated expertise in key areas such as recruitment, performance management, and compliance."
+        },
+        {
+            "resume": "resume_13879043.txt",
+            "model": "gpt-4o",
+            "hire_pred": true,
+            "hire_true": 1,
+            "reasoning": "The candidate has over 7 years of HR experience, meets the education requirements, and possesses comprehensive skills in HR functions and relationship management, aligning well with the job description."
+        },
+        {
+            "resume": "resume_15375009.txt",
+            "model": "gpt-4o",
+            "hire_pred": true,
+            "hire_true": 1,
+            "reasoning": "The candidate has extensive HR management experience, relevant educational qualifications, and key competencies such as recruitment, employee relations, and compliance that align well with the job description."
+        },
+        {
+            "resume": "resume_17812897.txt",
+            "model": "gpt-4o",
+            "hire_pred": true,
+            "hire_true": 1,
+            "reasoning": "The candidate has extensive HR experience, particularly as a strategic business partner, meeting all job requirements, and holds a relevant degree, although lacking explicit retail experience."
+        },
+        {
+            "resume": "resume_23155093.txt",
+            "model": "gpt-4o",
+            "hire_pred": true,
+            "hire_true": 0,
+            "reasoning": "The candidate has extensive HR management experience, meets the educational and experience requirements, and demonstrates strong communication and leadership skills."
+        },
+        {
+            "resume": "resume_24184357.txt",
+            "model": "gpt-4o",
+            "hire_pred": true,
+            "hire_true": 0,
+            "reasoning": "The candidate possesses extensive HR experience, including recruitment, onboarding, policy development, and problem-solving skills, meeting the job's key responsibilities and requirements."
+        },
+        {
+            "resume": "resume_25824789.txt",
+            "model": "gpt-4o",
+            "hire_pred": true,
+            "hire_true": 1,
+            "reasoning": "The candidate has extensive HR management experience, relevant skills, and a track record that aligns well with the job requirements, including strategic HR support, compliance, performance management, and employee relations."
+        },
+        {
+            "resume": "resume_33176873.txt",
+            "model": "gpt-4o",
+            "hire_pred": true,
+            "hire_true": 1,
+            "reasoning": "The candidate has extensive HR management experience, strong skills in recruitment, compliance, and performance management, aligning well with the job requirements."
+        },
+        {
+            "resume": "resume_11592605.txt",
+            "model": "gpt-4o",
+            "hire_pred": false,
+            "hire_true": 0,
+            "reasoning": "The candidate lacks experience in a manufacturing environment and with ATS, HRIS, and Learning Management Systems, which are essential for the role."
+        },
+        {
+            "resume": "resume_11763983.txt",
+            "model": "gpt-4o",
+            "hire_pred": true,
+            "hire_true": 0,
+            "reasoning": "The candidate possesses extensive HR experience, including recruitment and employee development, matches the education requirements, and has relevant skills in HRIS and Microsoft Office, making them well-suited for the role."
+        },
+        {
+            "resume": "resume_11847784.txt",
+            "model": "gpt-4o",
+            "hire_pred": false,
+            "hire_true": 1,
+            "reasoning": "The candidate's extensive experience focuses on HR classification, compensation, and policy management rather than the hands-on, generalist functions and manufacturing industry experience required by the job description."
+        },
+        {
+            "resume": "resume_22323967.txt",
+            "model": "gpt-4o",
+            "hire_pred": false,
+            "hire_true": 0,
+            "reasoning": "The candidate lacks specific experience in recruitment and ATS, as well as HR experience in a manufacturing environment."
+        },
+        {
+            "resume": "resume_27018550.txt",
+            "model": "gpt-4o",
+            "hire_pred": false,
+            "hire_true": 0,
+            "reasoning": "The candidate lacks a bachelor's degree in HR and does not have experience in recruitment, employee development, or HRIS/ATS required for the role."
+        },
+        {
+            "resume": "resume_73077810.txt",
+            "model": "gpt-4o",
+            "hire_pred": false,
+            "hire_true": 1,
+            "reasoning": "The candidate lacks experience specifically in a manufacturing environment and does not mention familiarity with Learning Management Systems or being bilingual, which are preferred in the job description."
+        },
+        {
+            "resume": "resume_93002334.txt",
+            "model": "gpt-4o",
+            "hire_pred": false,
+            "hire_true": 1,
+            "reasoning": "The candidate lacks direct experience in recruitment and training initiatives required for the HR Generalist position."
+        },
+        {
+            "resume": "resume_16852973.txt",
+            "model": "gpt-4o",
+            "hire_pred": false,
+            "hire_true": 0,
+            "reasoning": "The candidate lacks a Bachelor's degree, which is a requirement for the HR Assistant position."
+        },
+        {
+            "resume": "resume_27490876.txt",
+            "model": "gpt-4o",
+            "hire_pred": true,
+            "hire_true": 0,
+            "reasoning": "The candidate has extensive HR experience, fulfilling the job's administrative requirements and more, along with strong communication and organizational skills."
+        },
+        {
+            "resume": "resume_29149998.txt",
+            "model": "gpt-4o",
+            "hire_pred": false,
+            "hire_true": 0,
+            "reasoning": "The candidate lacks a Bachelor's degree, which is a requirement for the position."
+        },
+        {
+            "resume": "resume_32896934.txt",
+            "model": "gpt-4o",
+            "hire_pred": true,
+            "hire_true": 1,
+            "reasoning": "The candidate has extensive HR administrative experience, a relevant Bachelor's degree, proficiency in necessary skills, and a background in handling confidential information, aligning well with the job requirements."
+        },
+        {
+            "resume": "resume_32977530.txt",
+            "model": "gpt-4o",
+            "hire_pred": true,
+            "hire_true": 1,
+            "reasoning": "The candidate has a relevant Bachelor's degree, HR experience, strong organizational and communication skills, proficiency in Microsoft Office, and a team-oriented attitude, meeting all job description requirements."
+        }
+    ]
+}
