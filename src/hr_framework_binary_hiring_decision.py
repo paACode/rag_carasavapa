@@ -5,7 +5,7 @@ from datetime import datetime
 import os
 import json
 import pandas as pd
-from sklearn.metrics import accuracy_score, cohen_kappa_score
+from sklearn.metrics import accuracy_score, cohen_kappa_score, f1_score, precision_score, recall_score
 
 #Define Paths
 resume_path = Path("../data_binary_decisions/")
@@ -22,7 +22,7 @@ gpt_model = "gpt-4o"
 
 # Required Env vars
 load_dotenv() # Ensure .env with API Keys is loaded
-llm_env_vars = ["OPENAI_API_KEY"]
+llm_env_vars = ["GEMINI_API_KEY"]
 
 def ask_llm(prompt, model):
     try:
@@ -256,7 +256,7 @@ def main():
 
     # Define levels to process
     levels = ["senior", "mid", "entry"]
-    models_under_test = [gpt_model]
+    models_under_test = [gemini_model]
 
     all_y_true = []
     all_y_pred = []
@@ -302,14 +302,23 @@ def main():
     # Compute overall metrics
     overall_accuracy = accuracy_score(all_y_true, all_y_pred)
     overall_kappa = cohen_kappa_score(all_y_true, all_y_pred, labels=[0, 1])
+    overall_precision = precision_score(all_y_true, all_y_pred, average="binary")
+    overall_recall = recall_score(all_y_true, all_y_pred, average="binary")
+    overall_f1 = f1_score(all_y_true, all_y_pred, average="binary")
     print("Overall Accuracy:", overall_accuracy)
     print("Overall Cohen's κ:", overall_kappa)
+    print("Precision:", overall_precision)
+    print("Recall:", overall_recall)
+    print("Overall F1 Score:", overall_f1)
 
     # Add overall metrics to candidate results
     output_data = {
         "overall_metrics": {
             "accuracy": overall_accuracy,
-            "cohen_kappa": overall_kappa
+            "cohen_kappa": overall_kappa,
+            "precision": overall_precision,
+            "recall": overall_recall,
+            "f1": overall_f1
         },
         "candidates": all_candidate_results
     }
