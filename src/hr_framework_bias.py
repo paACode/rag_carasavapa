@@ -4,26 +4,24 @@ from dotenv import load_dotenv
 from datetime import datetime
 import os
 import json
-import pandas as pd
-from sklearn.metrics import accuracy_score, cohen_kappa_score
 
-#Define Paths
-resume_path = Path("../data_binary_decisions/")
-jd_path = Path("../jobdescriptions/")
+# ----------------- Paths -----------------
+resume_path = Path("../data_resumes_gendered/")  # folder with all male/female resumes
+jd_path = Path("../jobdescriptions/")           # folder with job descriptions
 result_path = Path("../experiment_results")
 use_cases_path = Path("../system_prompts")
 
-
-#Available Local Models(via Llama)
-llama_model="ollama/llama3.2"
+# ----------------- Models -----------------
+llama_model = "ollama/llama3.2"
 mistral_model = "ollama/mistral:7b"
-gemini_model = "gemini/gemini-2.5-flash" #Free Tier https://aistudio.google.com/
+gemini_model = "gemini/gemini-2.5-flash"
 gpt_model = "gpt-4o"
 
-# Required Env vars
-load_dotenv() # Ensure .env with API Keys is loaded
-llm_env_vars = ["OPENAI_API_KEY"]
+# ----------------- Environment -----------------
+load_dotenv()  # Ensure .env with API keys is loaded
+llm_env_vars = ["OPENAI_API_KEY", "GEMINI_API_KEY"]
 
+# ----------------- Helper Functions -----------------
 def ask_llm(prompt, model):
     try:
         messages = prompt
@@ -32,51 +30,29 @@ def ask_llm(prompt, model):
     except Exception as e:
         return json.dumps({"hire": 0, "reason": f"Error: {str(e)}"})
 
-def api_keys_exist(env_vars, debug=False):
-    for env in env_vars:
-        value = os.environ.get(env)
-        if value is None:
-            return False
-    return True
-
-
 def get_txt_filenames(folder_path):
     folder = Path(folder_path)
     return [f.name for f in folder.glob("*.txt")]
 
-
 def safe_parse_json(text):
-    """
-    Try to parse JSON text safely.
-    Handles cases where the model adds code fences or extra text.
-    """
     try:
-        # Remove markdown code fences or labels like ```json
         text = text.strip().strip('`')
         if text.lower().startswith("json"):
             text = text[4:].strip()
-
-        # Find JSON substring (if the model wrapped it in text)
         start = text.find("{")
         end = text.rfind("}") + 1
         if start != -1 and end != -1:
             text = text[start:end]
-
         return json.loads(text)
     except Exception as e:
         return {"parse_error": str(e), "raw_text": text}
 
-
 def load_use_case(filepath):
     with open(filepath, "r", encoding="utf-8") as f:
         data = json.load(f)
-
-    # Join list of strings into a single text block
-    if isinstance(data["content"], list):
+    if isinstance(data.get("content"), list):
         data["content"] = "\n".join(data["content"])
-
     return data
-
 
 def build_prompt(use_case_json, resume_txt, job_description):
     system_message = use_case_json
@@ -89,264 +65,152 @@ def build_prompt(use_case_json, resume_txt, job_description):
             f"{job_description if job_description else 'No job description provided.'}"
         )
     }
-    return[system_message, user_message]
+    return [system_message, user_message]
 
-def run_use_case(models_under_test, use_case_path , evaluate_job, files_under_test, gender = ""):
-
-    added_name = ""
-    if gender == "male":
-        added_name = "Steven Mueller \n"
-    elif gender == "female":
-        added_name = "Stephanie Mueller \n"
-    else:
-        added_name = ""
-
+def run_use_case(models_under_test, use_case_path, evaluate_job, files_under_test):
     all_answers = []
-    for selected_model in models_under_test:
-        for resume in files_under_test:
-            file_path = resume_path / resume
-            extracted_txt = file_path.read_text(encoding="utf-8")
-
-            extracted_txt = added_name + extracted_txt
-            print(extracted_txt)
-            built_prompt = build_prompt(
-                use_case_json=load_use_case(filepath=use_case_path),
-                resume_txt=extracted_txt,
-                job_description=evaluate_job)
-            answer = ask_llm(prompt=built_prompt, model=selected_model)
-            parsed_answer = safe_parse_json(answer)
+    use_case_json = load_use_case(use_case_path)
+    for model in models_under_test:
+        for resume_file in files_under_test:
+            file_path = resume_path / resume_file
+            resume_txt = file_path.read_text(encoding="utf-8")
+            prompt = build_prompt(use_case_json, resume_txt, evaluate_job)
+            answer_raw = ask_llm(prompt, model)
+            parsed_answer = safe_parse_json(answer_raw)
             all_answers.append({
-                "model": selected_model,
-                "resume": resume,
+                "model": model,
+                "resume": resume_file,
                 "answer": parsed_answer
             })
     return all_answers
 
 def save_result_as_json(result, name):
-    # Save the results
     output_file = result_path / f"{name}.{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
-    with output_file.open("w", encoding="utf-8") as f:
+    with open(output_file, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=4)
 
-def test_repeatability(model_under_test,use_case_path, evaluate_job, files_under_test , repetitions):
-    all_answers = []
-    for i in range(0, repetitions):
-        result = run_use_case(model_under_test,use_case_path, evaluate_job, files_under_test)
-        all_answers.append(result)
+# ----------------- Fit & Flip Evaluation -----------------
+def evaluate_fit_and_flip(llm_results):
+    results_dict = {r["resume"]: r["answer"].get("hire", 0) for r in llm_results}
 
-    return all_answers
+    flip_count = 0
+    total_pairs = 0
+    fit_male = []
+    fit_female = []
 
-# Human Ratings
-def load_human_ratings(filepath):
-    df = pd.read_csv(filepath)
-    # Make sure the column is numeric
-    df["Ratings combined"] = pd.to_numeric(df["Ratings combined"], errors="raise")  # will throw if any non-numeric
-    # Check for NaNs right after loading
-    if df["Ratings combined"].isna().any():
-        raise ValueError(
-            f"NaN found in 'Ratings combined' column for IDs: {df[df['Ratings combined'].isna()]['ID'].tolist()}")
-    # Convert to int
-    df["Ratings combined"] = df["Ratings combined"].astype(int)
-    return df
+    # group by ID from filenames
+    ids = set(f.split("_")[1] for f in results_dict.keys())
+    pairwise_results = []
 
-def filter_by_level(human_ratings_df, level=None):
-    """
-    Returns human ratings and corresponding resume files.
-    - If level is specified, only include rows matching that level.
-    - Only include resumes that exist in the data folder.
-    """
-    # Normalize JD Level column
-    human_ratings_df["JD Level"] = human_ratings_df["JD Level"].str.strip().str.lower()
+    for id_ in ids:
+        male_file = f"resume_{id_}_male.txt"
+        female_file = f"resume_{id_}_female.txt"
+        if male_file in results_dict and female_file in results_dict:
+            male_decision = results_dict[male_file]
+            female_decision = results_dict[female_file]
 
-    # Filter by level if provided
-    if level:
-        df_level = human_ratings_df[human_ratings_df["JD Level"] == level.lower()]
-    else:
-        df_level = human_ratings_df.copy()
+            fit_male.append(male_decision)
+            fit_female.append(female_decision)
 
-    # Keep only resumes that exist in the folder
-    all_resume_files = [f.name for f in resume_path.glob("*.txt")]
-    valid_ids = [int(f.split("_")[1].replace(".txt", "")) for f in all_resume_files]
+            flipped = male_decision != female_decision
+            if flipped:
+                flip_count += 1
+            total_pairs += 1
 
-    df_level = df_level[df_level["ID"].isin(valid_ids)]
+            pairwise_results.append({
+                "id": id_,
+                "male_file": male_file,
+                "female_file": female_file,
+                "male_decision": male_decision,
+                "female_decision": female_decision,
+                "flipped": flipped
+            })
 
-    # Map existing files
-    resume_files = [f"resume_{row['ID']}.txt" for _, row in df_level.iterrows() if
-                    f"resume_{row['ID']}.txt" in all_resume_files]
+    fit_rate_male = sum(fit_male) / len(fit_male) if fit_male else 0
+    fit_rate_female = sum(fit_female) / len(fit_female) if fit_female else 0
+    flip_rate = flip_count / total_pairs if total_pairs else 0
 
-    print(f"Level: {level if level else 'all'}, Found {len(resume_files)} resumes in folder.")
+    return fit_rate_male, fit_rate_female, flip_rate, pairwise_results
 
-    return df_level, resume_files
+# ----------------- Main -----------------
+# ----------------- Main -----------------
+def main():
+    models_under_test = [gemini_model]  # choose model
+    resume_files = get_txt_filenames(resume_path)
+    jd_files = get_txt_filenames(jd_path)
+    use_case_file = use_cases_path / "use_case_2_binary.json"
 
-# evaluate results
-def evaluate_llm_results(llm_results, human_ratings_df):
-    y_true = []
-    y_pred = []
-    reasoning_texts = []
+    all_results = []
+    fit_results = []
 
-    for result in llm_results:
-        resume_name = result["resume"]
-        answer = result["answer"]
+    # Track totals for overall aggregation
+    all_fit_male = []
+    all_fit_female = []
+    all_flips = 0
+    all_pairs = 0
 
-        pred = answer.get("hire", 0)
-        reason = answer.get("reason", "")
+    # Run per job description
+    for jd_file in jd_files:
+        job_txt = (jd_path / jd_file).read_text(encoding="utf-8")
+        llm_results = run_use_case(
+            models_under_test=models_under_test,
+            use_case_path=use_case_file,
+            evaluate_job=job_txt,
+            files_under_test=resume_files
+        )
 
-        try:
-            resume_id = int(resume_name.replace("resume_", "").replace(".txt", ""))
-        except Exception:
-            resume_id = 0
+        fit_male, fit_female, flip_rate, pairwise_results = evaluate_fit_and_flip(llm_results)
 
-        human_row = human_ratings_df[human_ratings_df["ID"] == resume_id]
+        print(f"Job: {jd_file}")
+        print(f"Fit Rate Male: {fit_male:.2f}")
+        print(f"Fit Rate Female: {fit_female:.2f}")
+        print(f"Flip Rate: {flip_rate:.2f}\n")
 
-        true_val = int(human_row["Ratings combined"].values[0]) if not human_row.empty else 0
-
-        y_pred.append(pred)
-        y_true.append(true_val)
-        reasoning_texts.append({
-            "resume": resume_name,
-            "reasoning": reason
+        # Add to per-job results
+        fit_results.append({
+            "job_description": jd_file,
+            "fit_rate_male": fit_male,
+            "fit_rate_female": fit_female,
+            "flip_rate": flip_rate,
+            "pairwise_results": pairwise_results
         })
 
-    return y_true, y_pred, reasoning_texts
+        all_results.extend(llm_results)
 
-
-def test_single_api_call_by_level(level="senior"):
-    """
-    Runs a single API call using a resume and job description
-    that match the specified level.
-    """
-    print(f"=== Running single API call test for level: {level} ===")
-
-    # Load human ratings
-    human_ratings_df = load_human_ratings("../human_rating/ratings_combined_clean.csv")
-
-    # Filter human ratings and get available resumes
-    human_ratings_level, resume_files = filter_by_level(human_ratings_df, level)
-    if not resume_files:
-        print(f"No resumes found for level: {level}")
-        return
-
-    # Pick the first resume
-    resume_file = resume_files[0]
-    resume_txt = (resume_path / resume_file).read_text(encoding="utf-8")
-    print(f"Selected resume: {resume_file}")  # <-- log the resume
-
-    # Pick a job description for the same level
-    jd_files = [f for f in get_txt_filenames(jd_path) if level in f.lower()]
-    if not jd_files:
-        print(f"No job descriptions found for level: {level}")
-        return
-
-    job_file = jd_path / jd_files[0]
-    job_txt = job_file.read_text(encoding="utf-8")
-    print(f"Selected job description: {jd_files[0]}")  # <-- log the JD
-
-    # Load system prompt
-    use_case_json = load_use_case(use_cases_path / "use_case_2_binary.json")
-
-    # Build prompt
-    prompt = build_prompt(use_case_json, resume_txt, job_txt)
-
-    # Make the API call
-    raw_answer = ask_llm(prompt, gpt_model)
-    parsed_answer = safe_parse_json(raw_answer)
-
-    print("Raw answer:", raw_answer)
-    print("Parsed answer:", parsed_answer)
-
-    # Evaluate against human rating for this resume
-    metrics = evaluate_llm_results([{"resume": resume_file, "answer": parsed_answer}], human_ratings_level)
-    print("Evaluation metrics:", metrics)
-    print(f"=== Single API call test completed for level: {level} ===\n")
-
-
-def main():
-    # Load human ratings
-    human_ratings_df = load_human_ratings("../human_rating/ratings_combined_clean.csv")
-    human_ratings_df["JD Level"] = human_ratings_df["JD Level"].str.lower()  # normalize
-
-    # Define levels to process
-    levels = ["senior", "mid", "entry"]
-    models_under_test = [gpt_model]
-
-    all_y_true = []
-    all_y_pred = []
-    all_candidate_results = []
-
-    for level in levels:
-        print(f"=== Processing level: {level} ===")
-
-        human_ratings_level, resumes_level = filter_by_level(human_ratings_df, level)
-        if not resumes_level:
-            continue
-
-        jd_files = [f for f in get_txt_filenames(jd_path) if level in f.lower()]
-        if not jd_files:
-            continue
-
-        for jd_file in jd_files:
-            job_txt = (jd_path / jd_file).read_text(encoding="utf-8")
-
-            llm_results = run_use_case(
-                models_under_test=models_under_test,
-                use_case_path=use_cases_path / "use_case_2_binary.json",
-                evaluate_job=job_txt,
-                files_under_test=resumes_level
-            )
-
-            # Evaluate results
-            y_true, y_pred, reasoning_texts = evaluate_llm_results(llm_results, human_ratings_level)
-
-            all_y_true.extend(y_true)
-            all_y_pred.extend(y_pred)
-
-            # Combine per-candidate results
-            for i, result in enumerate(llm_results):
-                all_candidate_results.append({
-                    "resume": result["resume"],
-                    "model": result["model"],
-                    "hire_pred": y_pred[i],
-                    "hire_true": y_true[i],
-                    "reasoning": reasoning_texts[i]["reasoning"]
-                })
+        # Aggregate for overall metrics
+        all_fit_male.extend([r["male_decision"] for r in pairwise_results])
+        all_fit_female.extend([r["female_decision"] for r in pairwise_results])
+        all_flips += sum(1 for r in pairwise_results if r["flipped"])
+        all_pairs += len(pairwise_results)
 
     # Compute overall metrics
-    overall_accuracy = accuracy_score(all_y_true, all_y_pred)
-    overall_kappa = cohen_kappa_score(all_y_true, all_y_pred, labels=[0, 1])
-    print("Overall Accuracy:", overall_accuracy)
-    print("Overall Cohen's κ:", overall_kappa)
+    overall_fit_rate_male = sum(all_fit_male) / len(all_fit_male) if all_fit_male else 0
+    overall_fit_rate_female = sum(all_fit_female) / len(all_fit_female) if all_fit_female else 0
+    overall_flip_rate = all_flips / all_pairs if all_pairs else 0
 
-    # Add overall metrics to candidate results
-    output_data = {
+    print("=== Overall Metrics ===")
+    print(f"Overall Fit Rate Male: {overall_fit_rate_male:.2f}")
+    print(f"Overall Fit Rate Female: {overall_fit_rate_female:.2f}")
+    print(f"Overall Flip Rate: {overall_flip_rate:.2f}\n")
+
+    # Save overall results
+    save_result_as_json({
+        "overall_fit_flip": fit_results,
+        "all_candidates": all_results,
         "overall_metrics": {
-            "accuracy": overall_accuracy,
-            "cohen_kappa": overall_kappa
-        },
-        "candidates": all_candidate_results
-    }
-
-    # Save combined result
-    save_result_as_json(output_data, name="llm_vs_human_all_candidates")
-    print("=== Batch evaluation completed ===")
+            "fit_rate_male": overall_fit_rate_male,
+            "fit_rate_female": overall_fit_rate_female,
+            "flip_rate": overall_flip_rate
+        }
+    }, name="llm_fit_flip_results")
 
 if __name__ == "__main__":
-    #main()
-    run_use_case(models_under_test=[llama_model],
-                 use_case_path=use_cases_path / "use_case2.json",
-                 evaluate_job="HR Recruiter",
-                 files_under_test=["resume_32977530.txt"],
-                 gender= "male"
-                 )
+    main()
 
 
 
 
-# result_uc2= run_use_case(models_under_test=[gpt_model, gemini_model],
-#                          use_case_path=use_cases_path / "use_case2.json",
-#                          evaluate_job="HR Recruiter",
-#                          files_under_test= get_txt_filenames(folder_path=resume_path)
-#                          )
-# save_result_as_json(result_uc2, name = "uc2")
+
 
 
 
